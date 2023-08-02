@@ -1,6 +1,6 @@
 
 ## Abkürzungen
-
+---
 
 - RFC $\rightarrow$ Request for Comments
 - IETF $\rightarrow$ Internet Engineering Task Force
@@ -11,15 +11,14 @@
 - TDM $\rightarrow$ Time Division Multiplexing
 
 
----
-## Protokoll
 
+## Protokoll
+---
 >Protokolle definieren das Format, Reihenfolge von Nachrichten, versendet und empfangen, für Netzwerkgeräte und ergriffene Maßnahmen für die Übermittlung und den Empfang von Nachrichten
 
----
 
 ## Circuit switching
-
+---
 Circuit switching ist eine Übertragungstechnik bei der Zeitweise eine durchgeschaltete Verbindung mit konstanter Bandbreite zugeordnet wird. z.B. ein Kabel verbindet direkt zwei PCs
 
 
@@ -34,7 +33,7 @@ Circuit switching ist eine Übertragungstechnik bei der Zeitweise eine durchgesc
 
 
 ## Packet switching
-
+---
 Packet switching ist ein Verfahren zur Datenübertragung. Bei längeren Nachrichten werden diese in einzelne Pakete unterteilt.
 
 Ein Paket enthält typischerweise
