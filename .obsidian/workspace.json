@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Introduktion.md",
+                "file": "KoSy/Protokolle.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Introduktion.md",
+                "file": "KoSy/Protokolle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Introduktion.md",
+                "file": "KoSy/Protokolle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Introduktion.md"
+                "file": "KoSy/Protokolle.md"
               }
             }
           },
@@ -153,13 +153,18 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "f3a34cc5ad080974",
+  "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
-    "KoSy/Introduktion.md",
-    "attachments/Pasted image 20230802192505.png",
-    "attachments",
-    "attachments/Pasted image 20230802191335.png",
-    "attachments",
+    "KoSy/Paket switching.md",
+    "KoSy/Circuit switching.md",
+    "KoSy/Abkürzungen.md",
+    "[.md",
+    "KoSy/Protokolle.md",
+    "Unbenannt",
+    "KoSy/attachments/Pasted image 20230802192505.png",
+    "KoSy/attachments",
+    "KoSy/attachments/Pasted image 20230802191335.png",
+    "KoSy/attachments",
     "Neues Textdokument.txt",
     "Neuer Ordner",
     "Unbenannt.md",
