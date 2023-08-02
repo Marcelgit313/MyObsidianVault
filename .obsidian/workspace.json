@@ -61,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,13 +120,21 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "08bae9f6d5c0cb9e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,8 +145,9 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "3bed0b0ef6c01d1e",
+  "active": "f3a34cc5ad080974",
   "lastOpenFiles": [
+    "KoSy",
     "reposetiry",
     "MyObsidianVault",
     "2023-08-02.md",
