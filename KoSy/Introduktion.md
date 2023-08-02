@@ -48,7 +48,10 @@ Ein Paket enthält typischerweise
 
 ![[Pasted image 20230802192505.png]]
 
-Test 3
+- Store and forward
+	- Packets move one hop at a time
+	- Node receives complete packet before forwarding
+- User A,B teilen sich das Netzwerk
 
 
 ---
