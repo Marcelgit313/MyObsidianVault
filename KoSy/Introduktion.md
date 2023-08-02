@@ -7,6 +7,9 @@
 - Datentransfer zwischen Startpunkt und Ziel
 	- Connection-oriented reliable $\rightarrow$ TCP
 	- Connection-less unreliable $\rightarrow$ UDP
+- FDM $\rightarrow$ Frequency Division Multiplexing
+- TDM $\rightarrow$ Time Division Multiplexing
+
 
 ---
 ## Protocol
@@ -19,7 +22,16 @@
 
 Circuit switching ist eine Übertragungstechnik bei der Zeitweise eine durchgeschaltete Verbindung mit konstanter Bandbreite zugeordnet wird. z.B. ein Kabel verbindet direkt zwei PCs
 
+
 ![[Pasted image 20230802191335.png ]]
+
+
+- End-to-end
+- man bekommt eine Leitung zugeordnet
+- no sharing of resources
+	- Leitung wird nicht genutzt wenn nicht vom Anruf gebraucht
+- garantierte performance
+
 
 ## Packet switching
 
@@ -32,5 +44,11 @@ Ein Paket enthält typischerweise
 - die Paketlaufnummer
 - die Klassifizierung des Paketes 
 - den Datenteil
+
+
+![[Pasted image 20230802192505.png]]
+
+
+
 
 ---
