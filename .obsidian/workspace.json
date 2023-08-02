@@ -11,8 +11,12 @@
             "id": "78ab25908c9b84c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "KoSy/Test Notiz.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "KoSy/Test Notiz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "KoSy/Test Notiz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "KoSy/Test Notiz.md"
+              }
             }
           },
           {
@@ -145,8 +153,10 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "f3a34cc5ad080974",
+  "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
+    "KoSy/Test Notiz.md",
+    "Unbenannt.md",
     "KoSy",
     "reposetiry",
     "MyObsidianVault",
