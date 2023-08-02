@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Test Notiz.md",
+                "file": "KoSy/Introduktion.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Test Notiz.md",
+                "file": "KoSy/Introduktion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Test Notiz.md",
+                "file": "KoSy/Introduktion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Test Notiz.md"
+                "file": "KoSy/Introduktion.md"
               }
             }
           },
@@ -153,11 +153,12 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "08bae9f6d5c0cb9e",
+  "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
+    "attachments",
     "Neues Textdokument.txt",
     "Neuer Ordner",
-    "KoSy/Test Notiz.md",
+    "KoSy/Introduktion.md",
     "Unbenannt.md",
     "KoSy",
     "reposetiry",
