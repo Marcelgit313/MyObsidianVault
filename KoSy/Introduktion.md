@@ -9,16 +9,17 @@
 	- Connection-less unreliable $\rightarrow$ UDP
 
 ---
+## Protocol
 
->**Protocol**
->
->Protocols definieren das Format, Reihenfolge von Nachrichten versendet und empfangen für Netzwerkgeräte und ergriffene Maßnahmen über die Übermittlung und den Empfang von Nachrichten
+>Protocols definieren das Format, Reihenfolge von Nachrichten, versendet und empfangen, für Netzwerkgeräte und ergriffene Maßnahmen für die Übermittlung und den Empfang von Nachrichten
 
 ---
 
 ## Circuit switching
 
 Circuit switching ist eine Übertragungstechnik bei der Zeitweise eine durchgeschaltete Verbindung mit konstanter Bandbreite zugeordnet wird. z.B. ein Kabel verbindet direkt zwei PCs
+
+![[Pasted image 20230802191335.png ]]
 
 ## Packet switching
 

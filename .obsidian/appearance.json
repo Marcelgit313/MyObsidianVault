@@ -1,3 +1,6 @@
 {
-  "accentColor": "#e9590c"
+  "accentColor": "#e9590c",
+  "enabledCssSnippets": [
+    "images"
+  ]
 }
