@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Protokolle.md",
+                "file": "KoSy/Circuit switching.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Protokolle.md",
+                "file": "KoSy/Circuit switching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Protokolle.md",
+                "file": "KoSy/Circuit switching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Protokolle.md"
+                "file": "KoSy/Circuit switching.md"
               }
             }
           },
@@ -155,10 +155,10 @@
   },
   "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
-    "KoSy/Paket switching.md",
-    "KoSy/Circuit switching.md",
     "KoSy/Abkürzungen.md",
+    "KoSy/Circuit switching.md",
     "KoSy/Protokolle.md",
+    "KoSy/Paket switching.md",
     "[.md",
     "Unbenannt",
     "KoSy/attachments/Pasted image 20230802192505.png",
