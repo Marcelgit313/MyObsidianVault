@@ -25,3 +25,8 @@ Encapsulte die Daten in einen Frame und füge sowohl einen Header als auch einen
 - Half-duplex and full-duplex
 	- mit einem half-duplex können beide nodes an beiden Enden übertragen, aber nicht zur gleichen Zeit
 
+## Multiple Access Protocols
+---
+Wenn sich mehrere Nodes einen Broadcast Channel teilen kann es zu bei zwei gleichzeitigen Übertragungen zu einer Interferenz kommen, daraus folgt eine Kollision sollte eine Node zwei oder mehr Signale auf einmal Empfangen.
+
+Dafür gibt es Multiple Access Protocols, diese Regeln wie Nodes sich einen Channel teilen, also bestimmen wer gerade Senden darf.

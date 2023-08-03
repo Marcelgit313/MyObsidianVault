@@ -1,7 +1,8 @@
 ## CRC
 ---
-$n = r-1$ wobei $r$ die Länge des Generatorpolynoms ist. An die den Daten Frame werden $n$ Nullen angehängt. Anschließend wird der Datenframe durch den Generator geteilt. Die ersten $n$ Bits(von Links) des Rests werden anstatt der angehängten Nullen an den Datenframe angehängt.
-- eine bessere error-detection Methode
+Cyclic Redundancy Checking ist mächtiger als Parity Bits, dafür werden natürlich die Daten Bits $D$ und ein Generatorpolynom $G$ aus $r+1$ bits benötigt. Dann werden $r$ nullen an die Daten angehängt und die Daten Bits $D'$ durch das Generatorpolynom $G$ geteilt(in Binär entspricht das XOR), die ersten $r$ Bits(von Links) des Rests werden dann anstatt der Nullen an die Daten gehängt, zum überprüfen werden nun einfach die Daten durch das Generatorpolynom geteilt, sollte es keine Fehler geben ist der Rest $0$.
+
+CRC wird sowohl in Ethernet als auch in 802.11 WiFi verwendet.
 
 [CRC berechnen](CRC.md)
 
