@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Paket switching.md",
+                "file": "KoSy/Übertragungs Arten.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Paket switching.md",
+                "file": "KoSy/Übertragungs Arten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Paket switching.md",
+                "file": "KoSy/Übertragungs Arten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Paket switching.md"
+                "file": "KoSy/Übertragungs Arten.md"
               }
             }
           },
@@ -155,11 +155,13 @@
   },
   "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
-    "KoSy/Circuit switching.md",
-    "KoSy/Paket switching.md",
+    "Pasted image 20230803112735.png",
     "KoSy/Protokolle.md",
+    "KoSy/Übertragungs Arten.md",
+    "KoSy/Paket switching.md",
+    "KoSy/Circuit switching.md",
     "KoSy/Access Network.md",
-    "Pasted image 20230803111508.png",
+    "KoSy/attachments/Pasted image 20230803111508.png",
     "KoSy/attachments/Pasted image 20230803111039.png",
     "KoSy/Abkürzungen.md",
     "KoSy/attachments/Pasted image 20230803110421.png",
