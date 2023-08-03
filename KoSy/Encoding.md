@@ -50,6 +50,16 @@ Bei 4B5B Encoding wird NRZ-I benutzt. Bei jeder Übertragenen 1 ist ein Übergan
 
 ![[Pasted image 20230803130340.png]]
 
-### Tabelle zum Encoden
+### Tabelle zum Encode
 
 ![[Pasted image 20230803130353.png]]
+
+Beispiel: Code $\rightarrow$ 01010 wird zu Encode $\rightarrow$ 0100
+
+### Vorteile
+- Self-clocking possible
+- 1 baud $\leftrightarrow$ 0.8 bit/s
+- can use left-over codes for control purposes
+
+>benutzt in 100 Mbit/s-Ethernet
+
