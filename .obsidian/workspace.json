@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Übertragungs Arten.md",
+                "file": "KoSy/Signals.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Übertragungs Arten.md",
+                "file": "KoSy/Signals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Übertragungs Arten.md",
+                "file": "KoSy/Signals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Übertragungs Arten.md"
+                "file": "KoSy/Signals.md"
               }
             }
           },
@@ -155,9 +155,10 @@
   },
   "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
-    "Pasted image 20230803112735.png",
-    "KoSy/Protokolle.md",
     "KoSy/Übertragungs Arten.md",
+    "KoSy/Signals.md",
+    "KoSy/attachments/Pasted image 20230803112735.png",
+    "KoSy/Protokolle.md",
     "KoSy/Paket switching.md",
     "KoSy/Circuit switching.md",
     "KoSy/Access Network.md",

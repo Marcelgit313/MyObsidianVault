@@ -16,3 +16,7 @@
 
 
 ## Twisted Pair
+---
+- besteht aus 2 ineinander verdrehte Kabel
+- die Kabel werden verdreht weil zwei parallel Kabel als kleine Antenne funkgieren 
+- es gibt verschiedene Arten aber um so mehr verdrehungen pro cm um so besser ist die quality
