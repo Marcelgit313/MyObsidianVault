@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/self clocking-baseline drift.md",
+                "file": "KoSy/Encoding.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/self clocking-baseline drift.md",
+                "file": "KoSy/Encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/self clocking-baseline drift.md",
+                "file": "KoSy/Encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/self clocking-baseline drift.md"
+                "file": "KoSy/Encoding.md"
               }
             }
           },
@@ -155,8 +155,10 @@
   },
   "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
-    "KoSy/Encoding.md",
+    "Pasted image 20230803122849.png",
+    "Pasted image 20230803122814.png",
     "KoSy/self clocking-baseline drift.md",
+    "KoSy/Encoding.md",
     "self.md",
     "KoSy/attachments/Pasted image 20230803120934.png",
     "KoSy/Digital Modulation.md",
@@ -174,7 +176,6 @@
     "KoSy/Circuit switching.md",
     "KoSy/Access Network.md",
     "KoSy/attachments/Pasted image 20230803111508.png",
-    "KoSy/attachments/Pasted image 20230803111039.png",
     "KoSy/Abkürzungen.md",
     "[.md",
     "Unbenannt",
