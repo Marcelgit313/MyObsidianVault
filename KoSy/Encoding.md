@@ -27,4 +27,22 @@ Bei Inverted Binary Encoding wird das Problem von aufeinander folgenden 1s behob
 - Problem von [baseline drift](self%20clocking-baseline%20drift.md)
 - aufeinander folgende 0s
 
-## Manchester
+## Manchester Encoding
+---
+Bei Manchester Encoding wird immer in der Mitte einer Übertragung von einem bit einen Übergang von High to low oder anderes herum. Wie rum das passiert entscheidet ob eine 1 oder 0 übertragen wird. Wenn von Low-High dann wird eine 0 übertragen, wenn von High-Low dann wird eine 1 Übertragen.
+
+![[Pasted image 20230803123631.png]]
+
+### Vorteile
+- Self-clocking möglich
+
+
+## Nachteile
+- Zwei Symbole pro bit: 1 baud $\leftrightarrow$ 0.5 bit/s
+- bisschen complexer
+
+>benutzt in 10 Mbit/s-Ethernet
+
+
+## 4B5B Encoding
+---
