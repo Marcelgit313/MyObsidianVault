@@ -16,3 +16,14 @@ Ein Paket enthält typischerweise
 	- Packets move one hop at a time
 	- Node receives complete packet before forwarding
 - User A,B teilen sich das Netzwerk
+
+## Time Division Multiplexing 
+---
+Bei TDM bekommt jeder Nutzer immer den selben Zeitslot in einem TDM-Frame
+
+
+## Is Packet switching better then Circuit switching
+---
+- gut für kurze daten bursts wegen Ressourcen sharing
+- mehr delay wenn der buffer zu viele Pakete bekommt
+	- braucht Protokolle um das zu verhindern

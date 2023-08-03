@@ -12,4 +12,18 @@ DSL wird von den meisten Haushalten benutzt. Man hat ein DSL modem im Haus und s
 
 ## Cable-Based Access
 ---
-Bei diesem System werden alle Häuser über ein Kabel an das CMTS angeschlossen. Jeder Haushalt kommuniziert über eine andere Frequenz
+Bei diesem System werden alle Häuser über ein Kabel an das CMTS angeschlossen. Jeder Haushalt kommuniziert über eine andere Frequenz.
+
+![[Pasted image 20230803111039.png]]
+
+- gut für längere Distance
+- Asymmetric: bis zu 40 Mbps - 1.2 Gbps downstream rate
+	- 30 - 100 Mbps upstream rate
+
+
+## Enterprise Network
+---
+
+Firmen, Uni, etc. bekommen meist eine eigene Leitung direkt zum Internet an dem sie ihr Netzwerk anschließen. 
+
+![[Pasted image 20230803111508.png]]

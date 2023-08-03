@@ -11,6 +11,8 @@ Circuit switching ist eine Übertragungstechnik bei der Zeitweise eine durchgesc
 - garantierte performance
 - traditionelles Telefonsystem
 
+
+
 ## Is Packet switching better then Circuit switching
 ---
 - gut für kurze daten bursts wegen Ressourcen sharing
