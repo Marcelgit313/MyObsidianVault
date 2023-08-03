@@ -46,3 +46,10 @@ Bei Manchester Encoding wird immer in der Mitte einer Übertragung von einem bit
 
 ## 4B5B Encoding
 ---
+Bei 4B5B Encoding wird NRZ-I benutzt. Bei jeder Übertragenen 1 ist ein Übergang aber die Übertragenen 1 und 0 werden dann noch encoded. Man nimmt 5 übertragene bits und encoded diese mit einer Tabelle auf 4 bits.
+
+![[Pasted image 20230803130340.png]]
+
+### Tabelle zum Encoden
+
+![[Pasted image 20230803130353.png]]
