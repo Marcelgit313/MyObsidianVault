@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Digital Modulation.md",
+                "file": "KoSy/Encoding.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Digital Modulation.md",
+                "file": "KoSy/Encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Digital Modulation.md",
+                "file": "KoSy/Encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Digital Modulation.md"
+                "file": "KoSy/Encoding.md"
               }
             }
           },
@@ -155,9 +155,12 @@
   },
   "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
-    "Pasted image 20230803115708.png",
+    "KoSy/attachments/Pasted image 20230803120934.png",
     "KoSy/Digital Modulation.md",
-    "Pasted image 20230803115719.png",
+    "KoSy/Encoding.md",
+    "KoSy/attachments/Pasted image 20230803120056.png",
+    "Pasted image 20230803115708.png",
+    "KoSy/attachments/Pasted image 20230803115719.png",
     "KoSy/attachments/Pasted image 20230803115354.png",
     "KoSy/attachments/Pasted image 20230803115252.png",
     "KoSy/attachments/Pasted image 20230803115228.png",
@@ -172,7 +175,6 @@
     "KoSy/attachments/Pasted image 20230803111039.png",
     "KoSy/Abkürzungen.md",
     "KoSy/attachments/Pasted image 20230803110421.png",
-    "KoSy/attachments/Pasted image 20230802192505.png",
     "[.md",
     "Unbenannt",
     "KoSy/attachments",

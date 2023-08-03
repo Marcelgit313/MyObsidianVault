@@ -40,4 +40,6 @@
 ## Quadrature AM (QAM)
 ---
 - Kombiniert ASK und PSK
-- 
+- man kann n bits mit einem Symbol codieren 
+
+![[Pasted image 20230803120056.png]]
