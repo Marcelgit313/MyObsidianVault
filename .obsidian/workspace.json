@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Signals.md",
+                "file": "KoSy/Digital Modulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Signals.md",
+                "file": "KoSy/Digital Modulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Signals.md",
+                "file": "KoSy/Digital Modulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Signals.md"
+                "file": "KoSy/Digital Modulation.md"
               }
             }
           },
@@ -155,8 +155,9 @@
   },
   "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
-    "KoSy/Übertragungs Arten.md",
     "KoSy/Signals.md",
+    "KoSy/Digital Modulation.md",
+    "KoSy/Übertragungs Arten.md",
     "KoSy/attachments/Pasted image 20230803112735.png",
     "KoSy/Protokolle.md",
     "KoSy/Paket switching.md",
