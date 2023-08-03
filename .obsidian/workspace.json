@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Circuit switching.md",
+                "file": "KoSy/Access Network.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Circuit switching.md",
+                "file": "KoSy/Access Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Circuit switching.md",
+                "file": "KoSy/Access Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Circuit switching.md"
+                "file": "KoSy/Access Network.md"
               }
             }
           },
@@ -156,14 +156,16 @@
   "active": "78ab25908c9b84c0",
   "lastOpenFiles": [
     "KoSy/Abkürzungen.md",
+    "KoSy/attachments/Pasted image 20230803110421.png",
+    "KoSy/attachments/Pasted image 20230802192505.png",
+    "KoSy/attachments/Pasted image 20230802191335.png",
+    "KoSy/Access Network.md",
     "KoSy/Circuit switching.md",
     "KoSy/Protokolle.md",
     "KoSy/Paket switching.md",
     "[.md",
     "Unbenannt",
-    "KoSy/attachments/Pasted image 20230802192505.png",
     "KoSy/attachments",
-    "KoSy/attachments/Pasted image 20230802191335.png",
     "KoSy/attachments",
     "Neues Textdokument.txt",
     "Neuer Ordner",
