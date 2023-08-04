@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "540be862f5cb5add",
+        "id": "35c1b4a8caed431f",
         "type": "tabs",
         "children": [
           {
-            "id": "78ab25908c9b84c0",
+            "id": "421114dd1bda2ee2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Taking turns.md",
+                "file": "KoSy/Random Access Protokoll.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Taking turns.md",
+                "file": "KoSy/Random Access Protokoll.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Taking turns.md",
+                "file": "KoSy/Random Access Protokoll.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Taking turns.md"
+                "file": "KoSy/Random Access Protokoll.md"
               }
             }
           },
@@ -153,39 +153,40 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "78ab25908c9b84c0",
+  "active": "421114dd1bda2ee2",
   "lastOpenFiles": [
-    "KoSy/Linklayer.md",
-    "KoSy/Taking turns.md",
     "KoSy/CRC.md",
-    "KoSy/Error detection.md",
-    "KoSy/Circuit switching.md",
-    "KoSy/Paket switching.md",
-    "KoSy/Paketverzögerung und Verlust.md",
-    "delay.png.md",
-    "KoSy/attachments/delay.png",
-    "KoSy/Link.md",
-    "KoSy/Multiplexing.md",
+    "KoSy/Linklayer.md",
+    "KoSy/Random Access Protokoll.md",
+    "KoSy/attachments/Pasted image 20230804152238.png",
+    "KoSy/Taking turns.md",
+    "KoSy/attachments/Pasted image 20230804145503.png",
+    "KoSy/attachments/Pasted image 20230804145426.png",
+    "KoSy/Signals.md",
     "KoSy/self clocking-baseline drift.md",
     "KoSy/Protokolle.md",
-    "KoSy/attachments/Pasted image 20230803142848.png",
-    "KoSy/attachments/Pasted image 20230803142504.png",
-    "KoSy/Physical Layer.md",
-    "Fourier-Analyse.md",
-    "KoSy/Signals.md",
-    "KoSy/attachments/Pasted image 20230803140158.png",
-    "KoSy/Übertragungs Arten.md",
+    "KoSy/Error detection.md",
+    "KoSy/Abkürzungen.md",
+    "KoSy/Paket switching.md",
+    "KoSy/Multiplexing.md",
+    "KoSy/Link.md",
     "KoSy/Encoding.md",
     "KoSy/Digital Modulation.md",
-    "KoSy/Abkürzungen.md",
     "KoSy/Access Network.md",
+    "KoSy/Physical Layer.md",
+    "KoSy/Paketverzögerung und Verlust.md",
+    "KoSy/Circuit switching.md",
+    "delay.png.md",
+    "KoSy/attachments/delay.png",
+    "KoSy/attachments/Pasted image 20230803142848.png",
+    "KoSy/attachments/Pasted image 20230803142504.png",
+    "Fourier-Analyse.md",
+    "KoSy/attachments/Pasted image 20230803140158.png",
+    "KoSy/Übertragungs Arten.md",
     "KoSy/attachments/Pasted image 20230803130353.png",
     "KoSy/attachments/Pasted image 20230803130340.png",
     "KoSy/attachments/Pasted image 20230803123631.png",
-    "KoSy/attachments/Pasted image 20230803122849.png",
-    "Pasted image 20230803122814.png",
     "self.md",
-    "KoSy/attachments/Pasted image 20230803120934.png",
     "[.md",
     "Unbenannt",
     "KoSy/attachments",
