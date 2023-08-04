@@ -30,3 +30,5 @@ Encapsulte die Daten in einen Frame und füge sowohl einen Header als auch einen
 Wenn sich mehrere Nodes einen Broadcast Channel teilen kann es zu bei zwei gleichzeitigen Übertragungen zu einer Interferenz kommen, daraus folgt eine Kollision sollte eine Node zwei oder mehr Signale auf einmal Empfangen.
 
 Dafür gibt es Multiple Access Protocols, diese Regeln wie Nodes sich einen Channel teilen, also bestimmen wer gerade Senden darf.
+
+Das Problem dabei liegt darin das auch diese Informationen über den Channel gesendet werden müssen. Wir unterscheiden generell zwischen sogenannten [Taking Turns](Taking%20turns.md), wobei Nodes sich immer abwechseln und Nodes die mehr senden müssen länger senden dürfen und [Random Access](Random%20Access%20Protokoll.md) Protokollen, bei denen es zwar noch zu Kollisionen kommen kann, es jedoch Regeln zum "erholen" von diesen gibt.
