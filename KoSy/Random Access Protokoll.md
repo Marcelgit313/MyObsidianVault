@@ -67,3 +67,5 @@ $$
 
 Der Channel wird also nur ca $37\%$ der Zeit wirklich genutzt.
 
+# Carrier Sense Multiple Access (CSMA)
+---
