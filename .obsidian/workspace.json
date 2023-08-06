@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Random Access Protokoll.md",
+                "file": "KoSy/Access Network.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Random Access Protokoll.md",
+                "file": "KoSy/Access Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Random Access Protokoll.md",
+                "file": "KoSy/Access Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Random Access Protokoll.md"
+                "file": "KoSy/Access Network.md"
               }
             }
           },
@@ -155,34 +155,34 @@
   },
   "active": "421114dd1bda2ee2",
   "lastOpenFiles": [
-    "KoSy/Linklayer.md",
     "KoSy/Random Access Protokoll.md",
     "KoSy/Physical Layer.md",
+    "KoSy/Übertragungs Arten.md",
+    "KoSy/Taking turns.md",
+    "KoSy/Circuit switching.md",
+    "KoSy/Error detection.md",
+    "KoSy/Encoding.md",
+    "KoSy/Multiplexing.md",
+    "KoSy/Link.md",
+    "KoSy/Linklayer.md",
     "KoSy/Paketverzögerung und Verlust.md",
     "KoSy/CRC.md",
     "KoSy/attachments/Pasted image 20230804152238.png",
-    "KoSy/Taking turns.md",
     "KoSy/attachments/Pasted image 20230804145503.png",
     "KoSy/attachments/Pasted image 20230804145426.png",
     "KoSy/Signals.md",
     "KoSy/self clocking-baseline drift.md",
     "KoSy/Protokolle.md",
-    "KoSy/Error detection.md",
     "KoSy/Abkürzungen.md",
     "KoSy/Paket switching.md",
-    "KoSy/Multiplexing.md",
-    "KoSy/Link.md",
-    "KoSy/Encoding.md",
     "KoSy/Digital Modulation.md",
     "KoSy/Access Network.md",
-    "KoSy/Circuit switching.md",
     "delay.png.md",
     "KoSy/attachments/delay.png",
     "KoSy/attachments/Pasted image 20230803142848.png",
     "KoSy/attachments/Pasted image 20230803142504.png",
     "Fourier-Analyse.md",
     "KoSy/attachments/Pasted image 20230803140158.png",
-    "KoSy/Übertragungs Arten.md",
     "KoSy/attachments/Pasted image 20230803130353.png",
     "KoSy/attachments/Pasted image 20230803130340.png",
     "KoSy/attachments/Pasted image 20230803123631.png",
