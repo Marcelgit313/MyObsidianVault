@@ -28,9 +28,9 @@ $$d_{prop}= \frac{d}{v}$$
 
 
 ## Packet-loss
-
+---
 Die Queue(auch genannt der Buffer) hat eine endlich Kapazität, sollte ein Paket an einer vollen Queue ankommen wird es "gedroppt" und geht verloren. Verlorene Pakete können von der vorherigen Node, der Quelle oder gar nicht erneut übertragen werden.
 
 ## Durchsatz
-
+---
 Der Durchsatz ist die Rate(bits/Zeit Einheit) mit welcher Bits vom Sender zum Empfänger gesendet werden. Links auf dem Weg können den Durchsatz einschränken.
