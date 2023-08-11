@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Linklayer.md",
+                "file": "KoSy/Error detection.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Linklayer.md",
+                "file": "KoSy/Error detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Linklayer.md",
+                "file": "KoSy/Error detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Linklayer.md"
+                "file": "KoSy/Error detection.md"
               }
             }
           },
@@ -155,31 +155,34 @@
   },
   "active": "421114dd1bda2ee2",
   "lastOpenFiles": [
+    "KoSy/Dynamic Host Configuration Protocol.md",
+    "KoSy/CRC.md",
+    "KoSy/Access Network.md",
+    "KoSy/Abkürzungen.md",
     "KoSy/Wlan.md",
+    "KoSy/Übertragungs Arten.md",
+    "KoSy/Signals.md",
+    "KoSy/Random Access Protokoll.md",
+    "KoSy/Paketverzögerung und Verlust.md",
+    "KoSy/IP.md",
+    "KoSy/Longest Prefix Matching.md",
+    "KoSy/Linklayer.md",
     "KoSy/attachments/dcfcsmarts.png",
     "KoSy/attachments/retrans.png",
     "KoSy/attachments/prio.png",
     "KoSy/attachments/lf802.png",
-    "KoSy/Random Access Protokoll.md",
     "KoSy/self clocking-baseline drift.md",
     "KoSy/Taking turns.md",
-    "KoSy/Access Network.md",
     "KoSy/Physical Layer.md",
-    "KoSy/Übertragungs Arten.md",
     "KoSy/Circuit switching.md",
     "KoSy/Error detection.md",
     "KoSy/Encoding.md",
     "KoSy/Multiplexing.md",
     "KoSy/Link.md",
-    "KoSy/Linklayer.md",
-    "KoSy/Paketverzögerung und Verlust.md",
-    "KoSy/CRC.md",
     "KoSy/attachments/Pasted image 20230804152238.png",
     "KoSy/attachments/Pasted image 20230804145503.png",
     "KoSy/attachments/Pasted image 20230804145426.png",
-    "KoSy/Signals.md",
     "KoSy/Protokolle.md",
-    "KoSy/Abkürzungen.md",
     "KoSy/Paket switching.md",
     "KoSy/Digital Modulation.md",
     "delay.png.md",
@@ -188,13 +191,11 @@
     "KoSy/attachments/Pasted image 20230803142504.png",
     "Fourier-Analyse.md",
     "self.md",
-    "[.md",
     "Unbenannt",
     "KoSy/attachments",
     "KoSy/attachments",
     "Neues Textdokument.txt",
     "Neuer Ordner",
-    "Unbenannt.md",
     "KoSy",
     "reposetiry",
     "MyObsidianVault",
