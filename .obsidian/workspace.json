@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Error detection.md",
+                "file": "KoSy/Dynamic Host Configuration Protocol.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Error detection.md",
+                "file": "KoSy/Dynamic Host Configuration Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Error detection.md",
+                "file": "KoSy/Dynamic Host Configuration Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Error detection.md"
+                "file": "KoSy/Dynamic Host Configuration Protocol.md"
               }
             }
           },
@@ -155,6 +155,7 @@
   },
   "active": "421114dd1bda2ee2",
   "lastOpenFiles": [
+    "KoSy/Error detection.md",
     "KoSy/Dynamic Host Configuration Protocol.md",
     "KoSy/CRC.md",
     "KoSy/Access Network.md",
@@ -175,7 +176,6 @@
     "KoSy/Taking turns.md",
     "KoSy/Physical Layer.md",
     "KoSy/Circuit switching.md",
-    "KoSy/Error detection.md",
     "KoSy/Encoding.md",
     "KoSy/Multiplexing.md",
     "KoSy/Link.md",
