@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Access Network.md",
+                "file": "KoSy/Linklayer.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Access Network.md",
+                "file": "KoSy/Linklayer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Access Network.md",
+                "file": "KoSy/Linklayer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Access Network.md"
+                "file": "KoSy/Linklayer.md"
               }
             }
           },
@@ -155,10 +155,17 @@
   },
   "active": "421114dd1bda2ee2",
   "lastOpenFiles": [
+    "KoSy/Wlan.md",
+    "KoSy/attachments/dcfcsmarts.png",
+    "KoSy/attachments/retrans.png",
+    "KoSy/attachments/prio.png",
+    "KoSy/attachments/lf802.png",
     "KoSy/Random Access Protokoll.md",
+    "KoSy/self clocking-baseline drift.md",
+    "KoSy/Taking turns.md",
+    "KoSy/Access Network.md",
     "KoSy/Physical Layer.md",
     "KoSy/Übertragungs Arten.md",
-    "KoSy/Taking turns.md",
     "KoSy/Circuit switching.md",
     "KoSy/Error detection.md",
     "KoSy/Encoding.md",
@@ -171,21 +178,15 @@
     "KoSy/attachments/Pasted image 20230804145503.png",
     "KoSy/attachments/Pasted image 20230804145426.png",
     "KoSy/Signals.md",
-    "KoSy/self clocking-baseline drift.md",
     "KoSy/Protokolle.md",
     "KoSy/Abkürzungen.md",
     "KoSy/Paket switching.md",
     "KoSy/Digital Modulation.md",
-    "KoSy/Access Network.md",
     "delay.png.md",
     "KoSy/attachments/delay.png",
     "KoSy/attachments/Pasted image 20230803142848.png",
     "KoSy/attachments/Pasted image 20230803142504.png",
     "Fourier-Analyse.md",
-    "KoSy/attachments/Pasted image 20230803140158.png",
-    "KoSy/attachments/Pasted image 20230803130353.png",
-    "KoSy/attachments/Pasted image 20230803130340.png",
-    "KoSy/attachments/Pasted image 20230803123631.png",
     "self.md",
     "[.md",
     "Unbenannt",
@@ -197,7 +198,6 @@
     "KoSy",
     "reposetiry",
     "MyObsidianVault",
-    "2023-08-02.md",
     "Untitled.canvas"
   ]
 }
