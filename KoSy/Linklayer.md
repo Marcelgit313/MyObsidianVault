@@ -32,3 +32,12 @@ Wenn sich mehrere Nodes einen Broadcast Channel teilen kann es zu bei zwei gleic
 Dafür gibt es Multiple Access Protocols, diese Regeln wie Nodes sich einen Channel teilen, also bestimmen wer gerade Senden darf.
 
 Das Problem dabei liegt darin das auch diese Informationen über den Channel gesendet werden müssen. Wir unterscheiden generell zwischen sogenannten [Taking Turns](Taking%20turns.md), wobei Nodes sich immer abwechseln und Nodes die mehr senden müssen länger senden dürfen und [Random Access](Random%20Access%20Protokoll.md) Protokollen, bei denen es zwar noch zu Kollisionen kommen kann, es jedoch Regeln zum "erholen" von diesen gibt.
+
+## Adressierung
+---
+Zur Adressierung in der Link Layer gibt es die sogenannte MAC Adresse, sie besteht aus 48-bit die im NIC ROM steht.
+Sie dient dazu um einen Frame von einem Interface zu einem anderen Physisch verbundenen Interface zu bringen.
+
+## Physische Topologie
+----
+In einem Bus sind alle Nodes in einer Kollisions Domain, während bei einem Switch alle Nodes in ihrem eigenen "spoke" getrennt sind, das heißt sie kollidieren nicht miteinander.

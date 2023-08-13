@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Access Network.md",
+                "file": "KoSy/Transport Layer Security.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Access Network.md",
+                "file": "KoSy/Transport Layer Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Access Network.md",
+                "file": "KoSy/Transport Layer Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Access Network.md"
+                "file": "KoSy/Transport Layer Security.md"
               }
             }
           },
@@ -155,49 +155,50 @@
   },
   "active": "421114dd1bda2ee2",
   "lastOpenFiles": [
-    "KoSy/Random Access Protokoll.md",
-    "KoSy/Physical Layer.md",
-    "KoSy/Übertragungs Arten.md",
-    "KoSy/Taking turns.md",
-    "KoSy/Circuit switching.md",
-    "KoSy/Error detection.md",
-    "KoSy/Encoding.md",
-    "KoSy/Multiplexing.md",
-    "KoSy/Link.md",
-    "KoSy/Linklayer.md",
-    "KoSy/Paketverzögerung und Verlust.md",
-    "KoSy/CRC.md",
-    "KoSy/attachments/Pasted image 20230804152238.png",
-    "KoSy/attachments/Pasted image 20230804145503.png",
-    "KoSy/attachments/Pasted image 20230804145426.png",
-    "KoSy/Signals.md",
-    "KoSy/self clocking-baseline drift.md",
-    "KoSy/Protokolle.md",
-    "KoSy/Abkürzungen.md",
-    "KoSy/Paket switching.md",
+    "KoSy/User Datagram Protocol.md",
+    "KoSy/Transport Layer.md",
+    "KoSy/Transmission Controll Protocol(TCP).md",
+    "KoSy/attachments/auth.png",
+    "KoSy/attachments/int.png",
+    "KoSy/attachments/conf.png",
+    "KoSy/Transport Layer Security.md",
     "KoSy/Digital Modulation.md",
+    "KoSy/attachments/cubic.png",
+    "KoSy/Switch.md",
+    "KoSy/Stateless Address Configuration(SLAC).md",
+    "KoSy/Routing.md",
+    "KoSy/Quick UDP Internet Connections(QUIC).md",
+    "KoSy/Network Layer.md",
+    "KoSy/Neighbour Discovery Protocol(NDP).md",
+    "KoSy/attachments/ask.png",
+    "KoSy/Longest Prefix Matching.md",
+    "KoSy/Multiplexing.md",
+    "KoSy/IP.md",
+    "KoSy/Internet Control Message Protocol.md",
+    "KoSy/Dynamic Host Configuration Protocol.md",
+    "KoSy/IP Uebung.md",
+    "KoSy/HTTPS.md",
+    "KoSy/HTTP.md",
+    "KoSy/Ethernet.md",
+    "KoSy/ARP.md",
+    "KoSy/Distance Vector Alogrithm.md",
+    "KoSy/Dijkstra's Link State Routing Algorithm.md",
+    "KoSy/Error detection.md",
+    "KoSy/CRC.md",
     "KoSy/Access Network.md",
-    "delay.png.md",
-    "KoSy/attachments/delay.png",
-    "KoSy/attachments/Pasted image 20230803142848.png",
-    "KoSy/attachments/Pasted image 20230803142504.png",
-    "Fourier-Analyse.md",
-    "KoSy/attachments/Pasted image 20230803140158.png",
-    "KoSy/attachments/Pasted image 20230803130353.png",
-    "KoSy/attachments/Pasted image 20230803130340.png",
-    "KoSy/attachments/Pasted image 20230803123631.png",
-    "self.md",
-    "[.md",
+    "KoSy/attachments/dcfcsmarts.png",
+    "KoSy/attachments/retrans.png",
+    "KoSy/attachments/prio.png",
+    "KoSy/attachments/lf802.png",
+    "KoSy/attachments/Pasted image 20230804152238.png",
     "Unbenannt",
     "KoSy/attachments",
     "KoSy/attachments",
     "Neues Textdokument.txt",
     "Neuer Ordner",
-    "Unbenannt.md",
     "KoSy",
     "reposetiry",
     "MyObsidianVault",
-    "2023-08-02.md",
     "Untitled.canvas"
   ]
 }
