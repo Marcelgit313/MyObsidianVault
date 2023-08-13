@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Dynamic Host Configuration Protocol.md",
+                "file": "KoSy/Formelblatt.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Dynamic Host Configuration Protocol.md",
+                "file": "KoSy/Formelblatt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Dynamic Host Configuration Protocol.md",
+                "file": "KoSy/Formelblatt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Dynamic Host Configuration Protocol.md"
+                "file": "KoSy/Formelblatt.md"
               }
             }
           },
@@ -155,6 +155,9 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "KoSy/Dynamic Host Configuration Protocol.md",
+    "KoSy/Formelblatt.md",
+    "KoSy/attachments/Formelblatt.pdf",
     "KoSy/Transport Layer Security.md",
     "KoSy/attachments/int.png",
     "Kommunkikationssysteme/attachments/int.png.md",
@@ -178,7 +181,6 @@
     "KoSy/Multiplexing.md",
     "KoSy/IP.md",
     "KoSy/Internet Control Message Protocol.md",
-    "KoSy/Dynamic Host Configuration Protocol.md",
     "KoSy/IP Uebung.md",
     "KoSy/HTTPS.md",
     "KoSy/HTTP.md",
@@ -199,7 +201,6 @@
     "Neuer Ordner",
     "KoSy",
     "reposetiry",
-    "MyObsidianVault",
     "Untitled.canvas"
   ]
 }
