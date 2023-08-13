@@ -13,7 +13,7 @@ Bob verschlüsselt seine Nachricht mit Alice Public key, Alice kann die Nachrich
 ## Integrity
 
 Alice unterschreibt ihre Nachricht indem sie sie mit einem Private key verschlüsselt. Bob kann mit Alice Public Key entschlüsseln und dadruch sichergehen das die nachricht valide ist(Genau umgekehrt zu Confidentially).
-Da es relativ Aufwendig ist lange Nachrichten zu verschluesseln wird ein Hash angewand um einen "Fingerabdruck" von fester länge zu generieren.
+Da es relativ Aufwendig ist lange Nachrichten zu verschlüsseln wird ein Hash angewand um einen "Fingerabdruck" von fester länge zu generieren.
 
 ![int](int.png)
 

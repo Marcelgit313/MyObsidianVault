@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Transport Layer Security.md",
+                "file": "KoSy/Dynamic Host Configuration Protocol.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Transport Layer Security.md",
+                "file": "KoSy/Dynamic Host Configuration Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Transport Layer Security.md",
+                "file": "KoSy/Dynamic Host Configuration Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Transport Layer Security.md"
+                "file": "KoSy/Dynamic Host Configuration Protocol.md"
               }
             }
           },
@@ -155,9 +155,9 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "KoSy/Transport Layer Security.md",
     "KoSy/attachments/int.png",
     "Kommunkikationssysteme/attachments/int.png.md",
-    "KoSy/Transport Layer Security.md",
     "Kommunkikationssysteme/attachments",
     "Kommunkikationssysteme",
     "KoSy/User Datagram Protocol.md",
