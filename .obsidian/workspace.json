@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "35c1b4a8caed431f",
+        "id": "cd96cf3585ff5907",
         "type": "tabs",
         "children": [
           {
-            "id": "421114dd1bda2ee2",
+            "id": "729bc7042bafe2d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -153,15 +153,18 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "421114dd1bda2ee2",
+  "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "KoSy/attachments/int.png",
+    "Kommunkikationssysteme/attachments/int.png.md",
+    "KoSy/Transport Layer Security.md",
+    "Kommunkikationssysteme/attachments",
+    "Kommunkikationssysteme",
     "KoSy/User Datagram Protocol.md",
     "KoSy/Transport Layer.md",
     "KoSy/Transmission Controll Protocol(TCP).md",
     "KoSy/attachments/auth.png",
-    "KoSy/attachments/int.png",
     "KoSy/attachments/conf.png",
-    "KoSy/Transport Layer Security.md",
     "KoSy/Digital Modulation.md",
     "KoSy/attachments/cubic.png",
     "KoSy/Switch.md",
@@ -184,8 +187,6 @@
     "KoSy/Distance Vector Alogrithm.md",
     "KoSy/Dijkstra's Link State Routing Algorithm.md",
     "KoSy/Error detection.md",
-    "KoSy/CRC.md",
-    "KoSy/Access Network.md",
     "KoSy/attachments/dcfcsmarts.png",
     "KoSy/attachments/retrans.png",
     "KoSy/attachments/prio.png",
