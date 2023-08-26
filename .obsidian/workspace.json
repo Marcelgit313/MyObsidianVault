@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Formelblatt.md",
+                "file": "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Formelblatt.md",
+                "file": "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Formelblatt.md",
+                "file": "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Formelblatt.md"
+                "file": "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md"
               }
             }
           },
@@ -153,8 +153,33 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "f3a34cc5ad080974",
+  "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Digitaltechnik und Rechnerarchitektur/Shannon Normal Form.md",
+    "Digitaltechnik und Rechnerarchitektur/Shannon-Fano Encoding.md",
+    "Digitaltechnik und Rechnerarchitektur/Shannon-Fanno Encoding.md",
+    "Digitaltechnik und Rechnerarchitektur/Wichtige Gesetze der Boolschen Algebra.md",
+    "Digitaltechnik und Rechnerarchitektur/KV-Diagramme.md",
+    "Digitaltechnik und Rechnerarchitektur/Iterativer Consens.md",
+    "Digitaltechnik und Rechnerarchitektur/IEEE 754.md",
+    "Digitaltechnik und Rechnerarchitektur/Huffman-Encoding.md",
+    "Digitaltechnik und Rechnerarchitektur/Hamming Distanz.md",
+    "Digitaltechnik und Rechnerarchitektur/Gatter.md",
+    "Digitaltechnik und Rechnerarchitektur/Floating-Point Zahlen.md",
+    "Digitaltechnik und Rechnerarchitektur/Flip-Flops und Sequentielle Schaltungen.md",
+    "Digitaltechnik und Rechnerarchitektur/Fließkommazahl Arithmetic.md",
+    "Digitaltechnik und Rechnerarchitektur/Fixed-Point Nummern.md",
+    "Digitaltechnik und Rechnerarchitektur/Fibonacci Encoding.md",
+    "Digitaltechnik und Rechnerarchitektur/Endliche Automaten.md",
+    "Digitaltechnik und Rechnerarchitektur/Disjunktive Normal Form.md",
+    "Digitaltechnik und Rechnerarchitektur/Cubes.md",
+    "Digitaltechnik und Rechnerarchitektur/Conjunktive Normalform.md",
+    "Digitaltechnik und Rechnerarchitektur/Carry-Lookahead Addition.md",
+    "Digitaltechnik und Rechnerarchitektur/Binary Decision Diagramms.md",
+    "Digitaltechnik und Rechnerarchitektur/B-Komplement Multiplikation.md",
+    "Digitaltechnik und Rechnerarchitektur/B-Komplement.md",
+    "Digitaltechnik und Rechnerarchitektur/Arithmetisches Encoding.md",
+    "KoSy/Formelblatt.md",
     "Digitaltechnik und Rechnerarchitektur/attachments/srlatch.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/sr.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/shannon_fano.png",
@@ -165,33 +190,8 @@
     "Digitaltechnik und Rechnerarchitektur/attachments/mccluskey.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/lincode.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/kv1.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/irobdd.png",
     "Digitaltechnik und Rechnerarchitektur/attachments",
-    "Digitaltechnik und Rechnerarchitektur/Wichtige Gesetze der Boolschen Algebra.md",
-    "Digitaltechnik und Rechnerarchitektur/Shannon-Fano Encoding.md",
-    "Digitaltechnik und Rechnerarchitektur/Shannon-Fanno Encoding.md",
     "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
-    "Digitaltechnik und Rechnerarchitektur/Shannon Normal Form.md",
-    "Digitaltechnik und Rechnerarchitektur/Schaltungen.md",
-    "Digitaltechnik und Rechnerarchitektur/Rundungsverfahren.md",
-    "Digitaltechnik und Rechnerarchitektur/Reed-Muller Normalform.md",
-    "Digitaltechnik und Rechnerarchitektur/Radix-B.md",
-    "Digitaltechnik und Rechnerarchitektur/Quine-McCluskey Minimisierung.md",
-    "Digitaltechnik und Rechnerarchitektur/Peano Axiome.md",
-    "Digitaltechnik und Rechnerarchitektur/Parallel Präfix Problem.md",
-    "Digitaltechnik und Rechnerarchitektur/Normalformen.md",
-    "Digitaltechnik und Rechnerarchitektur/Negation Normal Form.md",
-    "Digitaltechnik und Rechnerarchitektur/Multiplexer.md",
-    "Digitaltechnik und Rechnerarchitektur/Logik.md",
-    "Digitaltechnik und Rechnerarchitektur/Logik Minimierung.md",
-    "Digitaltechnik und Rechnerarchitektur/Lineare Block Codes.md",
-    "Digitaltechnik und Rechnerarchitektur/Levenshtein Distanz.md",
-    "Digitaltechnik und Rechnerarchitektur/KV-Diagramme.md",
-    "Digitaltechnik und Rechnerarchitektur/Iterativer Consens.md",
-    "Digitaltechnik und Rechnerarchitektur/IEEE 754.md",
-    "Digitaltechnik und Rechnerarchitektur/Huffman-Encoding.md",
-    "Digitaltechnik und Rechnerarchitektur/Hamming Distanz.md",
-    "Digitaltechnik und Rechnerarchitektur/Gatter.md",
     "Digitaltechnik und Rechnerarchitektur",
     "KoSy/attachments/Formelblatt.pdf",
     "Kommunkikationssysteme/attachments",
