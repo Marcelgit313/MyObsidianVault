@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
-                "mode": "source",
+                "file": "Algorithmen und Datenstrukturen/Algorithmus.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
+                "file": "Algorithmen und Datenstrukturen/Algorithmus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
+                "file": "Algorithmen und Datenstrukturen/Algorithmus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md"
+                "file": "Algorithmen und Datenstrukturen/Algorithmus.md"
               }
             }
           },
@@ -153,22 +153,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08bae9f6d5c0cb9e",
+  "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
-    "Algorithmen und Datenstrukturen/Verkettete Listen.md",
-    "Algorithmen und Datenstrukturen/Sortieren mit vergleichsbasierten Algorithmen.md",
-    "Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
-    "Algorithmen und Datenstrukturen/Positionssystem.md",
-    "Algorithmen und Datenstrukturen/O-Notation.md",
-    "Algorithmen und Datenstrukturen/Multiplikation von langen Zahlen.md",
-    "Algorithmen und Datenstrukturen/Mastertheorem.md",
-    "Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
-    "Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
-    "Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
-    "Algorithmen und Datenstrukturen/Dynamisches Array.md",
-    "Algorithmen und Datenstrukturen/Doubly Linked List.md",
     "Algorithmen und Datenstrukturen/Datenstrukturen.md",
+    "Algorithmen und Datenstrukturen/Doubly Linked List.md",
+    "Algorithmen und Datenstrukturen/Dynamisches Array.md",
+    "Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
+    "Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
+    "Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
+    "Algorithmen und Datenstrukturen/Mastertheorem.md",
+    "Algorithmen und Datenstrukturen/Multiplikation von langen Zahlen.md",
+    "Algorithmen und Datenstrukturen/O-Notation.md",
+    "Algorithmen und Datenstrukturen/Positionssystem.md",
+    "Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
+    "Algorithmen und Datenstrukturen/Sortieren mit vergleichsbasierten Algorithmen.md",
+    "Algorithmen und Datenstrukturen/Verkettete Listen.md",
     "Algorithmen und Datenstrukturen/Algorithmus.md",
+    "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
     "Algorithmen und Datenstrukturen",
     "Digitaltechnik und Rechnerarchitektur/Shannon Normal Form.md",
     "Digitaltechnik und Rechnerarchitektur/Shannon-Fano Encoding.md",
@@ -181,7 +182,6 @@
     "Digitaltechnik und Rechnerarchitektur/Hamming Distanz.md",
     "Digitaltechnik und Rechnerarchitektur/Gatter.md",
     "Digitaltechnik und Rechnerarchitektur/Floating-Point Zahlen.md",
-    "Digitaltechnik und Rechnerarchitektur/Flip-Flops und Sequentielle Schaltungen.md",
     "Digitaltechnik und Rechnerarchitektur/attachments/srlatch.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/sr.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/shannon_fano.png",
