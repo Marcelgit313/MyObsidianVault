@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Dijkstra's Link State Routing Algorithm.md",
-                "mode": "source",
+                "file": "Algorithmen und Datenstrukturen/Algorithmus.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Dijkstra's Link State Routing Algorithm.md",
+                "file": "Algorithmen und Datenstrukturen/Algorithmus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Dijkstra's Link State Routing Algorithm.md",
+                "file": "Algorithmen und Datenstrukturen/Algorithmus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Dijkstra's Link State Routing Algorithm.md"
+                "file": "Algorithmen und Datenstrukturen/Algorithmus.md"
               }
             }
           },
@@ -135,16 +135,6 @@
             "state": {
               "type": "git-view",
               "state": {}
-            }
-          },
-          {
-            "id": "472551c2429e8308",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
             }
           }
         ],
@@ -163,23 +153,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "729bc7042bafe2d2",
+  "active": "f3a34cc5ad080974",
   "lastOpenFiles": [
-    "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
-    "Algorithmen und Datenstrukturen/Verkettete Listen.md",
-    "Algorithmen und Datenstrukturen/Sortieren mit vergleichsbasierten Algorithmen.md",
-    "Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
-    "Algorithmen und Datenstrukturen/Positionssystem.md",
+    "Logi und Semantik/attachments",
+    "Logi und Semantik",
+    "Algorithmen und Datenstrukturen/Datenstrukturen.md",
+    "Algorithmen und Datenstrukturen/Doubly Linked List.md",
+    "Algorithmen und Datenstrukturen/Dynamisches Array.md",
+    "Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
+    "Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
+    "Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
+    "Algorithmen und Datenstrukturen/Mastertheorem.md",
     "Algorithmen und Datenstrukturen/Multiplikation von langen Zahlen.md",
     "Algorithmen und Datenstrukturen/O-Notation.md",
-    "Algorithmen und Datenstrukturen/Mastertheorem.md",
-    "Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
-    "Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
-    "Algorithmen und Datenstrukturen/Dynamisches Array.md",
-    "Algorithmen und Datenstrukturen/Doubly Linked List.md",
-    "Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
-    "Algorithmen und Datenstrukturen/Datenstrukturen.md",
+    "Algorithmen und Datenstrukturen/Positionssystem.md",
+    "Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
+    "Algorithmen und Datenstrukturen/Sortieren mit vergleichsbasierten Algorithmen.md",
+    "Algorithmen und Datenstrukturen/Verkettete Listen.md",
     "Algorithmen und Datenstrukturen/Algorithmus.md",
+    "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
     "Algorithmen und Datenstrukturen",
     "Digitaltechnik und Rechnerarchitektur/Shannon Normal Form.md",
     "Digitaltechnik und Rechnerarchitektur/Shannon-Fano Encoding.md",
@@ -191,7 +183,6 @@
     "Digitaltechnik und Rechnerarchitektur/Huffman-Encoding.md",
     "Digitaltechnik und Rechnerarchitektur/Hamming Distanz.md",
     "Digitaltechnik und Rechnerarchitektur/Gatter.md",
-    "Digitaltechnik und Rechnerarchitektur/Floating-Point Zahlen.md",
     "Digitaltechnik und Rechnerarchitektur/attachments/srlatch.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/sr.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/shannon_fano.png",
@@ -210,7 +201,6 @@
     "Unbenannt",
     "KoSy/attachments",
     "KoSy/attachments",
-    "Neues Textdokument.txt",
     "Untitled.canvas"
   ]
 }
