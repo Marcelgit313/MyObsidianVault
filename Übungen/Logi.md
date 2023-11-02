@@ -22,8 +22,40 @@ $$\begin{align}
 \land (0\implies \neg1)\land (0\implies \neg0)\\
 \land (0\implies \neg0)\land(0\implies \neg1)\\
 \land(0\implies \neg0\land (0\implies \neg1)\\
-\land (1\implies \neg(0)\land (1\implies \neg0)\\
+\land (1\implies \neg0)\land (1\implies \neg0)\\
 \land (0\implies \neg1)\land(0\implies \neg0)\\
 \land(1\implies \neg0)\land (1\implies \neg0)\\
-\land (0\implies \neg0)\land (0\implies \neg1)
+\land (0\implies \neg0)\land (0\implies \neg1)\\
+= 1
 \end{align}$$
+
+### Schachbrett 2
+
+$$\begin{align}
+(0\implies \neg0)\land(0\implies \neg1)\\
+\land(0\implies \neg0\land (0\implies \neg1)\\
+\land (1\implies \neg0)\land (1\implies \neg0)\\
+\land (0\implies \neg0)\land(0\implies \neg1)\\
+\land(1\implies \neg0\land (1\implies \neg0)\\
+\land (0\implies \neg1)\land (0\implies \neg0)\\
+\land (0\implies \neg1)\land(0\implies \neg0)\\
+\land(1\implies \neg0)\land (1\implies \neg0)\\
+\land (0\implies \neg0)\land (0\implies \neg1)\\
+= 1
+\end{align}$$
+
+### Schachbrett 3
+
+$$\begin{align}
+(0\implies \neg1)\land(0\implies \neg0)\\
+\land(1\implies \neg0\land (1\implies \neg0)\\
+\land (0\implies \neg1)\land (0\implies \neg0)\\
+\land (0\implies \neg1)\land(0\implies \neg0)\\
+\land(1\implies \neg0\land (1\implies \neg0)\\
+\land (0\implies \neg0)\land (0\implies \neg1)\\
+\land (0\implies \neg1)\land(0\implies \neg0)\\
+\land(1\implies \neg0)\land (1\implies \neg0)\\
+\land (0\implies \neg0)\land (0\implies \neg1)\\
+= 1
+\end{align}$$
+
