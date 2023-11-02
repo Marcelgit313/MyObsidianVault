@@ -7,7 +7,7 @@ $$\begin{align}
 \land(p_{1,b}\implies \neg(p_{1,a}))\land (p_{1,b}\implies \neg(p_{1,c}))\\
 \land (p_{1,c}\implies \neg(p_{1,a}))\land (p_{1,c}\implies \neg(p_{1,b}))\\
 \land (p_{2,a}\implies \neg(p_{2,b}))\land(p_{2,a}\implies \neg(p_{2,c}))\\
-\land(p_{2,b}\implies \neg(p_{2,a}))\land (p_{2,b}\implies \neg(p_{2,bc}))\\
+\land(p_{2,b}\implies \neg(p_{2,a}))\land (p_{2,b}\implies \neg(p_{2,c}))\\
 \land (p_{2,c}\implies \neg(p_{2,a}))\land (p_{2,c}\implies \neg(p_{2,b}))\\
 \land (p_{3,a}\implies \neg(p_{3,b}))\land(p_{3,a}\implies \neg(p_{3,c}))\\
 \land(p_{3,b}\implies \neg(p_{3,a}))\land (p_{3,b}\implies \neg(p_{3,c}))\\
