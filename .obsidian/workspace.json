@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithmen und Datenstrukturen/Algorithmus.md",
-                "mode": "preview",
+                "file": "Übungen/Logi.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithmen und Datenstrukturen/Algorithmus.md",
+                "file": "Übungen/Logi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithmen und Datenstrukturen/Algorithmus.md",
+                "file": "Übungen/Logi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithmen und Datenstrukturen/Algorithmus.md"
+                "file": "Übungen/Logi.md"
               }
             }
           },
@@ -153,8 +153,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3a34cc5ad080974",
+  "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Algorithmen und Datenstrukturen/Algorithmus.md",
+    "Übungen/Logi.md",
+    "Übungen",
     "Logi und Semantik/attachments",
     "Logi und Semantik",
     "Algorithmen und Datenstrukturen/Datenstrukturen.md",
@@ -170,7 +173,6 @@
     "Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
     "Algorithmen und Datenstrukturen/Sortieren mit vergleichsbasierten Algorithmen.md",
     "Algorithmen und Datenstrukturen/Verkettete Listen.md",
-    "Algorithmen und Datenstrukturen/Algorithmus.md",
     "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
     "Algorithmen und Datenstrukturen",
     "Digitaltechnik und Rechnerarchitektur/Shannon Normal Form.md",
@@ -199,8 +201,6 @@
     "Kommunkikationssysteme/attachments",
     "Kommunkikationssysteme",
     "Unbenannt",
-    "KoSy/attachments",
-    "KoSy/attachments",
     "Untitled.canvas"
   ]
 }
