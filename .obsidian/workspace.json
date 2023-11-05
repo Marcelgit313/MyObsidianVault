@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digitaltechnik und Rechnerarchitektur/Multiplexer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9224ff526f6c9c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Übungen/Logi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Übungen/Logi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Übungen/Logi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Übungen/Logi.md"
               }
             }
           },
@@ -176,54 +163,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9224ff526f6c9c8",
+  "active": "f3a34cc5ad080974",
   "lastOpenFiles": [
-    "Übungen/Logi.md",
+    "Semester 2",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/Multiplexer.md",
     "conflict-files-obsidian-git.md",
-    "Digitaltechnik und Rechnerarchitektur/Multiplexer.md",
+    "Übungen/Logi.md",
     "Übungen",
-    "Digitaltechnik und Rechnerarchitektur/Floating-Point Zahlen.md",
-    "Digitaltechnik und Rechnerarchitektur/Fließkommazahl Arithmetic.md",
-    "Digitaltechnik und Rechnerarchitektur/B-Komplement.md",
-    "Algorithmen und Datenstrukturen/Verkettete Listen.md",
-    "Algorithmen und Datenstrukturen/Sortieren mit vergleichsbasierten Algorithmen.md",
-    "Algorithmen und Datenstrukturen/O-Notation.md",
-    "Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
-    "Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
-    "Algorithmen und Datenstrukturen/Mastertheorem.md",
-    "Algorithmen und Datenstrukturen/Doubly Linked List.md",
-    "KoSy/Dijkstra's Link State Routing Algorithm.md",
-    "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
-    "Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
-    "Algorithmen und Datenstrukturen/Positionssystem.md",
-    "Algorithmen und Datenstrukturen/Multiplikation von langen Zahlen.md",
-    "Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
-    "Algorithmen und Datenstrukturen/Dynamisches Array.md",
-    "Algorithmen und Datenstrukturen/Datenstrukturen.md",
-    "Algorithmen und Datenstrukturen/Algorithmus.md",
-    "Algorithmen und Datenstrukturen",
-    "Digitaltechnik und Rechnerarchitektur/Shannon Normal Form.md",
-    "Digitaltechnik und Rechnerarchitektur/Shannon-Fano Encoding.md",
-    "Digitaltechnik und Rechnerarchitektur/Shannon-Fanno Encoding.md",
-    "Digitaltechnik und Rechnerarchitektur/Wichtige Gesetze der Boolschen Algebra.md",
-    "Digitaltechnik und Rechnerarchitektur/attachments/srlatch.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/sr.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/shannon_fano.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/obdd.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/numbdd.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/multiplexer.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/mp.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/mccluskey.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/lincode.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments/kv1.png",
-    "Digitaltechnik und Rechnerarchitektur/attachments",
-    "Digitaltechnik und Rechnerarchitektur",
-    "KoSy/attachments/Formelblatt.pdf",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/Floating-Point Zahlen.md",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/Fließkommazahl Arithmetic.md",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/B-Komplement.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Verkettete Listen.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Sortieren mit vergleichsbasierten Algorithmen.md",
+    "Semester 2/Algorithmen und Datenstrukturen/O-Notation.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Mastertheorem.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Doubly Linked List.md",
+    "Semester 2/KoSy/Dijkstra's Link State Routing Algorithm.md",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Positionssystem.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Multiplikation von langen Zahlen.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Dynamisches Array.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Datenstrukturen.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Algorithmus.md",
+    "Semester 2/Algorithmen und Datenstrukturen",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/Shannon Normal Form.md",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/Shannon-Fano Encoding.md",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/Shannon-Fanno Encoding.md",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/srlatch.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/sr.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/shannon_fano.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/obdd.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/numbdd.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/multiplexer.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/mp.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/mccluskey.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/lincode.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/kv1.png",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments",
+    "Semester 2/Digitaltechnik und Rechnerarchitektur",
+    "Semester 2/KoSy/attachments/Formelblatt.pdf",
     "Kommunkikationssysteme/attachments",
     "Kommunkikationssysteme",
     "Unbenannt",
-    "KoSy/attachments",
-    "KoSy/attachments",
+    "Semester 2/KoSy/attachments",
+    "Semester 2/KoSy/attachments",
     "Untitled.canvas"
   ]
 }

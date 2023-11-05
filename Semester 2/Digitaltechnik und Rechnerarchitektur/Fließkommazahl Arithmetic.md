@@ -15,7 +15,7 @@ Fuer die Reellen Zahlen $\mathbb R$ sollten wir die Folgenden Axiome aufstellen:
 
  ## Unendliche Radix-B Darstellung
 
- Analog zu den [[radix-B]] Zahlen könnten wir für eine unendliche [Folge](Mathe/Folgen.md)$x_{n}, x_{n-1}, ..., x_{1}, x_{0}, x_{-1}, x_{-2},...,$ aus  Zahlen die folgende Reelle Zahl konstruieren:
+ Analog zu den [[Radix-B]] Zahlen könnten wir für eine unendliche [Folge](Mathe/Folgen.md)$x_{n}, x_{n-1}, ..., x_{1}, x_{0}, x_{-1}, x_{-2},...,$ aus  Zahlen die folgende Reelle Zahl konstruieren:
  $$\left(\sum\limits^{n}_{i=0} x_{i} \cdot B^{i}\right) + \left(\sum\limits^{-\infty}_{i=-1} x_{i}\cdot B^{i}\right)$$
  Allerdings steht uns nur endlich viel Speicherplatz im Computer zu, daher sind die unendlichen radix-B zahlen nicht brauchbar für irrationale Zahlen.
  Fuer [Rationale Zahlen](Rationale%20Zahlen.md) würden zwei endliche [Folgen](Mathe/Folgen.md) genügen, aber auch das wird bei Computern nicht benutzt. Stattdessen benutzt man fixed und floating point arithmetic.

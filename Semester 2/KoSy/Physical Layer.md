@@ -6,7 +6,7 @@ Die Physische Schicht definiert die Spezifikationen für die Aktivierung, Aufrec
 
 ## Übertragungsmedien
 ---
-[Medien](Übertragungs%20Arten)
+[Medien](Übertragungs%20Arten.md)
 
 ### Kabellose Übertragung
 ---
