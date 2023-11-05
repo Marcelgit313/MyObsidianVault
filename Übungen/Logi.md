@@ -23,48 +23,6 @@ $$\begin{align}
 \land(p_{3,b}\implies \neg(p_{3,a}))\land (p_{3,b}\implies \neg(p_{3,c}))\\
 \land (p_{3,c}\implies \neg(p_{3,a}))\land (p_{3,c}\implies \neg(p_{3,b}))
 \end{align}$$
-
-### Schachbrett 1
-### 1 a
-$$\begin{align}
-
-(1 \lor 0 \lor 0) \land ( 0 \lor 0 \lor 1) \land(0\lor1\lor0)
-
-\end{align}$$
-### 1 b
-$$\begin{align}
-(1\implies \neg0)\land(1\implies \neg0)\\
-\land(0\implies \neg1\land (0\implies \neg0)\\
-\land (0\implies \neg1)\land (0\implies \neg0)\\
-\land (0\implies \neg0)\land(0\implies \neg1)\\
-\land(0\implies \neg0\land (0\implies \neg1)\\
-\land (1\implies \neg0)\land (1\implies \neg0)\\
-\land (0\implies \neg1)\land(0\implies \neg0)\\
-\land(1\implies \neg0)\land (1\implies \neg0)\\
-\land (0\implies \neg0)\land (0\implies \neg1)\\
-= 1
-\end{align}$$
-
-### Schachbrett 2
-### 1 a
-$$\begin{align}
-
-(0 \lor 0 \lor 1) \land ( 1 \lor 0 \lor 0) \land(0\lor1\lor0)
-
-\end{align}$$
-### 1 b
-$$\begin{align}
-(0\implies \neg0)\land(0\implies \neg1)\\
-\land(0\implies \neg0\land (0\implies \neg1)\\
-\land (1\implies \neg0)\land (1\implies \neg0)\\
-\land (0\implies \neg0)\land(0\implies \neg1)\\
-\land(1\implies \neg0\land (1\implies \neg0)\\
-\land (0\implies \neg1)\land (0\implies \neg0)\\
-\land (0\implies \neg1)\land(0\implies \neg0)\\
-\land(1\implies \neg0)\land (1\implies \neg0)\\
-\land (0\implies \neg0)\land (0\implies \neg1)\\
-= 1
-\end{align}$$
 ### 2
 
   
@@ -130,6 +88,48 @@ $$
   
 
 Schachbrett 3 erfüllt diese Bedingung nicht.
+### Schachbrett 1
+### 1 a
+$$\begin{align}
+
+(1 \lor 0 \lor 0) \land ( 0 \lor 0 \lor 1) \land(0\lor1\lor0)
+
+\end{align}$$
+### 1 b
+$$\begin{align}
+(1\implies \neg0)\land(1\implies \neg0)\\
+\land(0\implies \neg1\land (0\implies \neg0)\\
+\land (0\implies \neg1)\land (0\implies \neg0)\\
+\land (0\implies \neg0)\land(0\implies \neg1)\\
+\land(0\implies \neg0\land (0\implies \neg1)\\
+\land (1\implies \neg0)\land (1\implies \neg0)\\
+\land (0\implies \neg1)\land(0\implies \neg0)\\
+\land(1\implies \neg0)\land (1\implies \neg0)\\
+\land (0\implies \neg0)\land (0\implies \neg1)\\
+= 1
+\end{align}$$
+
+### Schachbrett 2
+### 1 a
+$$\begin{align}
+
+(0 \lor 0 \lor 1) \land ( 1 \lor 0 \lor 0) \land(0\lor1\lor0)
+
+\end{align}$$
+### 1 b
+$$\begin{align}
+(0\implies \neg0)\land(0\implies \neg1)\\
+\land(0\implies \neg0\land (0\implies \neg1)\\
+\land (1\implies \neg0)\land (1\implies \neg0)\\
+\land (0\implies \neg0)\land(0\implies \neg1)\\
+\land(1\implies \neg0\land (1\implies \neg0)\\
+\land (0\implies \neg1)\land (0\implies \neg0)\\
+\land (0\implies \neg1)\land(0\implies \neg0)\\
+\land(1\implies \neg0)\land (1\implies \neg0)\\
+\land (0\implies \neg0)\land (0\implies \neg1)\\
+= 1
+\end{align}$$
+
 ### Schachbrett 3
 ### 1 a
 $$\begin{align}
