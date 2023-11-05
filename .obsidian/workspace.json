@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KoSy/Dijkstra's Link State Routing Algorithm.md",
+                "file": "Digitaltechnik und Rechnerarchitektur/Multiplexer.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KoSy/Dijkstra's Link State Routing Algorithm.md",
+                "file": "Digitaltechnik und Rechnerarchitektur/Multiplexer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KoSy/Dijkstra's Link State Routing Algorithm.md",
+                "file": "Digitaltechnik und Rechnerarchitektur/Multiplexer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KoSy/Dijkstra's Link State Routing Algorithm.md"
+                "file": "Digitaltechnik und Rechnerarchitektur/Multiplexer.md"
               }
             }
           },
@@ -165,19 +165,23 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
-    "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
+    "Digitaltechnik und Rechnerarchitektur/Floating-Point Zahlen.md",
+    "Digitaltechnik und Rechnerarchitektur/Fließkommazahl Arithmetic.md",
+    "Digitaltechnik und Rechnerarchitektur/B-Komplement.md",
     "Algorithmen und Datenstrukturen/Verkettete Listen.md",
     "Algorithmen und Datenstrukturen/Sortieren mit vergleichsbasierten Algorithmen.md",
+    "Algorithmen und Datenstrukturen/O-Notation.md",
+    "Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
+    "Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
+    "Algorithmen und Datenstrukturen/Mastertheorem.md",
+    "Algorithmen und Datenstrukturen/Doubly Linked List.md",
+    "KoSy/Dijkstra's Link State Routing Algorithm.md",
+    "Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
     "Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
     "Algorithmen und Datenstrukturen/Positionssystem.md",
     "Algorithmen und Datenstrukturen/Multiplikation von langen Zahlen.md",
-    "Algorithmen und Datenstrukturen/O-Notation.md",
-    "Algorithmen und Datenstrukturen/Mastertheorem.md",
-    "Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
     "Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
     "Algorithmen und Datenstrukturen/Dynamisches Array.md",
-    "Algorithmen und Datenstrukturen/Doubly Linked List.md",
-    "Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
     "Algorithmen und Datenstrukturen/Datenstrukturen.md",
     "Algorithmen und Datenstrukturen/Algorithmus.md",
     "Algorithmen und Datenstrukturen",
@@ -188,10 +192,6 @@
     "Digitaltechnik und Rechnerarchitektur/KV-Diagramme.md",
     "Digitaltechnik und Rechnerarchitektur/Iterativer Consens.md",
     "Digitaltechnik und Rechnerarchitektur/IEEE 754.md",
-    "Digitaltechnik und Rechnerarchitektur/Huffman-Encoding.md",
-    "Digitaltechnik und Rechnerarchitektur/Hamming Distanz.md",
-    "Digitaltechnik und Rechnerarchitektur/Gatter.md",
-    "Digitaltechnik und Rechnerarchitektur/Floating-Point Zahlen.md",
     "Digitaltechnik und Rechnerarchitektur/attachments/srlatch.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/sr.png",
     "Digitaltechnik und Rechnerarchitektur/attachments/shannon_fano.png",
