@@ -2,5 +2,6 @@
   "accentColor": "#e9590c",
   "enabledCssSnippets": [
     "images"
-  ]
+  ],
+  "cssTheme": "Catppuccin"
 }
