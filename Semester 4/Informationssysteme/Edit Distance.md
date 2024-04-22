@@ -22,4 +22,9 @@ Eine Teilsequenz ist eine Sequenz, die von einer anderen Sequenz durch weglassen
 Eine gemeinsame Teilsequenz zweier Strings x und y ist ein String s, so dass alle Zeichen von s in x und y in der gleichen Reihenfolge auftreten (aber eben nicht notwendigerweise zusammenhängend)
 
 $$d_{(x,y)}= max(|x|,|y|)-max_{(s\in S(x,y))}|S|$$
-wobei $S_{(x,y})$ die Menge aller gem
+wobei $S_{(x,y})$ die Menge aller gemeinsamer Teilsequenzen von x und y ist.
+
+Beispiel:
+- $d(house,huse)=1$
+weil $max(|house|,|huse|)=5$ (Längstes Wort) und $max_{(s\in S(x,y))}|4|$ (Längste Gemeinsame Teilsequenz) also ist die Distanz $1$.
+---
