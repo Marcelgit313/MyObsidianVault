@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Document Processing.md",
+                "file": "Semester 4/Informationssysteme/Edit Distance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Document Processing.md",
+                "file": "Semester 4/Informationssysteme/Edit Distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Document Processing.md",
+                "file": "Semester 4/Informationssysteme/Edit Distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Document Processing.md"
+                "file": "Semester 4/Informationssysteme/Edit Distance.md"
               }
             }
           },
@@ -167,8 +167,10 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
-    "Semester 4/AlgoDat/Einstieg.md",
     "Semester 4/Informationssysteme/Document Processing.md",
+    "Semester 4/Informationssysteme/Edit Distance.md",
+    "Semester 4/Informationssysteme/attachments/Bildschirmfoto 2024-04-22 um 16.03.10.png",
+    "Semester 4/AlgoDat/Einstieg.md",
     "Semester 4/Informationssysteme/attachments",
     "Semester 4/Informationssysteme",
     "Semester 2/Algorithmen und Datenstrukturen/Algorithmus.md",
@@ -199,7 +201,6 @@
     "Semester 2/Algorithmen und Datenstrukturen/Dynamisches Array.md",
     "Semester 2/Algorithmen und Datenstrukturen",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Shannon Normal Form.md",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur/Shannon-Fano Encoding.md",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/srlatch.png",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/sr.png",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/shannon_fano.png",
@@ -207,7 +208,6 @@
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/numbdd.png",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/multiplexer.png",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/mp.png",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/mccluskey.png",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments",
     "Semester 2/Digitaltechnik und Rechnerarchitektur",
     "Semester 2/KoSy/attachments/Formelblatt.pdf",
