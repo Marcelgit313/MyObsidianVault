@@ -13,6 +13,8 @@ Dann einsetzten:
 $$\begin{align*}
 &T_{1}=n\cdot T_{2(n)}\\
 &=n\cdot (n\cdot (c+T_{3(n)}))\\
-&= n\cdot (n\cdot (c+n\cdot c)\\
-&
+&= n\cdot (n\cdot (c+(n\cdot c))\\
+&=n^2*(c+(n\cdot c))\\
+&=cn^2+cn^3\\
+&=c \cdot(n^3+n^2)
 \end{align*}$$
