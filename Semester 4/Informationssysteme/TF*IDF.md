@@ -62,4 +62,16 @@ Eine einfachere Möglichkeit die Güte von Dokument $d$ zu berechnen ist durch e
 
 $$score(q,d)= \sum\limits_{t\in q}tf.idf_{t,d}$$
 
+---
+# Dämpfung, Längennormalisierung etc.
+
+## Logarithmische Dämpfung der inverse Dokumentfrequenz
+$$idf_{t}=\log \frac{|D|}{df_{t}}$$
+Mit dem Logarithmus flachen die Spitzen der sehr seltnen Terme ab also erhalten die sehr exotischen Terme nicht zu viel Gewicht.
+
+## Sublineare Skalierung der Termfrequenz
+$$wf_{t,d}=\begin{cases}1+\log tf_{t,d}\text{ falls } tf_{t,d}>0 \\
+0\text{ sonst}\end{cases}$$
+## Längennormalisierung und max-tf Normalisierung
+verhindert, dass sehr lange Dokumente zu sehr favorisiert werden
 

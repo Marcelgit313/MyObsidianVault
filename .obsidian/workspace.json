@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/TF*IDF.md",
+                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/TF*IDF.md",
+                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/TF*IDF.md",
+                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/TF*IDF.md"
+                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md"
               }
             }
           },
@@ -165,13 +165,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3a34cc5ad080974",
+  "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Informationssysteme/attachments/Pasted image 20240423161733.png",
+    "Semester 4/Informationssysteme/attachments/Pasted image 20240423161649.png",
+    "Semester 4/Informationssysteme/TF*IDF.md",
+    "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423151746.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423150621.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423150543.png",
     "Semester 4/Informationssysteme/Levenshtein.md",
-    "Semester 4/Informationssysteme/TF*IDF.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423132455.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423132128.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423131652.png",
@@ -204,10 +207,7 @@
     "Semester 2/KoSy/Dijkstra's Link State Routing Algorithm.md",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
     "Semester 2/Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
-    "Semester 2/Algorithmen und Datenstrukturen/Positionssystem.md",
     "Semester 2/Algorithmen und Datenstrukturen",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/srlatch.png",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments/sr.png",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments",
     "Semester 2/Digitaltechnik und Rechnerarchitektur",
     "Semester 2/KoSy/attachments/Formelblatt.pdf",
