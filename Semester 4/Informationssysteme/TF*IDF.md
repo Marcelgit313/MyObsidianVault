@@ -50,5 +50,16 @@ Mit $d=\langle 1,0,19,10,1,0,2\rangle$ und $q=\langle 1,0,19,10,1,0,2\rangle$ ha
 
 Das Gewicht von Term $t$ in Dokument $d$ ist dann definiert als 
 $$tf.idf_{t,d}=tf_{t,d}\times idf_{t}$$
-Beobachtung: $tf.idf_{t,d}$ ist .
+Beobachtung: $tf.idf_{t,d}$ ist ...
+- größer falls $t$ oft in $d$ auftritt
+- kleiner falls $t$  nicht oft in $d$ auftritt und/oder $t$ in vielen Dokumenten auftritt
+
+Nun können wir im Vektorraummodell die einzelnen Komponenten der Vektoren bestimmen
+$$d_{t}=tf.idf_{t,d}$$
+$$q_{t}=tf.idf_{t,q}$$
+Eine einfachere Möglichkeit die Güte von Dokument $d$ zu berechnen ist durch eine einfache Summe der einzelnen $tf.idf$ Werte:
+- Alternative zur Kosinus-Ähnlichkeit
+
+$$score(q,d)= \sum\limits_{t\in q}tf.idf_{t,d}$$
+
 
