@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md"
+                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md"
               }
             }
           },
@@ -167,9 +167,12 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Informationssysteme/Precision, Recall und F1.md",
+    "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
+    "Semester 4/Modellierung von Softwaresystemen/attachments",
+    "Semester 4/Modellierung von Softwaresystemen",
     "Semester 4/Informationssysteme/TF*IDF.md",
     "Pasted image 20240423211947.png",
-    "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/Informationssysteme/Levenshtein.md",
     "Semester 4/Informationssysteme/Edit Distance.md",
     "Semester 4/Informationssysteme/Document Processing.md",
@@ -210,8 +213,6 @@
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments",
     "Semester 2/Digitaltechnik und Rechnerarchitektur",
     "Semester 2/KoSy/attachments/Formelblatt.pdf",
-    "Kommunkikationssysteme/attachments",
-    "Kommunkikationssysteme",
     "Untitled.canvas"
   ]
 }
