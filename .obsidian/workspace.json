@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/AlgoDat/Einstieg.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/AlgoDat/Einstieg.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/AlgoDat/Einstieg.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/AlgoDat/Einstieg.md"
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md"
               }
             }
           },
@@ -167,6 +167,10 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Formale Sprachen und Berechenbarkeit/attachments",
+    "Semester 4/AlgoDat/Einstieg.md",
+    "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+    "Semester 4/Formale Sprachen und Berechenbarkeit",
     "Semester 4/Informationssysteme/TF*IDF.md",
     "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
@@ -187,7 +191,6 @@
     "Semester 2/Digitaltechnik und Rechnerarchitektur/B-Komplement.md",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Arithmetisches Encoding.md",
     "Semester 4/Informationssysteme/attachments/Bildschirmfoto 2024-04-22 um 16.03.10.png",
-    "Semester 4/AlgoDat/Einstieg.md",
     "Semester 4/Informationssysteme/attachments",
     "Semester 4/Informationssysteme",
     "Semester 2/Algorithmen und Datenstrukturen/Algorithmus.md",
@@ -207,12 +210,9 @@
     "Semester 2/Algorithmen und Datenstrukturen/Mastertheorem.md",
     "Semester 2/Algorithmen und Datenstrukturen/Doubly Linked List.md",
     "Semester 2/KoSy/Dijkstra's Link State Routing Algorithm.md",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur/Shannon Operator.md",
-    "Semester 2/Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
     "Semester 2/Algorithmen und Datenstrukturen",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments",
     "Semester 2/Digitaltechnik und Rechnerarchitektur",
-    "Semester 2/KoSy/attachments/Formelblatt.pdf",
     "Untitled.canvas"
   ]
 }
