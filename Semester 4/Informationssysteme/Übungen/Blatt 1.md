@@ -34,4 +34,7 @@ __Levenshtein-Distanz
 $k=3$
 $$S(d_{1})={\text{Im Sommer ist},\text{Sommer ist es},\text{ist es wärmer},\text{es wärmer als},\text{wärmer als zuvor},\text{als zuvor im},\text{zuvor im Winter}}$
 $$$$S(d_{2})={\text{Dieser Sommer ist},\text{Sommer ist wärmer},\text{ist wärmer als},\text{wärmer als je},\text{als je zuvor}}$$
-${\text{Sommer}}$
+${\text{Sommer},\text{ist},\text{wärmer},\text{als},\text{zuvor}}$
+
+## Aufgabe 2
+### a)
