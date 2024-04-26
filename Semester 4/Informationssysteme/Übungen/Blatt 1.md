@@ -26,3 +26,12 @@ __Levenshtein-Distanz
 | s   | 7   | 6   | 6   | 6   | 6   | 5   | 4   |
 
 ### b)
+
+
+
+
+### c)
+$k=3$
+$$S(d_{1})={\text{Im Sommer ist},\text{Sommer ist es},\text{ist es wärmer},\text{es wärmer als},\text{wärmer als zuvor},\text{als zuvor im},\text{zuvor im Winter}}$
+$$$$S(d_{2})={\text{Dieser Sommer ist},\text{Sommer ist wärmer},\text{ist wärmer als},\text{wärmer als je},\text{als je zuvor}}$$
+${\text{Sommer}}$
