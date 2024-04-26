@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c516ca2320af5446",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 4/Informationssysteme/TF*IDF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/TF*IDF.md",
+                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/TF*IDF.md",
+                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/TF*IDF.md"
+                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md"
               }
             }
           },
@@ -178,18 +165,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c516ca2320af5446",
+  "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Informationssysteme/TF*IDF.md",
+    "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/Informationssysteme/Levenshtein.md",
-    "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
     "Semester 4/Informationssysteme/Edit Distance.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
     "Semester 4/Informationssysteme/Übungen",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments",
     "Semester 4/AlgoDat/Einstieg.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit",
-    "Semester 4/Informationssysteme/TF*IDF.md",
     "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
     "Semester 4/Modellierung von Softwaresystemen/attachments",
     "Semester 4/Modellierung von Softwaresystemen",

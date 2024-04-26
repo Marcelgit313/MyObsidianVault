@@ -38,3 +38,10 @@ ${\text{Sommer},\text{ist},\text{wärmer},\text{als},\text{zuvor}}$
 
 ## Aufgabe 2
 ### a)
+$score(q,d_{7})=2 \cdot \frac{7}{5} + 0$
+$score(q,d_{6})=4 \cdot \frac{7}{5} + 0$
+
+
+## Aufgabe 3
+
+$argmax_{d_{1}}=0.5\cdot \frac{63}{5}-(1-0.5)\cdot 0=6.3$ 
