@@ -13,8 +13,8 @@ Die Hamming-Editier-Distanz beschreibt die Anzahl an Positionen an denen die bei
 
 Beispiel:
 - $d(car,cat) = 1$
-- $d(house,hot) = 1$
-- $d(house,hoouse)= 1 \leftarrow$ sehr hohe Distanz für kleinen Fehler
+- $d(house,hot) = 3$
+- $d(house,hoouse)= 4 \leftarrow$ sehr hohe Distanz für kleinen Fehler
 
 ---
 ## Längste Gemeinsame Teilsequenz

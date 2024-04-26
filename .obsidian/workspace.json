@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c516ca2320af5446",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 4/Informationssysteme/Levenshtein.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md"
+                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md"
               }
             }
           },
@@ -167,9 +179,13 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Informationssysteme/Levenshtein.md",
+    "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
+    "Semester 4/Informationssysteme/Edit Distance.md",
+    "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+    "Semester 4/Informationssysteme/Übungen",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments",
     "Semester 4/AlgoDat/Einstieg.md",
-    "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit",
     "Semester 4/Informationssysteme/TF*IDF.md",
     "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
@@ -177,8 +193,6 @@
     "Semester 4/Modellierung von Softwaresystemen/attachments",
     "Semester 4/Modellierung von Softwaresystemen",
     "Pasted image 20240423211947.png",
-    "Semester 4/Informationssysteme/Levenshtein.md",
-    "Semester 4/Informationssysteme/Edit Distance.md",
     "Semester 4/Informationssysteme/Document Processing.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423161733.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423161649.png",
@@ -211,8 +225,6 @@
     "Semester 2/Algorithmen und Datenstrukturen/Doubly Linked List.md",
     "Semester 2/KoSy/Dijkstra's Link State Routing Algorithm.md",
     "Semester 2/Algorithmen und Datenstrukturen",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur/attachments",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur",
     "Untitled.canvas"
   ]
 }
