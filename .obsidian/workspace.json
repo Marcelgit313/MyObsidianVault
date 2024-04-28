@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
+                "file": "Semester 4/Informationssysteme/Shingles und LSI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
+                "file": "Semester 4/Informationssysteme/Shingles und LSI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
+                "file": "Semester 4/Informationssysteme/Shingles und LSI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Übungen/Blatt 1.md"
+                "file": "Semester 4/Informationssysteme/Shingles und LSI.md"
               }
             }
           },
@@ -167,8 +167,12 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
-    "Semester 4/Informationssysteme/TF*IDF.md",
+    "Semester 4/Informationssysteme/MMR.md",
+    "Semester 4/Informationssysteme/Shingles und LSI.md",
+    "Semester 4/Informationssysteme/attachments/Pasted image 20240428122744.png",
+    "Semester 4/Informationssysteme/MAP_Precision@k.md",
     "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
+    "Semester 4/Informationssysteme/TF*IDF.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/Informationssysteme/Levenshtein.md",
     "Semester 4/Informationssysteme/Edit Distance.md",
@@ -192,7 +196,6 @@
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423131652.png",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/B-Komplement.md",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Arithmetisches Encoding.md",
-    "Semester 4/Informationssysteme/attachments/Bildschirmfoto 2024-04-22 um 16.03.10.png",
     "Semester 4/Informationssysteme/attachments",
     "Semester 4/Informationssysteme",
     "Semester 2/Algorithmen und Datenstrukturen/Algorithmus.md",
@@ -209,9 +212,6 @@
     "Semester 2/Algorithmen und Datenstrukturen/O-Notation.md",
     "Semester 2/Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
     "Semester 2/Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
-    "Semester 2/Algorithmen und Datenstrukturen/Mastertheorem.md",
-    "Semester 2/Algorithmen und Datenstrukturen/Doubly Linked List.md",
-    "Semester 2/KoSy/Dijkstra's Link State Routing Algorithm.md",
     "Semester 2/Algorithmen und Datenstrukturen",
     "Untitled.canvas"
   ]
