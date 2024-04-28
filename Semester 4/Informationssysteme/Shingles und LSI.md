@@ -34,4 +34,6 @@ Wir wählen die k größten Singulärwerte aus $\Sigma$  aus, d.h. wir setzten d
 
 ---
 # Operationen im Topic-Raum
-Wir können eine Anfrage aus dem $m$-dimensionalen Term-Raum in den k-dimensionalen T 
+Wir können eine Anfrage aus dem $m$-dimensionalen Term-Raum in den k-dimensionalen Topic-Raum abbilden durch
+$$q\rightarrow U_{k}^{T}q=q'$$
+Die Eignung(Score) der Dokumente wird dann im Topic-Raum berechnet durch die Cosinus-Ähnlichkeit oder das Skalarprodukt von $q'$ und den Spalten der Matrix $V_{k}^{T}$ 
