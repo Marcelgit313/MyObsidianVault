@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Shingles und LSI.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Shingles und LSI.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Shingles und LSI.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Shingles und LSI.md"
+                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md"
               }
             }
           },
@@ -167,15 +167,15 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Informationssysteme/TF*IDF.md",
+    "Semester 4/Informationssysteme/Shingles und LSI.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428131212.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428130723.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428130548.png",
     "Semester 4/Informationssysteme/MMR.md",
-    "Semester 4/Informationssysteme/Shingles und LSI.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428122744.png",
     "Semester 4/Informationssysteme/MAP_Precision@k.md",
     "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
-    "Semester 4/Informationssysteme/TF*IDF.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/Informationssysteme/Levenshtein.md",
     "Semester 4/Informationssysteme/Edit Distance.md",
@@ -194,7 +194,6 @@
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423151746.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423150621.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423150543.png",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240423132455.png",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/B-Komplement.md",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Arithmetisches Encoding.md",
     "Semester 4/Informationssysteme/attachments",
