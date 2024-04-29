@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Einstieg.md"
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md"
               }
             }
           },
@@ -167,6 +167,9 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/AlgoDat/Einstieg.md",
+    "Semester 2/Algorithmen und Datenstrukturen/Mastertheorem.md",
+    "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
     "Semester 4/Informationssysteme/TF*IDF.md",
     "Semester 4/Informationssysteme/Shingles und LSI.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428131212.png",
@@ -182,9 +185,7 @@
     "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
     "Semester 4/Informationssysteme/Übungen",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments",
-    "Semester 4/AlgoDat/Einstieg.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit",
-    "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
     "Semester 4/Modellierung von Softwaresystemen/attachments",
     "Semester 4/Modellierung von Softwaresystemen",
     "Pasted image 20240423211947.png",
