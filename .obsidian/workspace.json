@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+                "file": "Semester 4/Informationssysteme/PageRank.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+                "file": "Semester 4/Informationssysteme/PageRank.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+                "file": "Semester 4/Informationssysteme/PageRank.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md"
+                "file": "Semester 4/Informationssysteme/PageRank.md"
               }
             }
           },
@@ -167,29 +167,32 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Informationssysteme/attachments/Pasted image 20240429190356.png",
+    "Semester 4/Informationssysteme/TF*IDF.md",
+    "Semester 4/Informationssysteme/PageRank.md",
+    "Semester 4/Informationssysteme/Shingles und LSI.md",
+    "Semester 4/Informationssysteme/MMR.md",
+    "Semester 4/Informationssysteme/Precision, Recall und F1.md",
+    "Semester 4/Informationssysteme/MAP_Precision@k.md",
+    "Semester 4/Informationssysteme/Levenshtein.md",
+    "Semester 4/Informationssysteme/Edit Distance.md",
+    "Semester 4/Informationssysteme/Document Processing.md",
+    "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+    "Untitled.md",
     "Semester 4/AlgoDat/Einstieg.md",
     "Semester 2/Algorithmen und Datenstrukturen/Mastertheorem.md",
     "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
-    "Semester 4/Informationssysteme/TF*IDF.md",
-    "Semester 4/Informationssysteme/Shingles und LSI.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428131212.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428130723.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428130548.png",
-    "Semester 4/Informationssysteme/MMR.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428122744.png",
-    "Semester 4/Informationssysteme/MAP_Precision@k.md",
     "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
-    "Semester 4/Informationssysteme/Precision, Recall und F1.md",
-    "Semester 4/Informationssysteme/Levenshtein.md",
-    "Semester 4/Informationssysteme/Edit Distance.md",
-    "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
     "Semester 4/Informationssysteme/Übungen",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments",
     "Semester 4/Formale Sprachen und Berechenbarkeit",
     "Semester 4/Modellierung von Softwaresystemen/attachments",
     "Semester 4/Modellierung von Softwaresystemen",
     "Pasted image 20240423211947.png",
-    "Semester 4/Informationssysteme/Document Processing.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423161733.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423161649.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240423151746.png",
@@ -209,9 +212,6 @@
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Floating-Point Zahlen.md",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Fließkommazahl Arithmetic.md",
     "Semester 2/Algorithmen und Datenstrukturen/Verkettete Listen.md",
-    "Semester 2/Algorithmen und Datenstrukturen/Sortieren mit vergleichsbasierten Algorithmen.md",
-    "Semester 2/Algorithmen und Datenstrukturen/O-Notation.md",
-    "Semester 2/Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
     "Semester 2/Algorithmen und Datenstrukturen",
     "Untitled.canvas"
   ]
