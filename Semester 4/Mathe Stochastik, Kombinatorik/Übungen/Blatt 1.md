@@ -67,8 +67,10 @@ $$\begin{align}
 ## Aufgabe 4
 ### a)
 
+
 ### b)
 
+---
 ## Aufgabe 5
 ```python
 def teilbare_zahlen(n):
