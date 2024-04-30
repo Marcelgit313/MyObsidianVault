@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md"
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md"
               }
             }
           },
@@ -167,6 +167,11 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen",
+    "Semester 4/Mathe Stochastik, Kombinatorik/attachments",
+    "Semester 4/Mathe Stochastik, Kombinatorik",
     "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
     "Semester 4/Informationssysteme/PageRank.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240429200427.png",
@@ -183,7 +188,6 @@
     "Semester 4/Informationssysteme/Levenshtein.md",
     "Semester 4/Informationssysteme/Edit Distance.md",
     "Semester 4/Informationssysteme/Document Processing.md",
-    "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
     "Untitled.md",
     "Semester 4/AlgoDat/Einstieg.md",
     "Semester 2/Algorithmen und Datenstrukturen/Mastertheorem.md",
@@ -203,15 +207,12 @@
     "Semester 4/Informationssysteme",
     "Semester 2/Algorithmen und Datenstrukturen/Algorithmus.md",
     "Semester 2/Algorithmen und Datenstrukturen/Datenstrukturen.md",
-    "Semester 2",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Multiplexer.md",
     "conflict-files-obsidian-git.md",
     "Übungen/Logi.md",
-    "Übungen",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Floating-Point Zahlen.md",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Fließkommazahl Arithmetic.md",
     "Semester 2/Algorithmen und Datenstrukturen/Verkettete Listen.md",
-    "Semester 2/Algorithmen und Datenstrukturen",
     "Untitled.canvas"
   ]
 }
