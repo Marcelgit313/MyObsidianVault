@@ -84,7 +84,7 @@ ergebnis = teilmengen(m, e)
 print("Auflistung der Teilmengen:")
 for i in range(1, len(ergebnis)):
     print(ergebnis[i])
-   ```
+```
 
 Eingabe $M=\lbrace1,2,3,4\rbrace$
 Ausgabe:
