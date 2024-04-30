@@ -22,7 +22,15 @@ $|T_5|=\lfloor \frac{100000}{5}\rfloor =20000$
 $|T_7|=\lfloor \frac{100000}{7}\rfloor =14285$
 $|T_{11}|=\lfloor \frac{100000}{11}\rfloor =9090$
 
-$$|M_{1}\cup M_{2}\cup M_{3}\cup M_{4}|$$
+$$\begin{align}
+|M_{1}\cup M_{2}\cup M_{3}\cup M_{4}|&=|M_{1}|+|M_2|+|M_3|+|M_4|\\
+&-|M_{1}\cap M_2|-|M_{1}\cap M_3|-|M_{1}\cap M_4|\\
+&-|M_{2}\cap M_3|-|M_{2}\cap M_4|\\
+&-|M_{3}\cap M_4|\\
+&+|M_{1}\cap M_{2}\cap M_{3}\cap M_4|
+\end{align}$$
+
+
 
 ## Aufgabe 4
 ### a)
