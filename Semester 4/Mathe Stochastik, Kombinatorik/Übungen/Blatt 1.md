@@ -13,6 +13,7 @@ $\blacksquare$
 ---
 ## Aufgabe 2
 
+
 ---
 ## Aufgabe 3
 
@@ -63,10 +64,49 @@ $$\begin{align}
 ---
 ## Aufgabe 4
 ### a)
-
+$$M=\{1,2,3,4\}$$  $$\begin{align} &\{\emptyset\} \\ \\ &\{\emptyset\} \cup \{1\} \\ \\ &\{\emptyset, \{1\}\} \cup \{\{\emptyset\} \cup \{2\}\} \cup \{\{1\}\cup\{2\}\} \\ \\ &\{\emptyset, \{1\},\{2\},\{1,2\}\} \cup \{\{\emptyset\} \cup \{3\}\} \cup \{\{1\} \cup \{3\}\} \cup \{\{2\} \cup \{3\}\} \cup \{\{1,2\} \cup \{3\}\} \\ \\ &\{\emptyset, \{1\},\{2\},\{3\},\{1,2\},\{1,3\},\{2,3\},\{1,2,3\}\} \cup \{\{\emptyset\} \cup \{4\}\} \cup \{\{1\} \cup \{4\}\} \cup \\ &\{\{2\} \cup \{4\}\} \cup \{\{1\} \cup \{3\}\} \cup \{\{1,2\} \cup \{4\}\} \{\{1,3\} \cup \{4\}\} \cup \{\{2,3\} \cup \{4\}\} \cup \\ &\{\{1,2,3\} \cup \{4\}\} \\ \\ &\{\emptyset, \{1\},\{2\},\{3\},\{4\},\{1,2\},\{1,3\},\{1,4\},\{2,3\},\{2,4\},\{3,4\}, \\ &\{1,2,3\},\{1,2,4\},\{1,3,4\},\{2,3,4\},\{1,2,3,4\}\} \end{align}$$
 
 ### b)
+```python
+def teilmengen(m, e):
+    if len(m) == 0:
+        e.append([0])
+    else:
+        for i in range(len(e)):
+            e.append([e[i], m[len(m)-1]])
+        m.pop()
+        teilmengen(m,e)
+    return e
+    
+e = [0]
+m = [int(x) for x in input("Eingabe der Menge M: ").split(",")]
+ergebnis = teilmengen(m, e)
+print("Auflistung der Teilmengen:")
+for i in range(1, len(ergebnis)):
+    print(ergebnis[i])
+   ```
 
+Eingabe $M=\lbrace1,2,3,4\rbrace$
+Ausgabe:
+```shell
+Auflistung der Teilmengen:
+[0, 4]
+[0, 3] 
+[[0, 4], 3] 
+[0, 2] 
+[[0, 4], 2] 
+[[0, 3], 2] 
+[[[0, 4], 3], 2] 
+[0, 1]
+[[0, 4], 1] 
+[[0, 3], 1] 
+[[[0, 4], 3], 1] 
+[[0, 2], 1] 
+[[[0, 4], 2], 1] 
+[[[0, 3], 2], 1] 
+[[[[0, 4], 3], 2], 1] 
+[0]
+```
 ---
 ## Aufgabe 5
 ```python
