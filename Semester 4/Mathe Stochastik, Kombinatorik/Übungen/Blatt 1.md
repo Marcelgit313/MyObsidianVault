@@ -12,9 +12,6 @@ $$\begin{align}
 $\blacksquare$
 ---
 ## Aufgabe 2
-IA:  $n=1,m=1$
-$$1+1=2$$
-IV: 
 
 ---
 ## Aufgabe 3
