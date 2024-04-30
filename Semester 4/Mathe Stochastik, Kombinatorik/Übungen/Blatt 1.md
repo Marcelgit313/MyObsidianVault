@@ -1,4 +1,4 @@
->Jannis Lauterbach,
+>Jannis Lauterbach, Eric Schneider, Marcel Wirdel
 ## Aufgabe 1
 Zeigen für alle $n\in \mathbb{N_{0}}$ :
 $$\sum\limits_{j=0}^{n}\dbinom{n}{j}^{2}=\dbinom{2n}{n}$$
@@ -24,5 +24,6 @@ $|T_{11}|=\lfloor \frac{100000}{11}\rfloor =9090$
 
 ## Aufgabe 4
 ### a)
+
 
 
