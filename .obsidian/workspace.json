@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/PageRank.md",
+                "file": "Semester 4/Informationssysteme/Apriori Algorithmus.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/PageRank.md",
+                "file": "Semester 4/Informationssysteme/Apriori Algorithmus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/PageRank.md",
+                "file": "Semester 4/Informationssysteme/Apriori Algorithmus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/PageRank.md"
+                "file": "Semester 4/Informationssysteme/Apriori Algorithmus.md"
               }
             }
           },
@@ -180,8 +180,8 @@
   },
   "active": "3cd70c96d49403e9",
   "lastOpenFiles": [
-    "Semester 4/Informationssysteme/Übungen/Blatt 2.md",
     "Semester 4/Informationssysteme/PageRank.md",
+    "Semester 4/Informationssysteme/Übungen/Blatt 2.md",
     "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240505122636.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240505121045.png",
