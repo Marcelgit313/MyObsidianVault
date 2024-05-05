@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Itemset Mining.md",
+                "file": "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Itemset Mining.md",
+                "file": "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Itemset Mining.md",
+                "file": "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Itemset Mining.md"
+                "file": "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md"
               }
             }
           },
@@ -167,15 +167,18 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
-    "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
+    "Semester 4/Informationssysteme/attachments/Pasted image 20240505121045.png",
     "Semester 4/Informationssysteme/Assoziationsregeln.md",
     "Semester 4/Informationssysteme/Apriori Algorithmus.md",
+    "Semester 4/Informationssysteme/attachments/Pasted image 20240505115618.png",
+    "Semester 4/Informationssysteme/attachments/Pasted image 20240505115546.png",
+    "Semester 4/Informationssysteme/Itemset Mining.md",
+    "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/AlgoDat/Einstieg.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
     "Semester 4/Modellierung von Softwaresystemen/Einstieg.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
-    "Semester 4/Informationssysteme/Itemset Mining.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240502102931.png",
     "Semester 4/Informationssysteme/PageRank.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen",
@@ -197,8 +200,6 @@
     "Untitled.md",
     "Semester 2/Algorithmen und Datenstrukturen/Mastertheorem.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240428131212.png",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240428130723.png",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240428130548.png",
     "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
     "Semester 4/Informationssysteme/Übungen",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments",
