@@ -28,4 +28,6 @@ $$\begin{pmatrix} 1&2&3&4&5\\5&1&2&3&4 \end{pmatrix}$$
 
 ---
 ## Aufgabe 3
+### a)
 
+Man hat mit $4$ verschiedenen Briefen und $4$ Adressaten $24$ verschiedene Möglichkeiten die Briefe zu versenden. Davon sind $9$ Kombinationen so angeordnet das kein Empfänger den richtigen Brief bekommt. Also hat man eine Wahrscheinlichkeit von $\frac{9}{24}=37,5\%$      
