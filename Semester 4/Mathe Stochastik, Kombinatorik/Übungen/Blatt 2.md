@@ -4,7 +4,7 @@
 ### a)
 
 ### b)
-Wir wissen schon das $\dbinom{n+m}{n}$ die Anz
+Wir wissen schon das $\dbinom{n+m}{n}$ die Anzahl der kürzesten Wege zurück gibt also müssen wir nur noch Beweisen das $\dbinom{n+m}{n+1}$ die Anzahl der unsicheren Wege ist. 
 
 ---
 ## Aufgabe 2
