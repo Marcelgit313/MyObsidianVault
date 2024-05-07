@@ -1,6 +1,10 @@
 
 >Jannis Lauterbach, Eric Schneider, Marcel Wirdel
 ## Aufgabe 1
+### a)
+
+### b)
+Wir wissen schon das $\dbinom{n+m}{n}$ die Anz
 
 ---
 ## Aufgabe 2
@@ -31,3 +35,17 @@ $$\begin{pmatrix} 1&2&3&4&5\\5&1&2&3&4 \end{pmatrix}$$
 ### a)
 
 Man hat mit $4$ verschiedenen Briefen und $4$ Adressaten $24$ verschiedene Möglichkeiten die Briefe zu versenden. Davon sind $9$ Kombinationen so angeordnet das kein Empfänger den richtigen Brief bekommt. Also hat man eine Wahrscheinlichkeit von $\frac{9}{24}=37,5\%$      
+
+### b)
+
+---
+## Aufgabe 4
+### a)
+
+### b)
+
+### c)
+
+
+---
+## Aufgabe 5
