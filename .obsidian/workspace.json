@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Übungen/Blatt 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3cd70c96d49403e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Übungen/Blatt 2.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Übungen/Blatt 2.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Übungen/Blatt 2.md"
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md"
               }
             }
           },
@@ -179,8 +167,9 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
-    "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 4/Informationssysteme/Übungen/Blatt 2.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md",
+    "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 4/Informationssysteme/Apriori Algorithmus.md",
     "Semester 4/Informationssysteme/Assoziationsregeln.md",
     "Semester 4/Informationssysteme/PageRank.md",
@@ -224,7 +213,6 @@
     "Semester 4/Informationssysteme",
     "Semester 2/Algorithmen und Datenstrukturen/Algorithmus.md",
     "Semester 2/Algorithmen und Datenstrukturen/Datenstrukturen.md",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur/Multiplexer.md",
     "Untitled.canvas"
   ]
 }
