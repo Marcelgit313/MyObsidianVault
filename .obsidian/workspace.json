@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Programmablaufplan (PAP).md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Programmablaufplan (PAP).md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Programmablaufplan (PAP).md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Programmablaufplan (PAP).md"
+                "file": "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md"
               }
             }
           },
@@ -167,11 +167,23 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508103721.png",
+    "Semester 4/Modellierung von Softwaresystemen/Entity Relationship Modell (ER-Modell).md",
+    "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
+    "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508102711.png",
+    "Semester 4/Modellierung von Softwaresystemen/Structured Analysis and Design Technique (SADT).md",
+    "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508102236.png",
+    "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508102224.png",
+    "Semester 4/Modellierung von Softwaresystemen/Jackson-Structured-Programming (JSP).md",
+    "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508101813.png",
+    "Semester 4/Modellierung von Softwaresystemen/Nassi-Sheiderman-Diagramm (Struktogramm).md",
+    "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508101514.png",
+    "Semester 4/Modellierung von Softwaresystemen/Programmablaufplan (PAP).md",
+    "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508101312.png",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md",
     "Blatt_2.md",
     "Semester 4/AlgoDat/Einstieg.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
-    "Semester 4/Modellierung von Softwaresystemen/Programmablaufplan (PAP).md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
     "Semester 4/Informationssysteme/Übungen/Blatt 2.md",
     "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
@@ -184,15 +196,9 @@
     "Semester 4/Informationssysteme/attachments/Pasted image 20240505115546.png",
     "Semester 4/Informationssysteme/Itemset Mining.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240502102931.png",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen",
     "Semester 4/Mathe Stochastik, Kombinatorik/attachments",
     "Semester 4/Mathe Stochastik, Kombinatorik",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240429200427.png",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240429200055.png",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240429195930.png",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240429194708.png",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240429192344.png",
     "Semester 4/Informationssysteme/TF*IDF.md",
     "Semester 4/Informationssysteme/Shingles und LSI.md",
     "Semester 4/Informationssysteme/MMR.md",
@@ -200,19 +206,13 @@
     "Semester 4/Informationssysteme/Levenshtein.md",
     "Semester 4/Informationssysteme/Edit Distance.md",
     "Semester 4/Informationssysteme/Document Processing.md",
-    "Untitled.md",
-    "Semester 2/Algorithmen und Datenstrukturen/Mastertheorem.md",
-    "Semester 4/Informationssysteme/Übungen/Blatt 1.md",
     "Semester 4/Informationssysteme/Übungen",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments",
     "Semester 4/Formale Sprachen und Berechenbarkeit",
     "Semester 4/Modellierung von Softwaresystemen/attachments",
     "Semester 4/Modellierung von Softwaresystemen",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur/B-Komplement.md",
-    "Semester 2/Digitaltechnik und Rechnerarchitektur/Arithmetisches Encoding.md",
     "Semester 4/Informationssysteme/attachments",
     "Semester 4/Informationssysteme",
-    "Semester 2/Algorithmen und Datenstrukturen/Algorithmus.md",
     "Untitled.canvas"
   ]
 }
