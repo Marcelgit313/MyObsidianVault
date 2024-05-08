@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md"
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md"
               }
             }
           },
@@ -167,9 +167,12 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Pasted image 20240508112223.png",
+    "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
+    "Semester 4/Modellierung von Softwaresystemen/UML.md",
+    "Semester 4/Modellierung von Softwaresystemen/Übungen",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508103721.png",
     "Semester 4/Modellierung von Softwaresystemen/Entity Relationship Modell (ER-Modell).md",
-    "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508102711.png",
     "Semester 4/Modellierung von Softwaresystemen/Structured Analysis and Design Technique (SADT).md",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508102236.png",
@@ -193,7 +196,6 @@
     "Semester 4/Informationssysteme/attachments/Pasted image 20240505122636.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240505121045.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240505115618.png",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240505115546.png",
     "Semester 4/Informationssysteme/Itemset Mining.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen",
@@ -205,14 +207,12 @@
     "Semester 4/Informationssysteme/MAP_Precision@k.md",
     "Semester 4/Informationssysteme/Levenshtein.md",
     "Semester 4/Informationssysteme/Edit Distance.md",
-    "Semester 4/Informationssysteme/Document Processing.md",
     "Semester 4/Informationssysteme/Übungen",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments",
     "Semester 4/Formale Sprachen und Berechenbarkeit",
     "Semester 4/Modellierung von Softwaresystemen/attachments",
     "Semester 4/Modellierung von Softwaresystemen",
     "Semester 4/Informationssysteme/attachments",
-    "Semester 4/Informationssysteme",
     "Untitled.canvas"
   ]
 }
