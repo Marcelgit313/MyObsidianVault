@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Document Processing.md",
+                "file": "Semester 4/Informationssysteme/Datenbanksysteme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Document Processing.md",
+                "file": "Semester 4/Informationssysteme/Datenbanksysteme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Document Processing.md",
+                "file": "Semester 4/Informationssysteme/Datenbanksysteme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Document Processing.md"
+                "file": "Semester 4/Informationssysteme/Datenbanksysteme.md"
               }
             }
           },
@@ -167,6 +167,9 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Informationssysteme/attachments/Pasted image 20240509141456.png",
+    "Semester 4/Informationssysteme/Document Processing.md",
+    "Semester 4/Informationssysteme/Datenbanksysteme.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
     "Semester 4/Modellierung von Softwaresystemen/UML.md",
@@ -204,8 +207,6 @@
     "Semester 4/Informationssysteme/Shingles und LSI.md",
     "Semester 4/Informationssysteme/MMR.md",
     "Semester 4/Informationssysteme/MAP_Precision@k.md",
-    "Semester 4/Informationssysteme/Levenshtein.md",
-    "Semester 4/Informationssysteme/Edit Distance.md",
     "Semester 4/Informationssysteme/Übungen",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments",
     "Semester 4/Formale Sprachen und Berechenbarkeit",
