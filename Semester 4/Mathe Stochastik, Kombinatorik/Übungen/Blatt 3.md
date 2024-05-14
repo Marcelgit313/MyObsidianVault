@@ -30,11 +30,19 @@ $\blacksquare$
 ---
 ## Aufgabe 4
 ### _(a)_
-
-$$\begin{align}
-\lbrace1,2,3,4\rbrace
-\end{align}$$
-Äquivalenzrelationen: $\lbrace(1,1),(1,2),(1,3),(1,4),(2,2),(2,1),(2,3),(2,4),(3,3),(3,1),(3,2),(3,4),(4,4),(4,1),(4,2),(4,3)\rbrace$
+Die Menge $M=\lbrace1,2,3,4 \rbrace$ hat $15$ verschiedene Äquivalenzrelationen:
+$$\begin{align} &\lbrace \lbrace 1, 2, 3, 4\rbrace\rbrace\\ &\lbrace \lbrace 1, 2, 3 \rbrace, \lbrace 4\rbrace\rbrace\\ &\lbrace \lbrace 1, 2, 4 \rbrace, \lbrace 3\rbrace\rbrace\\ &\lbrace \lbrace 1, 3, 4 \rbrace, \lbrace 2\rbrace\rbrace\\ &\lbrace \lbrace 2, 3, 4 \rbrace, \lbrace 1\rbrace\rbrace\\ &\lbrace \lbrace 1, 2 \rbrace, \lbrace 3, 4\rbrace\rbrace\\ &\lbrace \lbrace 1, 3 \rbrace, \lbrace 2, 4\rbrace\rbrace\\ &\lbrace \lbrace 1, 4 \rbrace, \lbrace 3, 2\rbrace\rbrace\\ &\lbrace\lbrace 1, 2\rbrace,\lbrace 3\rbrace,\lbrace4\rbrace\rbrace\\ &\lbrace\lbrace 1,3\rbrace, \lbrace2\rbrace,\lbrace4\rbrace\rbrace\\ &\lbrace\lbrace 1, 4\rbrace,\lbrace 2\rbrace, \lbrace 3\rbrace\rbrace\\ &\lbrace\lbrace 2, 3\rbrace,\lbrace 1\rbrace,\lbrace 4\rbrace\rbrace\\ &\lbrace\lbrace 2, 4\rbrace, \lbrace 1\rbrace,\lbrace3\rbrace\rbrace\\ &\lbrace\lbrace 3, 4\rbrace,\lbrace 1 \rbrace,\lbrace 2\rbrace\rbrace\\ &\lbrace\lbrace 1\rbrace,\lbrace 2\rbrace, \lbrace 3\rbrace,\lbrace 4\rbrace\rbrace \end{align}$$
 ### _(b)_
 
 ### _(c)_
+$$B_{n}=\sum\limits_{k=0}^{n}S(n,k)$$
+$S(n,k)$ ist die Anzahl der Partitionen einer n-elementigen Mengen in $k$ nichtleeren Teilmengen.
+$$\begin{align}
+S(4,0)=0\\
+S(4,1)=1\\
+S(4,2)=7\\
+S(4,3)=6\\
+S(4,4)=1
+\end{align}$$
+Also haben wir:
+$$B_{4}=0+1+7+6+1=15$$
