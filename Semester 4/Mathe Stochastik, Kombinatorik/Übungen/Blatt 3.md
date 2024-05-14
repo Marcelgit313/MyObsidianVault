@@ -31,6 +31,10 @@ $\blacksquare$
 ## Aufgabe 4
 ### _(a)_
 
+$$\begin{align}
+\lbrace1,2,3,4\rbrace
+\end{align}$$
+Äquivalenzrelationen: $\lbrace(1,1),(1,2),(1,3),(1,4),(2,2),(2,1),(2,3),(2,4),(3,3),(3,1),(3,2),(3,4),(4,4),(4,1),(4,2),(4,3)\rbrace$
 ### _(b)_
 
 ### _(c)_
