@@ -31,3 +31,5 @@ _b)_
 
 ---
 ## Aufgabe 13
+
+![[Pasted image 20240514183011.png]]
