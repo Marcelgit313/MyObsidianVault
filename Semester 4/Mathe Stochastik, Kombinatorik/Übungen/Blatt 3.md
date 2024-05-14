@@ -1,10 +1,9 @@
-
+>Jannis Lauterbach, Eric Schneider, Marcel Wirdel
 ---
 ## Aufgabe 1
 ### _(a)_
 Zeigen für alle $n\in\mathbb{N}_{0}$ :
-$$\sum\limits_{j=0}^{n}\dbinom{n}{j}=2^{n}$$
-
+$$\sum\limits_{j=0}^{n}\dbinom{n}{j}=2^{n}$$ 
 ### _(b)_
 Zeigen für alle $n\in \mathbb{N_{0}}$ :
 $$\sum\limits_{j=0}^{n}\dbinom{n}{j}^{2}=\dbinom{2n}{n}$$
@@ -20,3 +19,18 @@ $\blacksquare$
 ---
 ## Aufgabe 2
 ### _(a)_
+
+### _(b)_
+
+
+---
+## Aufgabe 3
+
+
+---
+## Aufgabe 4
+### _(a)_
+
+### _(b)_
+
+### _(c)_
