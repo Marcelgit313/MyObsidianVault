@@ -16,3 +16,7 @@ $$\begin{align}
 \iff\sum\limits_{j=0}^{n}\dbinom{n+n}{n}&=\dbinom{2n}{n}\\
 \end{align}$$
 $\blacksquare$
+
+---
+## Aufgabe 2
+### _(a)_
