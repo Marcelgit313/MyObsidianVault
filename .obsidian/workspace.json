@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Übungen/Blatt 1.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Übungen/Blatt 1.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Übungen/Blatt 1.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Übungen/Blatt 1.md"
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md"
               }
             }
           },
@@ -167,10 +167,10 @@
   },
   "active": "729bc7042bafe2d2",
   "lastOpenFiles": [
+    "Semester 4/Modellierung von Softwaresystemen/Übungen/Blatt 1.md",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240514183011.png",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240514180042.png",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md",
-    "Semester 4/Modellierung von Softwaresystemen/Übungen/Blatt 1.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
     "Semester 4/Informationssysteme/Übungen/Blatt 3.md",
     "Semester 4/Informationssysteme/Itemset Mining.md",
@@ -193,7 +193,6 @@
     "Semester 4/Modellierung von Softwaresystemen/Nassi-Sheiderman-Diagramm (Struktogramm).md",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508101514.png",
     "Semester 4/Modellierung von Softwaresystemen/Programmablaufplan (PAP).md",
-    "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240508101312.png",
     "Blatt_2.md",
     "Semester 4/AlgoDat/Einstieg.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
