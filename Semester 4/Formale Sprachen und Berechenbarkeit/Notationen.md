@@ -25,7 +25,7 @@ Teilmenge von $\Sigma^*$, d.h. $L\subseteq \Sigma^*$
 
 ![[Pasted image 20240516121133.png]]
 
-Sei $\Sigma$ eine Alpabet:
+Sei $\Sigma$ eine Alphabet:
 - Die _leere Sprache_ $\emptyset$ ist eine Sprache
 - $\lbrace\varepsilon\rbrace$ ist eine Sprache
 - $\Sigma^*$ ist eine Sprache
