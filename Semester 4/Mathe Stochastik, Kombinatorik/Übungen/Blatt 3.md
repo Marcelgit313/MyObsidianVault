@@ -19,6 +19,20 @@ $\blacksquare$
 ---
 ## Aufgabe 2
 ### _(a)_
+```Python
+def partition(n, m):
+	if m > n:
+		return []
+	if m == 1:
+		return [[n]]
+		
+	result = []
+	for c in range(1, n - (m - 1) + 1):
+		for subpartition in partition(n - c, m - 1):
+			result.append([c] + subpartition)
+
+	return result
+```
 
 ### _(b)_
 
