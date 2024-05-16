@@ -2,8 +2,7 @@
 ---
 ## Aufgabe 1
 ### _(a)_
-Zeigen für alle $n\in\mathbb{N}_{0}$ :
-$$\sum\limits_{j=0}^{n}\dbinom{n}{j}=2^{n}$$ 
+Zu zeigen ist, dass $\sum\limits_{j=0}^{n} \binom{n}{j} = 2^{n}$. $\binom{n}{j}$ bezeichnet die Anzahl der $j$-elementigen Teilmengen einer $n$-elementigen Menge ist. Somit entspricht die Summe $\sum\limits_{j=0}^{n} \binom{n}{j}$ der Anzahl aller Teilmengen der $n$-elementigen Menge, also die Mächtigkeit Potenzmenge. Gemäß Satz 1.1.2 aus der Vorlesung gilt $|2^{M}| = 2^{|M|}$ für eine beliebige endliche Menge $M$. Da $M$ hier die Menge aller Teilmengen der $n$-elementigen Menge ist, gilt also $|\sum\limits_{j=0}^{n} \binom{n}{j}| = 2^{n}$. Daraus folgt, dass $\sum\limits_{j=0}^{n} \binom{n}{j} = 2^{n}$. 
 ### _(b)_
 Zeigen für alle $n\in \mathbb{N_{0}}$ :
 $$\sum\limits_{j=0}^{n}\dbinom{n}{j}^{2}=\dbinom{2n}{n}$$
@@ -19,24 +18,16 @@ $\blacksquare$
 ---
 ## Aufgabe 2
 ### _(a)_
-```Python
-def partition(n, m):
-	if m > n:
-		return []
-	if m == 1:
-		return [[n]]
-		
-	result = []
-	for c in range(1, n - (m - 1) + 1):
-		for subpartition in partition(n - c, m - 1):
-			result.append([c] + subpartition)
 
-	return result
-```
 
 ### _(b)_
+$n=7, m=3$
+In unserem Algorithmus wird in diesem Fall kein Base-Case ausgelöst. Dann wird die Liste erstellt indem wir unser Ergebnis speichern. Danach geht der Algorithmus in den ersten $for$-Loop, die Variable $c$ ist in der ersten Iteration $1$ und läuft bis $n-(m-1)$.
+
+Dann geht der Algorithmus in den zweiten $for$-Loop. In diesem wird die Funktion rekursiv aufgerufen mit $n-c$ und $m-1$.
 
 
+ 
 ---
 ## Aufgabe 3
 
@@ -60,3 +51,20 @@ S(4,4)=1
 \end{align}$$
 Also haben wir:
 $$B_{4}=0+1+7+6+1=15$$
+
+---
+## Aufgabe 5
+```Python
+def partition(n, m):
+	if m > n:
+		return []
+	if m == 1:
+		return [[n]]
+		
+	result = []
+	for c in range(1, n - (m - 1) + 1):
+		for subpartition in partition(n - c, m - 1):
+			result.append([c] + subpartition)
+			
+return result
+```
