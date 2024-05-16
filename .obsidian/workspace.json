@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Assoziation, Aggregation und Komposition.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Notationen.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Assoziation, Aggregation und Komposition.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Notationen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Assoziation, Aggregation und Komposition.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Notationen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Modellierung von Softwaresystemen/Assoziation, Aggregation und Komposition.md"
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Notationen.md"
               }
             }
           },
@@ -167,6 +167,9 @@
   },
   "active": "f3a34cc5ad080974",
   "lastOpenFiles": [
+    "Semester 4/Formale Sprachen und Berechenbarkeit/attachments/Pasted image 20240516121133.png",
+    "Semester 4/Modellierung von Softwaresystemen/Assoziation, Aggregation und Komposition.md",
+    "Semester 4/Formale Sprachen und Berechenbarkeit/Notationen.md",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240516110913.png",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240516110758.png",
     "Semester 4/Formale Sprachen und Berechenbarkeit/Automaten.md",
@@ -177,7 +180,6 @@
     "Semester 2/Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
     "Semester 2/Algorithmen und Datenstrukturen/Doubly Linked List.md",
     "Semester 2/Algorithmen und Datenstrukturen/Algorithmus.md",
-    "Semester 4/Modellierung von Softwaresystemen/Assoziation, Aggregation und Komposition.md",
     "Semester 4/Modellierung von Softwaresystemen/UML.md",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240516104758.png",
     "Semester 4/Modellierung von Softwaresystemen/attachments/Pasted image 20240516104628.png",
@@ -197,13 +199,11 @@
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
     "Semester 4/Informationssysteme/Itemset Mining.md",
     "Semester 4/Informationssysteme/Datenbanksysteme.md",
-    "Semester 4/Informationssysteme/attachments/Pasted image 20240509141456.png",
     "Semester 4/Informationssysteme/Document Processing.md",
     "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
     "Semester 4/Modellierung von Softwaresystemen/Übungen",
     "Semester 4/Modellierung von Softwaresystemen/Entity Relationship Modell (ER-Modell).md",
     "Semester 4/Modellierung von Softwaresystemen/Structured Analysis and Design Technique (SADT).md",
-    "Semester 4/Modellierung von Softwaresystemen/Jackson-Structured-Programming (JSP).md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen",
     "Semester 4/Mathe Stochastik, Kombinatorik/attachments",
     "Semester 4/Mathe Stochastik, Kombinatorik",
