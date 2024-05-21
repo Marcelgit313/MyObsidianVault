@@ -13,10 +13,16 @@ $$\begin{align}
 \end{align}$$
 ### _(b)_
 
+
 ### _(c)_
 $$\begin{align}
-S(5,0)=0\\
-S(5,1)=
+S(5,0)&=0\\
+S(5,1)&=S(4,1)=S(3,1)=S(2,1)=S(1,1)=1\\
+S(5,2)&=S(4,1)+2\cdot S(4,2)=S(4,1)+2\cdot(S(3,1)+2\cdot(S(3,2)))\\
+&=1+2\cdot(1+2\cdot (S(2,1)+2\cdot(S(2,2))))=1+2\cdot(1+2\cdot(1+2\cdot1))=15\\
+S(5,3)&=S(4,2)+3\cdot S(4,3)=S(3,1)+2\cdot S(3,2)+3\cdot(S(3,2)+ 3 \cdot S(3,3))\\
+&=1+2\cdot(S(2,1)+2\cdot S(2,2))+3\cdot((S(2,1)+2\cdot S(2,2))+3\cdot 1)\\
+&=1+2\cdot (1+2\cdot1)+3\cdot(1+2\cdot1+3)=25
 \end{align}$$
 
 
