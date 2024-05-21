@@ -93,6 +93,8 @@ $$\begin{align}
 &\{(1,1),(2,2),(2,1)\} \\
 &\{(1,1),(2,2),(1,2),(2,1)\} \\
 \end{align}$$
+
+### _(b)_
 ### _(c)_
 Die Anzahl der Totalordnung von einer Menge $M$ mit $n$ Elementen, kann man mithilfe der Anzahl der Permutationen herausgefunden werden. Die Anzahl der Permutationen kann mit der Fakultät berechnet werden, also $n!$. 
 Angenommen wir haben eine Menge $M=\{1,2,3\}$, die Menge $M$ hat $3$ Elemente also $n=3$.
