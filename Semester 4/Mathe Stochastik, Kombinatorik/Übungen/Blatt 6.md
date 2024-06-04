@@ -6,7 +6,10 @@
 ---
 ## Aufgabe 2
 ### _(a)_
+Um die Wahrscheinlichkeit, die Zahl $n$ zu würfeln, proportional zu $n$ dazustellen multiplizieren wir $n$ mit einer Konstante $c$. Die Wahrscheinlichkeit für die Zahl $n$ gewürfelt zu werden ist dann: $c \cdot n$. Da die Summe der Wahrscheinlichkeiten 1 sein muss können wir $c$ einfach durch umstellen herausfinden $$\begin{align} & 1 \cdot c + 2 \cdot c + 3 \cdot c + 4\cdot c+5\cdot c+6\cdot c=1 \\ & c \cdot (1+2+3+4+5+6) = 1 \\ & c \cdot 21 = 1 \ |\div21 \\ & c = \frac{1}{21} \end{align}$$ Somit erhalten wir für die Würfe eine Wahrscheinlichkeit von: $$\begin{align} &1 \cdot \frac{1}{21} = \frac{1}{21} \ | \ \text{für n = 1} \\ \\ &2 \cdot\frac{1}{21} = \frac{2}{21} \ | \ \text{für n = 2} \\ \\ &3 \cdot \frac{1}{21} = \frac{3}{21} \ | \ \text{für n = 3} \\ \\ &4 \cdot \frac{1}{21} = \frac{4}{21} \ | \ \text{für n = 4} \\ \\ &5 \cdot \frac{1}{21} = \frac{5}{21} \ | \ \text{für n = 5} \\ \\ &6 \cdot\frac{1}{21} = \frac{6}{21} \ | \ \text{für n = 6} \\ \end{align}$$
 ### _(b)_
+Die Wahrscheinlichkeit eine ungerade Zahl zu würfeln ist die Summe der Wahrscheinlichkeiten eine 1, 3 oder 5 zu würfeln. $$\begin{align} \frac{1}{21} + \frac{3}{21} + \frac{5}{21} = \frac{9}{21} = \frac{3}{7} \end{align}$$ Die Wahrscheinlichkeit eine ungerade Zahl zu würfeln beträgt $\frac{3}{7} \approx 0.428$
+
 ---
 ## Aufgabe 3
 ### _(a)_
@@ -19,8 +22,40 @@ Zeigen das:
 $$\lim\limits_{n\to\infty}\bigg(1-\frac{1}{n}\bigg)^{n\cdot ln(2)}=\frac{1}{2}$$
 Da $1-\frac{1}{n}$ immer größer als $0$ :
 $$\begin{align}
-\lim\limits_{n\to\infty}exp((n\cdot ln(2))\cdot ln(1)) - exp((n\cdot ln(2))\cdot ln\bigg(\frac{1}{n}\bigg))
+\lim\limits_{n\to\infty} exp((n\cdot ln(2))\cdot ln\bigg(1-\frac{1}{n}\bigg))\\
+\overset{l'H}{=}\lim\limits_{n\to\infty} exp(\frac{1}{2}n\cdot \frac{1}{1-\frac{1}{n}})\\
+\overset{l'H}{=}\lim\limits_{n\to\infty}exp(\frac{1}{2}n\cdot \frac{1}{\frac{n-1}{n}})\\
 \end{align}$$
+Der Bruch $\frac{n-1}{n}$ wird mit dem Satz von l'Hospital zu 1
 
 ---
 ## Aufgabe 4
+```python
+def multiset(M, n, pos):
+    if n == 0:
+        latest_tuple = tuple(latest_list)
+        result_set.add(latest_tuple)
+        return
+  
+    for i in range(pos, len(M)):
+        latest_list.append(M[i])
+        multiset(M, n - 1, i)
+        latest_list.pop()
+
+M_raw = input("Eingabe von Elementen von M, getrennt durch ein Freizeichen: ")
+M = M_raw.split(" ")  
+n = int(input("Eingabe von n: "))
+latest_list = []
+result_set = set()
+
+multiset(M, n, 0)
+print(sorted(result_set))
+```
+
+**Eingabe:** $M=\{a, b, c, d\},\ n = 3$
+**Ausgabe:**
+```shell
+Eingabe von Elementen von M, getrennt durch ein Freizeichen: a b c d
+Eingabe von n: 3
+[('a', 'a', 'a'), ('a', 'a', 'b'), ('a', 'a', 'c'), ('a', 'a', 'd'), ('a', 'b', 'b'), ('a', 'b', 'c'), ('a', 'b', 'd'), ('a', 'c', 'c'), ('a', 'c', 'd'), ('a', 'd', 'd'), ('b', 'b', 'b'), ('b', 'b', 'c'), ('b', 'b', 'd'), ('b', 'c', 'c'), ('b', 'c', 'd'), ('b', 'd', 'd'), ('c', 'c', 'c'), ('c', 'c', 'd'), ('c', 'd', 'd'), ('d', 'd', 'd')]
+```
