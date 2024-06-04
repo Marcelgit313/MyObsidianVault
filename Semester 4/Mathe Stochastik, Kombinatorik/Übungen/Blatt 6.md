@@ -2,7 +2,10 @@
 ---
 ## Aufgabe 1
 ### _(a)_
+Grundsätzlich gibt es $n!$ Möglichkeiten $n$ Personen anzuordnen. In $n!$ Anordnungen sind noch die Drehungen enthalten. Um die Drehungen zu entfernen, fixieren wir eine Person an ihrem Platz und betrachten die Permutationen der übrig gebliebenen. Dadurch erhalten wir: $$\begin{align} \frac{n!}{n} = (n-1)! \end{align}$$ Also $(n-1)!$ Möglichkeiten $n$ Personen an einem runden Tisch zu setzen.
 ### _(b)_
+Für $n=4$ Personen haben wir also $(4-1)!=3!=6$ Anordnungen. Wir haben folgende $6$ Anordnungen: $$\begin{align} 1,2,3,4 \\ 1,2,4,3 \\ 1,4,2,3 \\ 1,4,3,2 \\ 1,3,2,4 \\ 1,3,4,2 \\ \end{align}$$
+
 ---
 ## Aufgabe 2
 ### _(a)_
@@ -23,10 +26,8 @@ $$\lim\limits_{n\to\infty}\bigg(1-\frac{1}{n}\bigg)^{n\cdot ln(2)}=\frac{1}{2}$$
 Da $1-\frac{1}{n}$ immer größer als $0$ :
 $$\begin{align}
 \lim\limits_{n\to\infty} exp((n\cdot ln(2))\cdot ln\bigg(1-\frac{1}{n}\bigg))\\
-\overset{l'H}{=}\lim\limits_{n\to\infty} exp(\frac{1}{2}n\cdot \frac{1}{1-\frac{1}{n}})\\
-\overset{l'H}{=}\lim\limits_{n\to\infty}exp(\frac{1}{2}n\cdot \frac{1}{\frac{n-1}{n}})\\
 \end{align}$$
-Der Bruch $\frac{n-1}{n}$ wird mit dem Satz von l'Hospital zu 1
+
 
 ---
 ## Aufgabe 4
