@@ -31,10 +31,12 @@ Dann kann man $n$ umschreiben und $ln$ in den Zähler ziehen:
 $$exp(ln(2)\cdot \lim\limits_{n\to\infty} \frac{ln\bigg(1-\frac{1}{n}\bigg)}{\frac{1}{n}})$$
 Dann den Satz von l´Hospital:
 $$\begin{align}
-\iff& exp(ln(2)\cdot \lim\limits_{n\to\infty} \frac{\frac{1}{(n-1)n}}{-\frac{1}{n^2}})\\
-\iff& exp(ln(2)\cdot \lim\limits_{n\to\infty} \frac{-n^2}{n^2-n})\\
-\iff& exp(ln(2)\cdot \frac{1}{-\frac{n}{n}})\\
-\iff& 2^{-1}\\
+\iff& exp\Bigg(ln(2)\cdot \lim\limits_{n\to\infty} \frac{\frac{1}{(n-1)n}}{-\frac{1}{n^2}}\Bigg)\\
+\iff& exp\Bigg(ln(2)\cdot \lim\limits_{n\to\infty} \frac{-n^2}{n^2-n}\Bigg)\\
+\iff& exp\Bigg(ln(2)\cdot \frac{1}{-\frac{n}{n}}\Bigg)\\
+\iff& exp\Bigg(ln(2)\cdot \frac{1}{-\frac{1}{1}}\Bigg)\\
+\iff& exp(ln(2)\cdot -1)\\
+\iff& 2^{-ln(2)}\\
 \iff&\frac{1}{2}
 \end{align}$$
 
