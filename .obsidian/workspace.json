@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d6afdcd3cff24a6c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
+                "file": "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
+                "file": "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md"
+                "file": "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md"
               }
             }
           },
@@ -154,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,13 +173,16 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "729bc7042bafe2d2",
+  "active": "d6afdcd3cff24a6c",
   "lastOpenFiles": [
-    "Semester 4/Mathe Stochastik, Kombinatorik/attachments/Pasted image 20240611173931.png",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
+    "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
+    "Excalidraw",
+    "Semester 4/Mathe Stochastik, Kombinatorik/attachments/Pasted image 20240611173931.png",
     "Semester 4/Mathe Stochastik, Kombinatorik/attachments/Pasted image 20240611173951.png",
     "Semester 4/Mathe Stochastik, Kombinatorik/Blatt_7.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/attachments/Pasted image 20240611173307.png",
@@ -211,7 +225,6 @@
     "Semester 4/Formale Sprachen und Berechenbarkeit",
     "Semester 4/Modellierung von Softwaresystemen/attachments",
     "Semester 4/Modellierung von Softwaresystemen",
-    "Semester 4/Informationssysteme/attachments",
     "Untitled.canvas"
   ]
 }
