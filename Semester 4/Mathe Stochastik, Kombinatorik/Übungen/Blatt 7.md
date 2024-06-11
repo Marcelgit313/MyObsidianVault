@@ -16,6 +16,7 @@ Wir haben zwei Matrizen mit $n\times n$. Um diese Matrizen jetzt miteinander zu 
 $$A\cdot B =C$$
 Eine Idee für einen Monte-Carlo-Algorithmus mit einseitigem Fehler ist:
 
+### Idee
 1. Zuerst würde man einen zufälligen Vektor der Länge $n$ generieren $r\in\mathbb{R}^n$ 
 2. Matrix-Vektor-Multiplikation:
 	- Berechne den Vektor $x=B\cdot r$
@@ -23,7 +24,11 @@ Eine Idee für einen Monte-Carlo-Algorithmus mit einseitigem Fehler ist:
 	- Berechne den Vektor $z=C\cdot r$ 
 3. Vergleichen der Ergebnisse:
 	- Vergleiche die Vektoren $z$ und $y$ 
+	- Wenn $z = y$, gebe $true$ zurück
+	- Wenn $z\neq y$, gebe $false$ zurück
 
-
+### Laufzeit
+Wir haben eine Matrix-Vektor-Multiplikation diese hat eine Laufzeit von $O(n^{2})$ . Diese wird drei mal im Algorithmus berechnet also $n^{2}+n^{2}+n^2$ also eine Laufzeit von $O=(n^2)$ 
+ 
 ---
 ## Aufgabe 3
