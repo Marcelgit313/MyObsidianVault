@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cd96cf3585ff5907",
+        "id": "987e86726952593b",
         "type": "tabs",
         "children": [
           {
-            "id": "729bc7042bafe2d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6afdcd3cff24a6c",
+            "id": "37f6ce3ad5370c23",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -29,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,10 +164,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d6afdcd3cff24a6c",
+  "active": "f3a34cc5ad080974",
   "lastOpenFiles": [
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
+    "Semester 4/AlgoDat/Einstieg.md",
     "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
     "Excalidraw",
     "Semester 4/Mathe Stochastik, Kombinatorik/attachments/Pasted image 20240611173931.png",
     "Semester 4/Mathe Stochastik, Kombinatorik/attachments/Pasted image 20240611173951.png",
@@ -215,7 +203,6 @@
     "Semester 2/Übungen/Logi.md",
     "Semester 2/Digitaltechnik und Rechnerarchitektur/Cubes.md",
     "Semester 2/Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
-    "Semester 2/Algorithmen und Datenstrukturen/Doubly Linked List.md",
     "Semester 4/Modellierung von Softwaresystemen/Übungen",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen",
     "Semester 4/Mathe Stochastik, Kombinatorik/attachments",
