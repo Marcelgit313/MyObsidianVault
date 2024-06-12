@@ -11,9 +11,11 @@
             "id": "37f6ce3ad5370c23",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md"
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md"
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md"
               }
             }
           },
@@ -166,8 +168,8 @@
   },
   "active": "f3a34cc5ad080974",
   "lastOpenFiles": [
-    "Semester 4/AlgoDat/Einstieg.md",
     "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
+    "Semester 4/AlgoDat/Einstieg.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
     "Excalidraw",
     "Semester 4/Mathe Stochastik, Kombinatorik/attachments/Pasted image 20240611173931.png",

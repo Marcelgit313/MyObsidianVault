@@ -1,7 +1,9 @@
 {
   "accentColor": "#e9590c",
   "enabledCssSnippets": [
-    "images"
+    "images",
+    "imageCenter"
   ],
-  "cssTheme": "Catppuccin"
+  "cssTheme": "Catppuccin",
+  "translucency": false
 }
