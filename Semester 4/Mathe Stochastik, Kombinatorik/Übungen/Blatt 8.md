@@ -92,5 +92,8 @@ $$\begin{align}
 
 Zeigen, dass für $M_{1},....,M_{n}\in\Omega$ gilt:
 $$P(M_{1}\cup ...\cup M_{n})= \sum\limits_{k=1}^{n}(-1)^{k-1}\sum\limits_{|T|=k}P(M_T)$$
-Sei $x\in M_{1}\cup ...\cup M_{n}$. Wir wollen zeigen, dass $x$ zu der rechten Seite genau mit $1$ beiträgt.  
-
+Sei $x\in M_{1}\cup ...\cup M_{n}$. Wir wollen zeigen, dass $x$ zu der rechten Seite genau mit $1$ beiträgt.  Angenommen $x$ liegt in genau $r$ Mengen $M_{i}$, ohne Einschränkung $x\in M_{1}\cap ...\cap M_{i}$. Dann wird $x$ in $\sum\limits_{|T|=k}|M_T|$ genau $\binom{r}{k}$-mal gezählt, also:
+$$a=\sum\limits_{k=1}^{r}(-1)^{k-1}\binom{r}{k}$$
+Da mit Corollar $1.2.26$
+$$0=\sum\limits_{k=1}^{r}(-1)^{k-1}\binom{r}{k}=1-a$$
+gilt, ist $a=1$.$\blacksquare$ 
