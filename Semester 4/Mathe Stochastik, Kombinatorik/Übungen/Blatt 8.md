@@ -92,5 +92,5 @@ $$\begin{align}
 
 Zeigen, dass für $M_{1},....,M_{n}\in\Omega$ gilt:
 $$P(M_{1}\cup ...\cup M_{n})= \sum\limits_{k=1}^{n}(-1)^{k-1}\sum\limits_{|T|=k}P(M_T)$$
-Sei $x\in M_{1}\cup ...\cup M_{n}$. Wir wollen zei
+Sei $x\in M_{1}\cup ...\cup M_{n}$. Wir wollen zeigen, dass $x$ zu der rechten Seite genau mit $1$ beiträgt.  
 
