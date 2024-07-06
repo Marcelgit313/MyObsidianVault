@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 9.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 10.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 9.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 9.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 9.md"
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 10.md"
               }
             }
           },
@@ -166,10 +166,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37f6ce3ad5370c23",
+  "active": "f3a34cc5ad080974",
   "lastOpenFiles": [
-    "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 9.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/attachments/Pasted image 20240702132142.png",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 9.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 10.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 9.md",
     "Semester 4/Modellierung von Softwaresystemen/Übungen/Blatt 5.md",
     "Semester 4/Modellierung von Softwaresystemen/attachments/PHOTO-2024-06-26-10-17-56.jpg",
     "Semester 4/Modellierung von Softwaresystemen/attachments/PHOTO-2024-06-26-10-17-57.jpg",
@@ -200,8 +202,6 @@
     "Semester 4/Formale Sprachen und Berechenbarkeit/Notationen.md",
     "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240518121206.png",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Blatt_3.md",
-    "Semester 4/Modellierung von Softwaresystemen/Assoziation, Aggregation und Komposition.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments/Pasted image 20240516125014.png",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments/Pasted image 20240516123045.png",
     "Semester 4/Formale Sprachen und Berechenbarkeit/attachments/Pasted image 20240516122959.png",
