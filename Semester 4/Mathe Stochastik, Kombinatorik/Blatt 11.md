@@ -1,6 +1,3 @@
->Jannis Lauterbach, Eric Schneider, Marcel Wirdel
-
----
 ## Aufgabe 1
 
 | $\omega$ | $X_1(\omega)$ | $X_2(\omega)$ | $X_3(\omega)$ | $X_1\cdot X_3(\omega)$ | $X_2\cdot X_3(\omega)$ |
@@ -43,19 +40,6 @@ V(X_3)=E(X_3^2) - E(X_3)^2&=\frac{0^2+1^2+1^2+2^2+1^2+2^2+2^2+3^2}{8} - 1.5^2 \\
 **Korrelation**
 $$\text{Corr}(X_1,X_3)=\frac{\text{Cov}(X_1,X_3)}{\sqrt{V(X_1)}\cdot \sqrt{V(X_3)}}=\frac{0}{\sqrt{0.25}\cdot \sqrt{0.75}}=0$$
 $$\text{Corr}(X_2,X_3)=\frac{\text{Cov}(X_2,X_3)}{\sqrt{V(X_2)}\cdot \sqrt{V(X_3)}}=\frac{0}{\sqrt{0.25}\cdot \sqrt{0.75}}=0$$
-
----
-## Aufgabe 2
-Wir berechnen, wie hoch die Wahrscheinlichkeit ist, dass ein Nichtraucher Krebs bekommt und setzen in die Tabelle ein: $$\begin{align} 0,04 &= 16x \cdot 0,3 + x \cdot 0,7 \\ 0,04 &= 4,8x + 0,7x \\ 0,04 &= 5,5x \\ x &= \frac{0.04}{5.5}\\ x &\approx 0.0073 \end{align}$$
-
-|       | 1      | 0      | $n_2$ |
-| ----- | ------ | ------ | ----- |
-| 1     | 0,0327 | 0,2673 | 0,3   |
-| 0     | 0,0073 | 0,6927 | 0,7   |
-| $n_1$ | 0,04   | 0,96   | 1     |
-
-
----
 ## Aufgabe 3
 **Augensumme $< 7$**
 Zutreffende Ergebnisse:
@@ -99,8 +83,6 @@ $$\begin{align}
 \end{align}$$
 Insgesamt haben wir $36$ mögliche Ergebnisse, somit haben wir folgende Wahrscheinlichkeit mit einer Augensumme $< 7$ und einer $6$ im ersten Wurf zu gewinnen:
 $$P((d))=\frac{14}{36}=\frac{7}{18}=0.3\overline{8}$$
-
----
 ## Aufgabe 4
 Nach $100$ mal drehen haben wir folgende Werte:
 Blau: $55$ 
