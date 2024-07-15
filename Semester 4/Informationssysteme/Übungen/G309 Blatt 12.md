@@ -43,7 +43,7 @@ Das DBMS braucht UNDO und REDO:
 Wir sehen der Konfliktgraph hat einen Zyklus, daher gibt es keine Serialisierung der Historie.
 
 ### b) 
-Dieser Schedule ist durch 2PL entstanden, jedoch nicht durch 2PL, da wir reads zwischen unlocks haben.
+Dieser Schedule ist durch 2PL entstanden, jedoch nicht durch striktes 2PL, da wir reads zwischen unlocks haben.
 
 ## Aufgabe 3
 
@@ -64,7 +64,7 @@ $H_2: t_2,t_1$
 $H_3: t_2, t_1$
 
 ### c)
-Betrachten wir die Historie $H_1=r_2(b),r_1(a),w_1(a),r_2(a),c_1,r_2(c),w_2(c),c_2$. In dieser Historie liest Transaktion $t_2$ den Wert von $a$, der von Transaktion $t_1$ geschrieben wurde, bevor $t_1$ commitet. Dies bedeutet, dass $t_2$ von einem ungesicherten (uncommitted) Wert von $a$ liest. Stellen wir uns vor, dass der Wert von $a$, den $t_2$ liest, später von $t_1$ geändert wird, bevor $t_1$ tatsächlich committet. In einem solchen Fall könnte der Wert, den $t_2$ für $c_2$ berechnet, falsch sein, weil $t_2$ mit einem unsicheren Wert von $a$ arbeitet.  Dies verhindert, dass Transaktionen auf ungesicherten Werten basieren und somit möglicherweise falsche oder inkonsistente Ergebnisse produzieren.
+Betrachten wir die Historie $H_1=r_2(b),r_1(a),w_1(a),r_2(a),c_1,r_2(c),w_2(c),c_2$. In dieser Historie liest Transaktion $t_2$ den Wert von $a$, der von Transaktion $t_1$ geschrieben wurde, bevor $t_1$ commitet. Dies bedeutet, dass $t_2$ von einem ungesicherten (uncommitted) Wert von $a$ liest. Stellen wir uns vor, dass der Wert von $a$, den $t_2$ liest, später von $t_1$ geändert wird oder passender zu $H_1$ das $t_1$ abgebrochen wird und gerollback wird, bevor $t_1$ tatsächlich committet. In einem solchen Fall könnte der Wert, den $t_2$ für $c_2$ berechnet, falsch sein, weil $t_2$ mit einem unsicheren Wert von $a$ arbeitet.  Dies verhindert, dass Transaktionen auf ungesicherten Werten basieren und somit möglicherweise falsche oder inkonsistente Ergebnisse produzieren.
 
 
 ## Aufgabe 4
