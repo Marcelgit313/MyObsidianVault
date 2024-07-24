@@ -38,3 +38,22 @@ $$score(q,d)= \sum\limits_{t\in q}tf.idf_{t,d}$$
 - **Durability (D)**: Die Daten innerhalb der Datenbank dürfen sich nur durch eine Transaktion ändern und nicht durch äußere Einflüsse veränderbar sein. Ein Softwareupdate darf beispielsweise nicht versehentlich dazu führen, dass sich Daten ändern oder womöglich gelöscht werden.
 
 ---
+- __Rücksetzbare Historien (RC)__ TA darf erst committen, wenn alle TAs, von denen sie gelesen hat, beendet sind.
+- __Historien ohne kaskadierendes Rücksetzen (ACA)__ Es dürfen nur Änderungen von abgeschlossenen TAs gelesen werden.
+- __Strikte Historien__ Geänderte Daten nicht-abgeschlossener TAs dürfen weder gelesen noch überschrieben werden.
+- __serialisierbar__ ist wenn der Konfliktgraph keine Zykle enthält 
+
+![[Pasted image 20240724144921.png]]
+
+---
+## Jaccard-Koeffizient
+Die __k-shingles__ eines Dokuments werden $S(d_{i})$ genannt
+
+Beispiel:
+
+Dokument mit den Worten $\lbrace a,b,b,c\rbrace$ wäre der $2-shingle$ dieses Dokuments $\lbrace ab,bb,bc\rbrace$ 
+
+$$sim(d_{1},d_2)=\frac{|S(d_{1})\cap S(d_{2})|}{|S(d_{1}\cup S(d_2)|}$$
+---
+## Zwei Phasen Sperrprotokol ($2$PL)
+
