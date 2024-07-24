@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
+                "file": "Semester 4/Informationssysteme/Cheat sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
+                "file": "Semester 4/Informationssysteme/Cheat sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md"
+                "file": "Semester 4/Informationssysteme/Cheat sheet.md"
               }
             }
           },
@@ -178,8 +179,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37f6ce3ad5370c23",
+  "active": "8996e15474c317a8",
   "lastOpenFiles": [
+    "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 4/Informationssysteme/Shingles und LSI.md",
     "Semester 4/Informationssysteme/Cheat sheet.md",
     "Semester 4/Informationssysteme/PageRank.md",
@@ -188,7 +190,6 @@
     "Semester 4/Informationssysteme/Edit Distance.md",
     "Semester 4/Informationssysteme/Document Processing.md",
     "Semester 4/Informationssysteme/Assoziationsregeln.md",
-    "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 4/Informationssysteme/Levenshtein.md",
     "Semester 4/Informationssysteme/Apriori Algorithmus.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240724144921.png",
