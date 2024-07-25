@@ -56,6 +56,23 @@ Dokument mit den Worten $\lbrace a,b,b,c\rbrace$ wäre der $2-shingle$ dieses Do
 $$sim(d_{1},d_2)=\frac{|S(d_{1})\cap S(d_{2})|}{|S(d_{1}\cup S(d_2)|}$$
 ---
 ## Zwei Phasen Sperrprotokol ($2$PL)
+Ein sperrprotokol ist zweiphasig (2PL) wenn alle Locks $q_il$ vor den Unlocks $q_iu$ kommen  
+2Pl erzeugt nur serialisierbare Historien $\implies$ 2PL garantiert Serialisierbarkeit 
+
+![[Pasted image 20240725115333.png]]
+
+## Konservatives $2$PL
+Unter konservativen 2PL fordert der TA alle Locks an bevor der erste Read oder Write Befehl kommt das heißt Preclaiming. Schwierig da man am Anfang wissen muss welche Locks benötigt werden
+
+![[Pasted image 20240725115804.png]]
+
+## Striktes $2$PL
+Bei striktem 2PL werden alle exklusiven Locks also Write Locks bis zum Ende gehalten. Wird am häufigsten eingesetzt da striktes 2Pl serialisierbare und strikte Historien erzeugt
+
+## Starkes $2$PL
+Anders als bei Strikten 2Pl werden hier alle Locks bis zur Terminierung gehalten
+
+![[Pasted image 20240725120759.png]]
 
 ---
 ## LSI
@@ -64,4 +81,6 @@ $$q\rightarrow U_{k}^{T}q=q'$$
 Die Eignung(Score) der Dokumente wird dann im Topic-Raum berechnet durch die Cosinus-Ähnlichkeit oder das Skalarprodukt von $q'$ und den Spalten der Matrix $V_{k}^{T}$ 
 
 Um eine Matrix zu transposen  werden die Spalten zur Zeile also:
-$$\begin{pmatrix} 1&2 \\ 4&3\end{matrix}$$
+$$\begin{pmatrix} 1&2 \\ 4&3\end{pmatrix}$$
+$$\begin{pmatrix} 1&4 \\ 2&3\end{pmatrix}^T$$
+---
