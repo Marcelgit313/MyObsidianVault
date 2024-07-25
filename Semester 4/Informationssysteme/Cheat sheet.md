@@ -8,6 +8,15 @@ Recall R ist der Anteil der relevanten zurückgegebenen Dokumente an allen relev
 $$R=\frac{tp}{tp+fn}$$
 
 ---
+## F-Measure
+F-measure kombiniert Precision und Recall
+$$F_{\beta}=\frac{(\beta^{2}+1)P\cdot R}{\beta^{2}\cdot P+R}$$
+wobei der Parameter $\beta$ zwischen Precision und Recall die Gewichtung entscheidet
+- $\beta = 1$ ist balanciert
+- $\beta <1$ höherer Einfluss von Precision
+- $\beta > 1$ höherer Einfluss von Recall
+
+---
 # Average Precision (AP)
 - Sei { $d_{1},....,d_{m}$ } die Menge der relevanten Dokumente der Anfrage $q$
 - Sei $R_{k}$ die Menge der geordneten Ergebnisse
@@ -74,6 +83,11 @@ Anders als bei Strikten 2Pl werden hier alle Locks bis zur Terminierung gehalten
 
 ![[Pasted image 20240725120759.png]]
 
+### Locks 
+Wenn kein Lock auf einem Objekt ist darf man ein Read Lock oder Write Lock setzten. Auf eine Read Lock dürfen mehrere Read Locks gesetzt werden aber kein Write Lock. Ein Write Lock darf nur gesetzt werden wenn kein Lock auf dem Objekt ist und auf ein Write Lock dürfen keine weitern Locks gesetzt werden.
+
+![[Pasted image 20240725121635.png]]
+
 ---
 ## LSI
 Man nimmt die Anfrage $q$ 
@@ -83,4 +97,83 @@ Die Eignung(Score) der Dokumente wird dann im Topic-Raum berechnet durch die Cos
 Um eine Matrix zu transposen  werden die Spalten zur Zeile also:
 $$\begin{pmatrix} 1&2 \\ 4&3\end{pmatrix}$$
 $$\begin{pmatrix} 1&4 \\ 2&3\end{pmatrix}^T$$
+
+---
+# K-Means Clustering
+- Jedes Cluster wird durch einen Mittelpunkt (Centroid) repräsentiert
+- Ein Objekt wird dem Centroid mit der geringsten Distanz zugewiesen
+- Es gibt $k$ Cluster. $k$ ist ein Parameter
+
+![[Pasted image 20240505122636.png]]
+
+- Die initialen Centroids werden normalerweise zufällig ausgewählt. Dadurch können verschiedene Durchläufe auf den gleichen Daten unterschiedliche Cluster erzeugen
+- Als Distanzmaß wir z.B. die Euklidische Distanz benutzt
+
+---
+# Markov-Ketten
+Markov-Ketten sind __gedächtnislos__ und __zeithomogen__
+
+>[!Important]
+>Man sagt eine Markov-Kette ist **ergodisch** falls sie irreduzibel, positiv rekurrent und aperiodisch ist.
+>__Theorem__: Falls eine Markov-Kette endlich und ergodisch ist, dann existiert eine stationäre Zustandsverteilung $\pi$
+### Beispiel:
+Wie wird das Wetter morgen sein, wenn es heute regnet?
+
+![[Pasted image 20240429192344.png]]
+
+$P_{ij}$ ist die Wahrscheinlichkeit, dass der folgende Tag vom Typ $j$ ist, wenn der heutige Tag vom Typ $i$ ist.
+
+Wenn man zum Beispiel den heutigen Tag als Vektor darstellt in dem Fall ein Sonniger Tag $x_{0}=(1, 0)$ 
+Dann ist das Wetter am nächsten Tag :
+$$x_{1}=x_{0}\cdot P=(1,0)\cdot \begin{pmatrix}0.9&0.1\\0.5&0.5\end{pmatrix}=(0.9,0.1)$$
+---
+## Levenshtein
+![[Pasted image 20240423132455.png]]
+
+Drei Möglichkeiten:
+- $\nwarrow$ Distanz von "-" zu "-" plus Kosten $0$ (weil $y[1]=x[1]$) = $0+0=0$
+- $\uparrow$ Distanz von "-" zu "s" plus Kosten $1= m[0,1]+1=2$ 
+- $\leftarrow$ Distanz von "s" zu "-" plus Kosten $1= m[0,1]+1=2$ 
+
+$$min[i,j]=min \begin{cases}m[0,0]+(x[1]=y[1]?0:1) \text{ Distanz 0 weil x = y        (ersetze x[1])}\nwarrow\\
+ m[0,1]+1 \text{ Distanz 2 (lösche x[1])}\uparrow\\ 
+m[1,0]+1 \text{ Distanz 2 (füge ein y[1])}\leftarrow
+\end{cases}$$
+Also wird in das Feld $0$ eingetragen weil die $min$ Distanz $0$ ist.
+
+---
+## Hamming-Editier-Distanz
+Die Hamming-Editier-Distanz beschreibt die Anzahl an Positionen an denen die beiden Strings x und y verschieden sind, dabei werden kürzere String mit "NULL" aufgefüllt
+
+Beispiel:
+- $d(car,cat) = 1$
+- $d(house,hot) = 3$
+- $d(house,hoouse)= 4 \leftarrow$ sehr hohe Distanz für kleinen Fehler
+
+---
+## Längste Gemeinsame Teilsequenz
+Eine Teilsequenz ist eine Sequenz, die von einer anderen Sequenz durch weglassen von Zeichen aber unter Beibehaltung der Reihenfolge der Zeichen entsteht.
+$$d_{(x,y)}= max(|x|,|y|)-max_{(s\in S(x,y))}|S|$$
+wobei $S_{(x,y})$ die Menge aller gemeinsamer Teilsequenzen von x und y ist.
+
+Beispiel:
+- $d(house,huse)=1$
+weil $max(|house|,|huse|)=5$ (Längstes Wort) und $max_{(s\in S(x,y))}|4|$ (Längste Gemeinsame Teilsequenz) also ist die Distanz $1$.
+
+---
+## Itemsets
+- Ein Itemset ist eine Menge von Objekten
+	- Eine Transaktion $t$ ist ein Itemset mit dazu gehöriger Transaktions ID $t=(tid,I)$, wobei $I$ das Itemset der Transaktion ist
+
+- Der Support von Itemset $X$ in einer Datenbank $D$ ist die Anzahl der Transaktionen in $D$, die $X$ enthalten
+	$$Supp(X,D)=\lbrace t\in D:t\ enthält\ X\rbrace$$
+- Die __relative Häufigkeit__ von Itemset $X$ in Datenbank $D$ ist:
+$$supp(X,D)/|D|$$
+## Assoziationsregeln
+Support einer Regel
+$$supp(X \rightarrow Y,D)=supp(X\cup Y,D)$$
+Konfidenz der Regel
+$$conf(X\rightarrow Y,D)=supp(X\cup Y,D)/supp(X,D)$$
+Die Konfidenz ist die bedingte Wahrscheinlichkeit, dass eine Transaktion $Y$ enthält, wenn sie $X$ enthält
+
 ---
