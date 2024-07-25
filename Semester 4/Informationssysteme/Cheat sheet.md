@@ -57,3 +57,11 @@ $$sim(d_{1},d_2)=\frac{|S(d_{1})\cap S(d_{2})|}{|S(d_{1}\cup S(d_2)|}$$
 ---
 ## Zwei Phasen Sperrprotokol ($2$PL)
 
+---
+## LSI
+Man nimmt die Anfrage $q$ 
+$$q\rightarrow U_{k}^{T}q=q'$$
+Die Eignung(Score) der Dokumente wird dann im Topic-Raum berechnet durch die Cosinus-Ähnlichkeit oder das Skalarprodukt von $q'$ und den Spalten der Matrix $V_{k}^{T}$ 
+
+Um eine Matrix zu transposen  werden die Spalten zur Zeile also:
+$$\begin{pmatrix} 1&2 \\ 4&3\end{matrix}$$
