@@ -38,6 +38,11 @@ $$Precision@10=\frac{5}{10}=\frac{1}{2}=0.5$$
 Das Gewicht von Term $t$ in Dokument $d$ ist dann definiert als 
 $$tf.idf_{t,d}=tf_{t,d}\times idf_{t}$$
 $$score(q,d)= \sum\limits_{t\in q}tf.idf_{t,d}$$
+## MMR
+$$argmax_{d_{i\in D}}=(\lambda \cdot sim(q,d_{i})-(1-\lambda)max_{d_{j}:1<j<i}sim(d_{i},d_{j}))$$
+- erste Runde max TF * IDF auswählen $\implies$ erster platz
+- zweite Runde alle MMR zu dem ersten Platz ausrechen und daraus den größten Wert nehmen $\implies$ zweiter Platz
+- dritte Runde maximalen Ähnlichkeitswert aus den schon vorhanden Plätzen wählen 
 
 ---
 ## ACID
