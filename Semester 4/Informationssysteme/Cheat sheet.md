@@ -182,3 +182,24 @@ $$conf(X\rightarrow Y,D)=supp(X\cup Y,D)/supp(X,D)$$
 Die Konfidenz ist die bedingte Wahrscheinlichkeit, dass eine Transaktion $Y$ enthält, wenn sie $X$ enthält
 
 ---
+## Konjunktive Anfrage
+$$ans(x_{TH},x_{ad})\leftarrow Movies(x_{ti}, Bergman, x_{ac}) Pariscope(x_{TH}x_{ti}, x_{s}) Location(x_{TH},x_{ad},x_P)$$
+
+- Alles links vom Pfeil ist der Kopf
+- Alles recht vom Pfeil ist der Rumpf
+
+$$ans(u)\leftarrow R_1(u_{1}),...,R_n(u_n)$$
+- $u,u_1,...,u_n$ sind Tupel
+- Jede Variable aus $u$ muss mindestens einmal vorkommen
+
+## Konjunktives Kalkül
+
+wie Konjunktive Anfrage bis auf das alle Variablen in der Antwort Menge sein müssen oder Existenzquantiviziert
+$$\lbrace e_1...e_{m}\mid \exists x_{1}....x_{k}(R_{1}(u_{1})\land R_{2}(u_2))\rbrace $$
+
+---
+## Domänenkalkül
+
+wie Konjunktives Kalkül nur darf man die komplette logische Palette benutzen darunter fällt z.B. $\forall, \lor$ 
+
+---

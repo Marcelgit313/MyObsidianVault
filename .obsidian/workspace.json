@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
+                "file": "Semester 4/Informationssysteme/Cheat sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/MMR.md",
+                "file": "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
+                "file": "Semester 4/Informationssysteme/Cheat sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
+                "file": "Semester 4/Informationssysteme/Cheat sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Konjunktive Anfragen.md"
+                "file": "Semester 4/Informationssysteme/Cheat sheet.md"
               }
             }
           },
@@ -180,15 +180,15 @@
   },
   "active": "8996e15474c317a8",
   "lastOpenFiles": [
-    "Semester 4/Informationssysteme/Cheat sheet.md",
+    "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
     "Semester 4/Informationssysteme/MMR.md",
+    "Semester 4/Informationssysteme/Cheat sheet.md",
     "Semester 4/Informationssysteme/Apriori Algorithmus.md",
     "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 4/Informationssysteme/Datenbanksysteme.md",
     "Semester 4/Informationssysteme/Document Processing.md",
     "Semester 4/Informationssysteme/Edit Distance.md",
     "Semester 4/Informationssysteme/Itemset Mining.md",
-    "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
     "Semester 4/Informationssysteme/Levenshtein.md",
     "Semester 4/Informationssysteme/PageRank.md",
     "Semester 4/Informationssysteme/MAP_Precision@k.md",
