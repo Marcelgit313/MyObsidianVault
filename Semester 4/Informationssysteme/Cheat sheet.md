@@ -203,3 +203,17 @@ $$\lbrace e_1...e_{m}\mid \exists x_{1}....x_{k}(R_{1}(u_{1})\land R_{2}(u_2))\r
 wie Konjunktives Kalkül nur darf man die komplette logische Palette benutzen darunter fällt z.B. $\forall, \lor$ 
 
 ---
+## Tupelkalkül
+# TODO
+---
+## Break Even Point
+Sei $a$ die Positionierungs Zeit, $s$ die Leserate, $p$ die Seitengröße und $d$ die Dateigröße. Dann ist der Break Even Point gegeben durch:
+$$n\cdot (a+\frac{p}{s})=a+\frac{d}{s}$$
+$$n=\frac{a\cdot s +d}{a\cdot s +p}$$
+
+---
+## Optimierung
+
+![[Pasted image 20240726133035.png]]
+
+---
