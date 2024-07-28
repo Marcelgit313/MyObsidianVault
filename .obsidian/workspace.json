@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Cheat sheet.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Informationssysteme/Cheat sheet.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Informationssysteme/Cheat sheet.md",
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Informationssysteme/Cheat sheet.md"
+                "file": "Semester 4/Modellierung von Softwaresystemen/UML.md"
               }
             }
           },
@@ -168,13 +168,20 @@
   },
   "active": "8996e15474c317a8",
   "lastOpenFiles": [
+    "Semester 4/Modellierung von Softwaresystemen/Structured Analysis and Design Technique (SADT).md",
+    "Semester 4/Modellierung von Softwaresystemen/Structured Analysis (SA).md",
+    "Semester 4/Modellierung von Softwaresystemen/Programmablaufplan (PAP).md",
+    "Semester 4/Modellierung von Softwaresystemen/Nassi-Sheiderman-Diagramm (Struktogramm).md",
+    "Semester 4/Modellierung von Softwaresystemen/Entity Relationship Modell (ER-Modell).md",
+    "Semester 4/Modellierung von Softwaresystemen/Jackson-Structured-Programming (JSP).md",
+    "Semester 4/Modellierung von Softwaresystemen/Assoziation, Aggregation und Komposition.md",
+    "Semester 4/Informationssysteme/Cheat sheet.md",
     "Semester 4/Informationssysteme/attachments/Pasted image 20240726133035.png",
     "Semester 4/Informationssysteme/Apriori Algorithmus.md",
     "Semester 4/Informationssysteme/PageRank.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/Informationssysteme/Shingles und LSI.md",
     "Semester 4/Informationssysteme/TF*IDF.md",
-    "Semester 4/Informationssysteme/Cheat sheet.md",
     "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
     "Semester 4/Informationssysteme/MMR.md",
     "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
@@ -193,17 +200,10 @@
     "Semester 4/Informationssysteme/Übungen/G309 Blatt 12.md",
     "Excalidraw/G309 Blatt 12 2024-07-14 17.22.19.excalidraw.md",
     "Excalidraw/G309 Blatt 12 2024-07-14 16.37.06.excalidraw.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 11.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 11.md",
     "Semester 4/Informationssysteme/attachments/Untitled (Draft) 2.jpeg",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 10.md",
-    "Semester 4/Informationssysteme/Übungen/Blatt 10.md",
     "Semester 4/Informationssysteme/attachments/Untitled (Draft).jpeg",
     "Semester 4/Mathe Stochastik, Kombinatorik/attachments/Pasted image 20240702132142.png",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 9.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Blatt 9.md",
     "Semester 4/Modellierung von Softwaresystemen/attachments/PHOTO-2024-06-26-10-17-56.jpg",
-    "Semester 4/Modellierung von Softwaresystemen/attachments/PHOTO-2024-06-26-10-17-57.jpg",
     "Excalidraw",
     "Semester 4/Modellierung von Softwaresystemen/Übungen",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen",
