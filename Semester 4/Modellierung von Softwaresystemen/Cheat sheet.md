@@ -166,6 +166,14 @@ Man dar auch Aggregationen benutzten im Objektdiagramm:
 ![[Pasted image 20240729132440.png]]
 
 ---
+## Übersetzung und Konsistenzprobleme
+
+![[Pasted image 20240729133436.png]]
+
+---
+## Aktivitätsdiagramme
+
+
 
 
 
