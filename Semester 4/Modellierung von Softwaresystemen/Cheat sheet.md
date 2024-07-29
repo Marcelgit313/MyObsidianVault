@@ -121,7 +121,14 @@ wiederverwendet werden
 
 ![[Pasted image 20240729113443.png]]
 
-![[Pasted image 20240729113542.png]]
+### Multiplizitäten
+
+![[Pasted image 20240729113643.png]]
+
+---
+## Aggregation
+
+![[Pasted image 20240729114220.png]]
 
 
 
