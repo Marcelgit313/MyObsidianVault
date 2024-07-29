@@ -67,5 +67,66 @@ wiederverwendet werden
 -  Keine Spezifikation der Kontroll-Logik
 
 ---
+## Entity-Relationship-Modell
+
+![[Pasted image 20240729111754.png]]
+
+- Modellierung der Beziehungen zwischen Daten
+- Grundlage des relationalen Datenbankentwurfs
+- Optimierungskriterien (Normalformen)
+- Adressiert nur die Daten, keine Kontrollstrukturen
+
+---
+## Structured Analysis (SA)
+
+![[Pasted image 20240729112006.png]]
+
+![[Pasted image 20240729112032.png]]
+
+---
+# UML
+## Klassendiagramm
+
+![[Pasted image 20240729112428.png]]
+
+- Bei den Attributen handelt es sich um sogenannte __Instanzattribute__, d.h. sie gehören zu den Instanzen einer Klasse (nicht zur Klasse selbst)
+
+![[Pasted image 20240729112642.png]]
+
+- die Standard Sichtbarkeit in Java ist package, indem kein Modifikator angegeben wird 
+
+### weitere Bemerkungen
+
+![[Pasted image 20240729112859.png]]
+
+---
+## Generalisierung/Spezialisierung/Überladung/Überschreiben
+![[Pasted image 20240516104758.png]]
+### Generalisierung/Spezialisierung
+- Die Klasse _ColoredSquare_ spezialisiert die Klasse Square
+- Die Klasse _Square_ generalisiert die Klasse ColoredSquare
+- In dieser Situation nennt man _Square_ __Superklasse__ und _ColoredSquare_ __Subklasse__
+- Da die Subklasse die Attribute, Operationen und Assoziationen der Superklasse erbt (und diesen noch weitere hinzufügen kann), spricht man auch von __Vererbung__
+
+### Überladung/Überschreiben
+- Die Funktion $draw()$ wird in der Klasse ColoredSquare überschrieben, da diese schonmal in Square implementiert wurde
+	- Beim Überschreiben von Funktionen ist es auch erlaubt die Sichtbarkeit zu ändern
+	- Es ist in der UML auch erlaubt die Funktion beim überschreiben umzubenennen aber das muss dann im Diagramm angegeben werde
+- Die Funktion $modify()$ ist überladen das diese zweimal in ColoredSquare implementiert wird aber mit verschiedenen Signaturen. Welche Funktion aufgerufen wird entscheidet sich durch die gegebenen Argumente
+	- beim überladen darf man in UML auch den Rückgabetypen der Funktion ändern
+
+---
+## Assoziation
+- schwächste Relation
+
+![[Pasted image 20240729113443.png]]
+
+![[Pasted image 20240729113542.png]]
+
+
+
+
+
+
 
 
