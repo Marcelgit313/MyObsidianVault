@@ -130,7 +130,42 @@ wiederverwendet werden
 
 ![[Pasted image 20240729114220.png]]
 
+- die leeren Kästchen heißen das das Menü auch ohne ein Hauptspeise existieren kann
 
+---
+## Komposition
+- stärkste Relation
+
+![[Pasted image 20240729131247.png]]
+
+- das ausgefüllte Kästchen steht dafür das es einen Raum gegeben muss sonst kann das Restaurante nicht existieren
+
+---
+## Mehrfachvererbung
+Es ist auch möglich das eine Klasse von verschiedenen Klassen erbt das nennt man Mehrfachvererbung
+
+---
+## late binding und Polymorphismus
+
+late binding:
+- Polymorphismus und spätes Binden (late binding) sind untrennbar verbunden.
+-  Ist zur Übersetzungszeit die Klasse des Objekts nicht bekannt, dann kann noch nicht bestimmt werden, welche Methode ausgeführt wird.
+-  Spätes Binden: Methode wird erst zur Ausführungszeit an ein bestimmtes Objekt gebunden
+
+Polymorphismus:
+- Polymorphismus ermöglicht es, den gleichen Namen für gleichartige Operationen zu verwenden, die auf Objekten verschiedener Klassen auszuführen sind.
+-  Der Sender muss nur wissen, dass ein Empfängerobjekt das gewünschte Verhalten besitzt
+
+---
+## Objektdiagramme
+
+![[Pasted image 20240729132346.png]]
+
+Man dar auch Aggregationen benutzten im Objektdiagramm:
+
+![[Pasted image 20240729132440.png]]
+
+---
 
 
 
