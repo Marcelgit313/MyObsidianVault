@@ -173,6 +173,26 @@ Man dar auch Aggregationen benutzten im Objektdiagramm:
 ---
 ## Aktivitätsdiagramme
 
+![[Pasted image 20240730105059.png]]
+
+---
+## Zustandsdiagramme
+
+![[Pasted image 20240730105250.png]]
+
+Mit $entry, do, exit$ kann man in Zuständen Aktionen auslösen bei betreten, wären man im zustand verweilt oder beim verlassen des Zustands ausgeführt werden
+
+![[Pasted image 20240730105452.png]]
+
+![[Pasted image 20240730105608.png]]
+
+---
+## Sequenzdiagramm
+
+![[Pasted image 20240730110410.png]]
+
+![[Pasted image 20240730110447.png]]
+
 
 
 
