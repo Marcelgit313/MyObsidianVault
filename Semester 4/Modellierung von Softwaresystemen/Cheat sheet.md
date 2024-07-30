@@ -193,10 +193,58 @@ Mit $entry, do, exit$ kann man in Zuständen Aktionen auslösen bei betreten, w�
 
 ![[Pasted image 20240730110447.png]]
 
+Menschen werden durch ein Strichmenschen dargestellt und andere Objekte haben ein Rechteck darum
+
+![[Pasted image 20240730111045.png]]
+
+![[Pasted image 20240730111102.png]]
+
+![[Pasted image 20240730111117.png]]
+
+![[Pasted image 20240730111136.png]]
+
+![[Pasted image 20240730111204.png]]
+
+![[Pasted image 20240730111311.png]]
+
+![[Pasted image 20240730111345.png]]
+
+Nachrichten von einem Operanden in einen anderen sind nicht erlaubt
+
+![[Pasted image 20240730111519.png]]
+
+![[Pasted image 20240730111724.png]]
+
+![[Pasted image 20240730111804.png]]
 
 
+### Beispiel
+![[Pasted image 20240730111648.png]]
 
+---
+## Kommunikationsdiagramm
+![[Pasted image 20240730111311.png]]
+![[Pasted image 20240730111907.png]]
 
+---
+## Zeitverlaufsdiagramm
+
+![[Pasted image 20240730112041.png]]
+
+---
+## Anwendungsfalldiagramm
+
+![[Pasted image 20240730112238.png]]
+
+---
+## Interaktionsdiagramm
+
+![[Pasted image 20240730112438.png]]
+
+---
+## Kompositionsstrukturdiagramm
+
+![[Pasted image 20240730112510.png]]
 
 
 
