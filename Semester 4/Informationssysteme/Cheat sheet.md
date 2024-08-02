@@ -217,3 +217,18 @@ $$n=\frac{a\cdot s +d}{a\cdot s +p}$$
 ![[Pasted image 20240726133035.png]]
 
 ---
+## Puffer
+### First In First Out (FIFO)
+Ersetzt die Seite die am längsten im Puffer ist
+
+### Least Frequently Used (LFU)
+- Ersetzt Seite mit der geringsten Referenz- (Zugriffs-) Häufigkeit
+- Für jede Seite wird ein Zugriffszähler (aka. Referenzzähler RZ) geführt.
+
+### Least Recently Used (LRU)
+- Ersetzung basierend auf Zeit seit dem letzten Zugriff auf Seite.
+- Halte Seiten in Form eines Stacks:
+	- Eine Seite kommt bei jeder Referenz auf oberste Position
+	- Seite auf der untersten Position des Stacks wird bei Bedarf ersetzt
+
+---
