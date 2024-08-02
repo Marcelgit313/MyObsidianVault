@@ -182,8 +182,8 @@ $$conf(X\rightarrow Y,D)=supp(X\cup Y,D)/supp(X,D)$$
 Die Konfidenz ist die bedingte Wahrscheinlichkeit, dass eine Transaktion $Y$ enthält, wenn sie $X$ enthält
 
 ---
-## Konjunktive Anfrage
-$$ans(x_{TH},x_{ad})\leftarrow Movies(x_{ti}, Bergman, x_{ac}) Pariscope(x_{TH}x_{ti}, x_{s}) Location(x_{TH},x_{ad},x_P)$$
+## Regelbasierte Konjunktive Anfrage
+$$ans(x_{TH},x_{ad})\leftarrow Movies(x_{ti}, Bergman, _) Pariscope(x_{TH}x_{ti}, x_{s}) Location(x_{TH},x_{ad},x_P)$$
 
 - Alles links vom Pfeil ist der Kopf
 - Alles recht vom Pfeil ist der Rumpf
