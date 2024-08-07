@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/cheat sheet.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Deterministische endliche Automaten.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/cheat sheet.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Deterministische endliche Automaten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/cheat sheet.md",
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Deterministische endliche Automaten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/cheat sheet.md"
+                "file": "Semester 4/Formale Sprachen und Berechenbarkeit/Deterministische endliche Automaten.md"
               }
             }
           },
@@ -168,8 +168,12 @@
   },
   "active": "456297e08ef809ac",
   "lastOpenFiles": [
-    "Semester 4/Informationssysteme/Cheat sheet.md",
+    "Semester 4/Formale Sprachen und Berechenbarkeit/Nichtdeterministische endliche Automaten.md",
+    "Semester 4/Formale Sprachen und Berechenbarkeit/Notationen.md",
+    "Semester 4/Formale Sprachen und Berechenbarkeit/Untitled.md",
+    "Semester 4/Formale Sprachen und Berechenbarkeit/Deterministische endliche Automaten.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit/cheat sheet.md",
+    "Semester 4/Informationssysteme/Cheat sheet.md",
     "Semester 4/Modellierung von Softwaresystemen/Cheat sheet.md",
     "Semester 4/Informationssysteme/MAP_Precision@k.md",
     "Semester 4/Informationssysteme/MMR.md",
@@ -201,10 +205,6 @@
     "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
     "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 4/Informationssysteme/Datenbanksysteme.md",
-    "Semester 4/Informationssysteme/Document Processing.md",
-    "Semester 4/Informationssysteme/Edit Distance.md",
-    "Semester 4/Informationssysteme/Itemset Mining.md",
-    "Semester 4/Informationssysteme/Levenshtein.md",
     "Excalidraw",
     "Semester 4/Modellierung von Softwaresystemen/Übungen",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen",
