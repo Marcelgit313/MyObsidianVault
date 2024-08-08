@@ -52,7 +52,11 @@ Um einen NFA in einen DFA umzuwandeln nutzt man den Potenzmengenautomat
 ---
 - Wortproblem, Leerheitsproblem, Schnittproblem, Inklusionsproblem, Äqualenzproblem
 - Grammatiken
-- kontextfreie Grammatiken
+## kontextfreie/ Grammatiken
+![[Pasted image 20240808144225.png]]
+![[Pasted image 20240808144212.png]]
+
+---
 - esiplon freie Grammatik
 ## Chomsky normalform
 ![[Pasted image 20240808142332.png]]
@@ -61,11 +65,31 @@ Um einen NFA in einen DFA umzuwandeln nutzt man den Potenzmengenautomat
 
 ### Beispiel
 ![[Pasted image 20240808142457.png]]
-- CYK-Algo
-- Kellerautomat
-- chomsky hierarchie
+![[Pasted image 20240808142528.png]]
+
+---
+## CYK-Algo
+![[Pasted image 20240808142603.png]]
+
+---
+## Kellerautomat
+![[Pasted image 20240808142730.png]]
+
+Ein Kellerautomat ist eine Art Turingmaschine die einen Stack hat
+
+![[Pasted image 20240808142930.png]]
+
+
+---
+## chomsky hierarchie
+![[Pasted image 20240808143040.png]]
+
+---
 - typ 3 grammatik
-- Turingmaschine
+## Turingmaschine
+![[Pasted image 20240808143229.png]]
+
+---
 - church turning these
 - while/goto Berechenbarkeit
 - Entscheidbarkeit
