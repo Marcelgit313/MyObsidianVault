@@ -1,2 +1,31 @@
 
 ---
+- DFA
+- NFA
+- Satz von Rabin Scott
+- Potenzmengenautomat
+- Reguläre Ausdrücke
+- von regulären Ausdrücke zu NFA
+- von DFA zu regulären Ausdrücken
+- Abschlusseigenschaften
+- Pumping Lemma für reguläre Sprachen
+- Minimalautomat
+- Myhill Nerode Auqivalenzrelation
+- DFA-minimierung
+- NFA-minimierung
+- Wortproblem, Leerheitsproblem, Schnittproblem, Inklusionsproblem, Äqualenzproblem
+- Grammatiken
+- kontextfreie Grammatiken
+- esiplon freie Grammatik
+- Chomsky normalform
+- CYK-Algo
+- Kellerautomat
+- chomsky hierarchie
+- typ 3 grammatik
+- Turingmaschine
+- church turning these
+- while/goto Berechenbarkeit
+- Entscheidbarkeit
+- halteproblem
+- satz von rice
+- Postsches Korrespondenzproblem
