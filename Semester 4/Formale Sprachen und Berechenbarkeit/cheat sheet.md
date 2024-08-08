@@ -29,21 +29,38 @@ Jede von NFA erkannte Sprache kann auch von einem DFA erkannt werden
 
 Um einen NFA in einen DFA umzuwandeln nutzt man den Potenzmengenautomat
 
-- Potenzmengenautomat
-- Reguläre Ausdrücke
+---
+## Potenzmengenautomat
+
+![[Pasted image 20240808134621.png]]
+
+---
+## Reguläre Ausdrücke
 - von regulären Ausdrücke zu NFA
 - von DFA zu regulären Ausdrücken
 - Abschlusseigenschaften
 - Pumping Lemma für reguläre Sprachen
 - Minimalautomat
 - Myhill Nerode Auqivalenzrelation
-- DFA-minimierung
-- NFA-minimierung
+## DFA-minimierung
+![[Pasted image 20240808142131.png]]
+
+---
+## NFA-minimierung
+![[Pasted image 20240808142216.png]]
+
+---
 - Wortproblem, Leerheitsproblem, Schnittproblem, Inklusionsproblem, Äqualenzproblem
 - Grammatiken
 - kontextfreie Grammatiken
 - esiplon freie Grammatik
-- Chomsky normalform
+## Chomsky normalform
+![[Pasted image 20240808142332.png]]
+![[Pasted image 20240808142346.png]]
+![[Pasted image 20240808142400.png]]
+
+### Beispiel
+![[Pasted image 20240808142457.png]]
 - CYK-Algo
 - Kellerautomat
 - chomsky hierarchie
