@@ -15,3 +15,6 @@ Die Laufzeit für folgenden Code ist:
 - $T_{2}(n)= n \cdot (c + T_{3}(n))$
 - $T_{3}(n) = n \cdot c$
 
+## O-Notationen
+
+![[Pasted image 20240904142054.png]]
