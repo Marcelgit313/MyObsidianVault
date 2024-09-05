@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
+                "file": "Semester 4/AlgoDat/Fragestunde 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
+                "file": "Semester 4/AlgoDat/Fragestunde 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
+                "file": "Semester 4/AlgoDat/Fragestunde 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/AlgoDat/Effizienz von Algorithmen.md"
+                "file": "Semester 4/AlgoDat/Fragestunde 1.md"
               }
             }
           },
@@ -168,10 +168,11 @@
   },
   "active": "456297e08ef809ac",
   "lastOpenFiles": [
+    "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
+    "Semester 4/AlgoDat/Fragestunde 1.md",
     "Semester 4/AlgoDat/attachments/Pasted image 20240904142054.png",
     "Semester 4/AlgoDat/attachments/Pasted image 20240904135247.png",
     "Semester 4/AlgoDat/Einstieg.md",
-    "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
     "Semester 4/Formale Sprachen und Berechenbarkeit/cheat sheet.md",
     "Semester 4/Algorithmen und Datenstrukturen/Dynamisches Array.md",
     "Semester 4/Algorithmen und Datenstrukturen/Graph.md",
@@ -188,7 +189,6 @@
     "Semester 4/Algorithmen und Datenstrukturen/attachments/rot2b.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/rot.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/l.png",
-    "Semester 4/Algorithmen und Datenstrukturen/attachments/heap.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments",
     "Semester 4/Algorithmen und Datenstrukturen/Selection Sort.md",
     "Semester 4/Algorithmen und Datenstrukturen/Rot-Schwarz Baum.md",
