@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md"
+                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md"
               }
             }
           },
@@ -168,11 +168,12 @@
   },
   "active": "456297e08ef809ac",
   "lastOpenFiles": [
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 6.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 5.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 4.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 5.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 4.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 6.md",
     "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
     "Semester 4/Algorithmen und Datenstrukturen/O-Notation.md",
     "Semester 4/Algorithmen und Datenstrukturen/Multiplikation von langen Zahlen.md",
@@ -193,7 +194,6 @@
     "Semester 4/Algorithmen und Datenstrukturen/Baum.md",
     "Semester 4/Algorithmen und Datenstrukturen/Array.md",
     "Semester 4/Algorithmen und Datenstrukturen/Armotisierte Analyse.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Algorithmus.md",
     "Semester 4/AlgoDat/attachments/Pasted image 20240904142054.png",
     "Semester 4/AlgoDat/attachments/Pasted image 20240904135247.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/tree.png",
