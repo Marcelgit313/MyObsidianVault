@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Klausur 2022.md",
+                "file": "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Klausur 2022.md",
+                "file": "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Klausur 2022.md",
+                "file": "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semester 4/Mathe Stochastik, Kombinatorik/Klausur 2022.md"
+                "file": "Semester 4/AlgoDat/Effizienz von Algorithmen.md"
               }
             }
           },
@@ -168,29 +168,34 @@
   },
   "active": "456297e08ef809ac",
   "lastOpenFiles": [
+    "Semester 4/Algorithmen und Datenstrukturen/O-Notation.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Multiplikation von langen Zahlen.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Merge Sort.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Mastertheorem.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Langzahlarithmetik.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Heaps.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Graph.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Dynamisches Array.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Doubly Linked List.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Dequeue.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Datenstrukturen.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Bubble Sort.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Binäre Suche.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Binäre Suchbäume.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Baum.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Array.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Armotisierte Analyse.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Algorithmus.md",
+    "Semester 4/Algorithmen und Datenstrukturen/(a, b)-Bäume.md",
+    "Semester 4/Algorithmen und Datenstrukturen/Wörterbücher.md",
+    "Semester 4/Mathe Stochastik, Kombinatorik/Klausur 2022.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 9.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 8.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 7.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 6.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 5.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 4.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Klausur 2022.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
-    "Semester 4/AlgoDat/Fragestunde 1.md",
-    "Semester 4/AlgoDat/Effizienz von Algorithmen.md",
     "Semester 4/AlgoDat/attachments/Pasted image 20240904142054.png",
     "Semester 4/AlgoDat/attachments/Pasted image 20240904135247.png",
-    "Semester 4/AlgoDat/Einstieg.md",
-    "Semester 4/Formale Sprachen und Berechenbarkeit/cheat sheet.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Dynamisches Array.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Graph.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Quicksort.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Baum.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Rekursionsbaummethode.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Dequeue.md",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/tree.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/tankelrot.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/tankelnew.png",
@@ -200,11 +205,6 @@
     "Semester 4/Algorithmen und Datenstrukturen/attachments/rot.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/l.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments",
-    "Semester 4/Algorithmen und Datenstrukturen/Selection Sort.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Rot-Schwarz Baum.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Wörterbücher.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Verkettete Listen.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Untitled.md",
     "Semester 4/Algorithmen und Datenstrukturen",
     "Untitled.canvas",
     "Excalidraw",
