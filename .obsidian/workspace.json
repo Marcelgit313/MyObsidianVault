@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Graphen"
             }
+          },
+          {
+            "id": "ed198a2957075b65",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +199,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f3a34cc5ad080974",
+  "active": "ed198a2957075b65",
   "lastOpenFiles": [
     "Semester 5/Chemie/attachments",
     "Semester 5/Chemie",
