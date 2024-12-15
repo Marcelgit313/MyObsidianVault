@@ -11,12 +11,12 @@
             "id": "947b17f57441706f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw-loading",
+              "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Drawing 2024-11-29 15.05.37.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Loading Excalidraw... Drawing 2024-11-29 15.05.37.excalidraw"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-11-29 15.05.37.excalidraw"
             }
           }
         ]
@@ -180,7 +180,8 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "947b17f57441706f",
