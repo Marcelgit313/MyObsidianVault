@@ -8,15 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "947b17f57441706f",
+            "id": "545fa87cd856878c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-11-29 15.05.37.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-11-29 15.05.37.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -38,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -184,10 +183,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "947b17f57441706f",
+  "active": "545fa87cd856878c",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
     "Excalidraw/Drawing 2024-11-29 15.05.37.excalidraw.md",
+    "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/AlgoDat/Graphen.md",
     "Semester 5/Chemie/attachments",
