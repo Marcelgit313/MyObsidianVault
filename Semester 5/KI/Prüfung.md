@@ -45,6 +45,6 @@ $$P(A|B)=\frac{P(B|A)\cdot P(A)}{P(B)}$$
 
 ---
 ### K Nearest Neighbour
-[[Clustering und K-Means Algorithmus]]
+
 
 ---
