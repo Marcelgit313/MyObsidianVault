@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md",
+                "file": "Semester 5/KI/Prüfung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Precision, Recall und F1"
+              "title": "Prüfung"
             }
           }
         ]
@@ -189,9 +189,14 @@
   },
   "active": "545fa87cd856878c",
   "lastOpenFiles": [
+    "Semester 5/KI/attachments/Pasted image 20250212115755.png",
+    "Semester 5/KI/attachments/Pasted image 20250212115630.png",
+    "Semester 4/Informationssysteme/Precision, Recall und F1.md",
+    "Semester 5/KI/Prüfung.md",
+    "Semester 5/KI/attachments",
+    "Semester 5/KI",
     "Excalidraw/Drawing 2024-11-29 15.05.37.excalidraw.md",
     "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
-    "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 4/AlgoDat/Graphen.md",
     "Semester 5/Chemie/attachments",
     "Semester 5/Chemie",
@@ -216,8 +221,6 @@
     "Semester 4/Algorithmen und Datenstrukturen/Graph.md",
     "Semester 4/Algorithmen und Datenstrukturen/Elementare Datenstrukturen.md",
     "Semester 4/Algorithmen und Datenstrukturen/Dynamisches Array.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Doubly Linked List.md",
-    "Semester 4/Algorithmen und Datenstrukturen/Dequeue.md",
     "Semester 4/AlgoDat/attachments/Pasted image 20240904142054.png",
     "Semester 4/AlgoDat/attachments/Pasted image 20240904135247.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/tree.png",
@@ -227,14 +230,11 @@
     "Semester 4/Algorithmen und Datenstrukturen/attachments/rotrot.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/rot2b.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/rot.png",
-    "Semester 4/Algorithmen und Datenstrukturen/attachments/l.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments",
     "Semester 4/Algorithmen und Datenstrukturen",
     "Untitled.canvas",
     "Excalidraw",
     "Semester 4/Modellierung von Softwaresystemen/Übungen",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen",
-    "Semester 4/Mathe Stochastik, Kombinatorik/attachments",
-    "Semester 4/Mathe Stochastik, Kombinatorik"
+    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen"
   ]
 }
