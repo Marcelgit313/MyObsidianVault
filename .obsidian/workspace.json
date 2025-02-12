@@ -11,10 +11,14 @@
             "id": "545fa87cd856878c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Precision, Recall und F1"
             }
           }
         ]
