@@ -26,4 +26,25 @@ $$W_{opt}=min(E(X,t,y^{\overrightarrow{w}})$$
 ![[Pasted image 20250212115755.png]]
 
 ---
+- Confusion Matrix
+- Precision
+- Recall
+- F-Measure
+---
+### Bayes 'sche Decision Theory
 
+$$P(A|B)=\frac{P(B|A)\cdot P(A)}{P(B)}$$
+---
+### Perceptron
+
+![[Pasted image 20250212121150.png]]
+
+
+---
+### Support Vector Machines SVM
+
+---
+### K Nearest Neighbour
+[[Clustering und K-Means Algorithmus]]
+
+---
