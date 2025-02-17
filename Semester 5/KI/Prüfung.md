@@ -48,3 +48,7 @@ $$P(A|B)=\frac{P(B|A)\cdot P(A)}{P(B)}$$
 
 
 ---
+### LSTM
+![[Pasted image 20250212141222.png]]
+
+---
