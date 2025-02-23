@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 5/KI/Prüfung.md",
-                "mode": "source",
+                "file": "Semester 4/Informationssysteme/Precision, Recall und F1.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prüfung"
+              "title": "Precision, Recall und F1"
             }
           }
         ]
@@ -189,9 +189,9 @@
   },
   "active": "545fa87cd856878c",
   "lastOpenFiles": [
+    "Semester 5/KI/Prüfung.md",
     "Semester 5/KI/attachments/Pasted image 20250212141222.png",
     "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
-    "Semester 5/KI/Prüfung.md",
     "Semester 5/KI/attachments/Pasted image 20250212121150.png",
     "Semester 5/KI/attachments/Pasted image 20250212115755.png",
     "Semester 5/KI/attachments/Pasted image 20250212115630.png",
@@ -229,7 +229,6 @@
     "Semester 4/Algorithmen und Datenstrukturen/attachments/tankelrot.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/tankelnew.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments/spalt.png",
-    "Semester 4/Algorithmen und Datenstrukturen/attachments/rotrot.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments",
     "Semester 4/Algorithmen und Datenstrukturen",
     "Untitled.canvas",
