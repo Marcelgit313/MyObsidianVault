@@ -183,11 +183,16 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "bc3124e3324ea403",
   "lastOpenFiles": [
+    "Semester 5/Data Vis/attachments/Pasted image 20250223164239.png",
+    "Semester 5/Data Vis/attachments/Pasted image 20250223163232.png",
+    "Semester 5/Data Vis/attachments/Pasted image 20250223162324.png",
+    "Semester 5/Data Vis/attachments/Pasted image 20250223161719.png",
     "Semester 5/Data Vis/attachments/Pasted image 20250223130809.png",
     "Semester 5/Data Vis/attachments/Pasted image 20250223130523.png",
     "Semester 5/Data Vis/attachments/Pasted image 20250223130238.png",
@@ -201,7 +206,6 @@
     "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 5/KI/attachments/Pasted image 20250212121150.png",
     "Semester 5/KI/attachments/Pasted image 20250212115755.png",
-    "Semester 5/KI/attachments/Pasted image 20250212115630.png",
     "Semester 5/KI/attachments",
     "Semester 5/KI",
     "Excalidraw/Drawing 2024-11-29 15.05.37.excalidraw.md",
@@ -228,9 +232,6 @@
     "Semester 4/Algorithmen und Datenstrukturen/Heaps.md",
     "Semester 4/Algorithmen und Datenstrukturen/Grenzwert Lemma.md",
     "Semester 4/Algorithmen und Datenstrukturen/Graph.md",
-    "Semester 4/AlgoDat/attachments/Pasted image 20240904142054.png",
-    "Semester 4/AlgoDat/attachments/Pasted image 20240904135247.png",
-    "Semester 4/Algorithmen und Datenstrukturen/attachments/tree.png",
     "Semester 4/Algorithmen und Datenstrukturen/attachments",
     "Semester 4/Algorithmen und Datenstrukturen",
     "Untitled.canvas",
