@@ -80,4 +80,12 @@ area where the nerve leaves the eye.
 
 ![[Pasted image 20250223164239.png]]
 
-$$T=b\cdot $$
+$$T=b\cdot \log_{2}(n+1)$$
+
+n equally probable choices
+b constant
+
+---
+## Fitts Law
+![[Pasted image 20250223164723.png]]
+
