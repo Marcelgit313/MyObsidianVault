@@ -89,3 +89,10 @@ b constant
 ## Fitts Law
 ![[Pasted image 20250223164723.png]]
 
+----
+
+- Chart analysis
+- coding basic seaborn, bokeh, pandas
+- trees
+- PCA
+- scalar fields
