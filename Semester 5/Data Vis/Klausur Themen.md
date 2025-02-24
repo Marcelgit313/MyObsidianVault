@@ -113,7 +113,10 @@ $\implies$ The _goal_ of information design must be to design displays so that v
 ## Principle component Analysis
 
 >[!Important] PCA
-PCA finds a new coordinate system obtained from the old one by rotation and scaling only.
+PCA finds a new coordinate system obtained from the old one by rotation and scaling only. 
+>
+>The eigendecomposition of the covariance matrix, extracts the rotation and scaling matrices of the linear transformation. Eigenvectors expresses the rotation and root of the eigenvalues the scaling of the matrix
+
 
 !TODO
 
@@ -148,9 +151,106 @@ same selection
 
 ![[Pasted image 20250224111505.png]]
 
-### Asthetics Criteria
+### Asthetics Criteria Reingold-Tilford
 
 ![[Pasted image 20250224111759.png]]
+
+## Sugiyama Framework
+
+1. remove cycles
+2. level nodes (y-coordinate)
+3. sort nodes within each level
+4. straighten edges (x-coordinate)
+
+## DOT-Algorithmus (Dynamic Ordered Trees)
+
+Der DOT-Algorithmus optimiert die Darstellung von Bäumen, indem er Kantenüberkreuzungen minimiert und die Knoten gleichmäßig verteilt.
+
+## Schrittweise Funktionsweise:
+5. **Preorder-Traversierung des Baumes**  
+   - Der Baum wird von der Wurzel bis zu den Blättern durchlaufen.  
+   - Jeder Knoten speichert seine Unterbäume.  
+
+6. **Initiale Positionierung der Knoten**  
+   - Alle Knoten werden zunächst unter ihrem Elternknoten platziert.  
+   - Kollisionen werden noch nicht berücksichtigt.  
+
+7. **Berechnung der minimalen Abstände**  
+   - Unterbäume erhalten einen Mindestabstand, um Überlappungen zu verhindern.  
+   - Die Abstände werden auf Basis der Baumstruktur berechnet.  
+
+8. **Verschiebung der Unterbäume**  
+   - Falls Unterbäume zu nahe beieinanderliegen, werden sie verschoben.  
+   - Diese Verschiebung wirkt sich auf übergeordnete Knoten aus.  
+
+9. **Optimierung der Baumstruktur**  
+   - Knoten werden gleichmäßig verteilt, sodass sich der Baum nicht zu stark neigt.  
+   - Symmetrie wird angestrebt.  
+
+10. **Erzeugung der Kanten**  
+   - Alle Knoten sind nun optimal platziert.  
+   - Kanten zwischen Eltern- und Kindknoten werden gezeichnet, um die Hierarchie sichtbar zu machen.  
+
+## Vorteile:
+✅ Weniger Überkreuzungen  
+✅ Gleichmäßige Baumstruktur  
+✅ Effiziente Hierarchie-Darstellung 
+
+## Force-Directed Layout
+
+Der **Force-Directed Layout-Algorithmus** ist ein **kraftbasierter Algorithmus** zur graphischen Anordnung von Knoten in einem Graphen. Er berechnet **physikalische Kräfte** zwischen Knoten und Kanten, um eine gleichmäßige Anordnung der Knoten zu erreichen.
+
+## Funktionsweise:
+1. **Initiale Positionierung**: Zu Beginn werden Knoten zufällig auf dem Raum verteilt.
+2. **Berechnung der Kräfte**: 
+   - **Abstoßende Kräfte** wirken zwischen allen Knoten (je weiter entfernt, desto stärker die Abstoßung).
+   - **Anziehende Kräfte** wirken zwischen benachbarten Knoten, die durch eine Kante verbunden sind.
+3. **Bewegung der Knoten**: Knoten werden basierend auf den Kräften verschoben, um eine ausgeglichene Position zu erreichen.
+4. **Feinabstimmung durch Kühlung**: Mit jeder Iteration wird die Bewegungsgeschwindigkeit reduziert, um eine stabile Lösung zu finden.
+5. **Iteration**: Der Algorithmus wird wiederholt, bis das Layout konvergiert.
+
+## Vorteile:
+✅ Gleichmäßige Verteilung der Knoten  
+✅ Minimierung von Kantenüberlappungen  
+✅ Flexibel für alle Arten von Graphen  
+
+## Nachteile:
+❌ Rechenintensiv bei großen Graphen  
+❌ Kann lange dauern, bis es konvergiert  
+❌ Keine garantierte optimale Lösung
+
+## Furchtman-Reingold-Algorithmus
+
+Der Furchtman-Reingold-Algorithmus ist ein kraftbasierter Algorithmus zur **graphischen Anordnung von Graphen**. Er optimiert die Knotenplatzierung, indem er Kräfte zwischen den Knoten berechnet, um Überlappungen zu vermeiden und die Kanten gleichmäßig zu verteilen.
+
+## Schrittweise Funktionsweise:
+6. **Initiale Positionierung der Knoten**  
+   - Zu Beginn werden die Knoten zufällig im 2D-Raum verteilt.  
+   - Kanten üben Kräfte aus, die Knoten anziehen oder abstoßen.
+
+7. **Berechnung der Kräfte**  
+   - **Abstoßende Kräfte**: Knoten stoßen sich mit einer Kraft ab, die **proportional zum Quadrat der Entfernung** ist. Je weiter die Knoten entfernt sind, desto stärker ist die Abstoßung.  
+   - **Anziehende Kräfte**: Kanten ziehen die Knoten an, wobei die Anziehungskraft **proportional zur Entfernung** der Knoten ist.
+
+8. **Bewegung der Knoten**  
+   - Knoten bewegen sich basierend auf den Kräften. Abstoßungskräfte streuen die Knoten, Anziehungskräfte ziehen sie zusammen.  
+   - Die Knotenpositionen werden in jede Iteration angepasst.
+
+9. **Iterationsprozess**  
+   - Der Algorithmus wiederholt die Berechnung und Anpassung der Knotenpositionen über mehrere Iterationen.  
+   - Ziel ist, den minimalen Energiezustand zu erreichen, wo Abstoßungskräfte und Anziehungskräfte ausgeglichen sind.
+
+10. **Feinabstimmung**  
+   - In späteren Iterationen wird die **Bewegungsgeschwindigkeit der Knoten** reduziert (Abkühlung), um die Genauigkeit zu verbessern.
+
+11. **Endergebnis**  
+   - Nach den Iterationen haben die Knoten ihre **optimierten Positionen** eingenommen, und das Layout des Graphen ist gleichmäßig ohne Überlappungen.
+
+## Vorteile:
+✅ Gleichmäßige Verteilung der Knoten  
+✅ Minimierung von Kantenüberkreuzungen  
+✅ Optimale Layouts für Hierarchien und Netzwerke  
+
 
 
 
