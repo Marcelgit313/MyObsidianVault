@@ -5,5 +5,7 @@
     "imageCenter"
   ],
   "cssTheme": "Catppuccin",
-  "translucency": false
+  "translucency": false,
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono"
 }

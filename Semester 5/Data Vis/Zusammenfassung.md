@@ -103,3 +103,6 @@ b constant
 - trees
 - PCA
 - scalar fields
+
+
+![[Pasted image 20250224133638.png]]
