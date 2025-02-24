@@ -289,3 +289,6 @@ A Colormap defines a mapping between scalar values and color values
 ### Use colors with distinct names
 
 ![[Pasted image 20250224150924.png]]
+
+---
+# Coding
