@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 254
   },
   "right": {
     "id": "04587f501ed01554",
@@ -189,8 +189,10 @@
   },
   "active": "bc3124e3324ea403",
   "lastOpenFiles": [
-    "Semester 5/Data Vis/Zusammenfassung.md",
+    "Semester 5/KI/Prüfung.md",
     "Semester 5/Data Vis/Klausur Themen.md",
+    "Semester 4/Modellierung von Softwaresystemen/Cheat sheet.md",
+    "Semester 5/Data Vis/Zusammenfassung.md",
     "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
     "Excalidraw/Drawing 2024-11-29 15.05.37.excalidraw.md",
     "Excalidraw/G309 Blatt 12 2024-07-14 16.37.06.excalidraw.md",
@@ -216,7 +218,6 @@
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 5/Data Vis/attachments",
     "Semester 5/Data Vis",
-    "Semester 5/KI/Prüfung.md",
     "Semester 5/KI/attachments",
     "Semester 5/KI",
     "Semester 4/AlgoDat/Graphen.md",
@@ -231,7 +232,6 @@
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 5.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 4.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 1.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 6.md",
     "Semester 4/Algorithmen und Datenstrukturen/attachments",
     "Semester 4/Algorithmen und Datenstrukturen",
     "Untitled.canvas",

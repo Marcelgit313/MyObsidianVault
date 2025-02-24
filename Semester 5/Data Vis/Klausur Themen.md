@@ -251,7 +251,12 @@ Der Furchtman-Reingold-Algorithmus ist ein kraftbasierter Algorithmus zur **grap
 ✅ Minimierung von Kantenüberkreuzungen  
 ✅ Optimale Layouts für Hierarchien und Netzwerke  
 
+### Explain Reingold-Tilford Algorithm, its performance and why we need two traversals
 
+The Reingold-Tilford algorithm is an iterative, bottom-up approach. It first draws the left and right subtrees of a node and then moves them as close as possible. 
+The parent is positioned between its children. 
+The algorithm requires two tree traversals. To increase performance,
+absolute node positions are not directly computed but relative transformations are stored and are applied cumulatively in a second traversal. This reduces the worst-case runtime from O(n2) to O(n) as presented in the algorithm by Buchheim
 
 
 ---
