@@ -152,3 +152,40 @@ same selection
 
 ![[Pasted image 20250224111759.png]]
 
+
+
+---
+# Scalar Fields
+## Isolines
+Steps for Marching Squares
+- Prepare the tetralateral grif of cells, so each vertex has a value assigned
+- Mark every vertex with either above(+) or below(-) the isovalue
+- Iterate through cells: Draw isolines through interpolated positions on edges
+
+
+![[Pasted image 20250224145053.png]]
+
+In the Last Case you calculate a fifth value in the middle of the cell
+
+![[Pasted image 20250224145227.png]]
+
+### Problem with ambiguity cells
+
+if different cells choose different solutions arbitrarily, it can create disconnected or misaligned contour lines, leading to visual artifacts and incorrect topology
+
+### How to fix ambiguity cells
+
+You need more data
+- increase Resoulution
+- datapoint in the middle of the cell
+
+
+## Color Mapping
+
+A Colormap defines a mapping between scalar values and color values
+
+![[Pasted image 20250224151632.png]]
+
+### Use colors with distinct names
+
+![[Pasted image 20250224150924.png]]
