@@ -89,6 +89,13 @@ b constant
 ## Fitts Law
 ![[Pasted image 20250223164723.png]]
 
+
+---
+## Ways to show trees
+![[Pasted image 20250224111505.png]]
+
+![[Pasted image 20250224111759.png]]
+
 ----
 
 - Chart analysis
