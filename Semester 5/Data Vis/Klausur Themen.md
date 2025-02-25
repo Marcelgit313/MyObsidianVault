@@ -153,6 +153,7 @@ same selection
 ### Ways to show a tree
 
 ![[Pasted image 20250224111505.png]]
+![[Pasted image 20250225144448.png]]
 
 ### Asthetics Criteria Reingold-Tilford
 
