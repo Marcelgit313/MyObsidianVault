@@ -117,7 +117,10 @@ PCA finds a new coordinate system obtained from the old one by rotation and scal
 >
 >The eigendecomposition of the covariance matrix, extracts the rotation and scaling matrices of the linear transformation. Eigenvectors expresses the rotation and root of the eigenvalues the scaling of the matrix
 
+![[Pasted image 20250225131137.png]]
 
+### PC Varianz
+![[Pasted image 20250225131439.png]]
 !TODO
 
 ---
@@ -176,6 +179,9 @@ Der DOT-Algorithmus optimiert die Darstellung von Bäumen, indem er Kantenüberk
 ✅ Weniger Überkreuzungen  
 ✅ Gleichmäßige Baumstruktur  
 ✅ Effiziente Hierarchie-Darstellung 
+
+## Force
+![[Pasted image 20250225130536.png]]
 
 ## Force-Directed Layout
 
