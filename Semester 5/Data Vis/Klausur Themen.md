@@ -297,3 +297,64 @@ A Colormap defines a mapping between scalar values and color values
 
 ---
 # Coding
+```python
+import seaborn as sns
+from bokeh.plotting import figure, show
+from bokeh.models import ColumnDataSource
+
+# Datensatz laden
+penguin_dataset = sns.load_dataset("penguins")
+
+# Daten filtern (nur Pinguine von der Insel Biscoe)
+filtered_data = penguin_dataset[penguin_dataset["island"] == "Biscoe"]
+
+# Bokeh benötigt ColumnDataSource für interaktive Plots
+source = ColumnDataSource(filtered_data)
+
+# Figure erstellen
+p = figure(title="Penguin Dataset", 
+           x_axis_label="Body Mass (g)", 
+           y_axis_label="Bill Length (mm)")
+
+# Scatterplot erstellen
+p.circle(source=source, x="body_mass_g", y="bill_length_mm", size=8, color="blue")
+
+# Plot anzeigen
+show(p)
+
+```
+
+### Scatter Plot
+```python
+from bokeh.plotting import figure, show
+
+p = figure(title="Scatterplot" , x_axis_label="X", y_axis_label="Y")
+p.circle([1, 2, 3, 4], [10, 20, 25, 30], size=10, color="blue")
+
+show(p)
+
+```
+
+### Polyline
+```python
+p = figure(title="Liniendiagramm", x_axis_label="X", y_axis_label="Y")
+p.line([1, 2, 3, 4], [10, 20, 25, 30], line_width=2, color="green")
+
+show(p)
+
+```
+### Bar chart
+```python
+p = figure(title="Balkendiagramm", x_axis_label="Kategorien", y_axis_label="Werte")
+p.vbar(x=[1, 2, 3], top=[10, 20, 15], width=0.5, color="red")
+
+show(p)
+
+```
+### Dot size = body_mass_g
+```python
+import seaborn as sns
+penguins = sns.load_dataset("penguins")
+sns.scatterplot(data=penguins, x="flipper_length_mm", y="bill_length_mm", size="body_mass_g").set(title="Bill vs Flipper Length")
+
+```
