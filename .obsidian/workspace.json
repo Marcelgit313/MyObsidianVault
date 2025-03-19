@@ -35,7 +35,8 @@
               "title": "The Human"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,10 +202,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "68362822cd9fccbf",
+  "active": "ed951e6b3490df3e",
   "lastOpenFiles": [
-    "Semester 5/HCI/The Human.md",
     "Semester 5/HCI/The Computer.md",
+    "Semester 5/HCI/The Human.md",
     "Semester 5/HCI",
     "Semester 5/Data Vis/Klausur Themen.md",
     "Semester 5/Data Vis/attachments/Pasted image 20250225144448.png",
