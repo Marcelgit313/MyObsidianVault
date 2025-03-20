@@ -34,9 +34,37 @@
               "icon": "lucide-file",
               "title": "The Human"
             }
+          },
+          {
+            "id": "0d8ff077cd24f255",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 5/Data Vis/Zusammenfassung.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zusammenfassung"
+            }
+          },
+          {
+            "id": "4c074b4b6dda7626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 5/HCI/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,10 +230,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ed951e6b3490df3e",
+  "active": "4c074b4b6dda7626",
   "lastOpenFiles": [
-    "Semester 5/HCI/The Computer.md",
+    "Semester 5/HCI/attachments/Pasted image 20250320131401.png",
+    "Semester 5/HCI/attachments",
+    "Semester 5/HCI/Untitled.md",
     "Semester 5/HCI/The Human.md",
+    "Semester 5/Data Vis/Zusammenfassung.md",
+    "Semester 5/HCI/The Computer.md",
     "Semester 5/HCI",
     "Semester 5/Data Vis/Klausur Themen.md",
     "Semester 5/Data Vis/attachments/Pasted image 20250225144448.png",
@@ -214,7 +246,6 @@
     "Semester 5/Data Vis/attachments/Pasted image 20250225130536.png",
     "Semester 5/KI/Prüfung.md",
     "Semester 4/Modellierung von Softwaresystemen/Cheat sheet.md",
-    "Semester 5/Data Vis/Zusammenfassung.md",
     "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",
     "Excalidraw/Drawing 2024-11-29 15.05.37.excalidraw.md",
     "Excalidraw/G309 Blatt 12 2024-07-14 16.37.06.excalidraw.md",
@@ -246,10 +277,7 @@
     "Semester 4/Mathe Stochastik, Kombinatorik/Klausur 2022.md",
     "Semester 4/AlgoDat/Fragestunde 1.md",
     "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 2.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 5.md",
     "Semester 4/Algorithmen und Datenstrukturen/attachments",
-    "Semester 4/Algorithmen und Datenstrukturen",
     "Untitled.canvas"
   ]
 }
