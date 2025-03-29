@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,10 +230,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4c074b4b6dda7626",
+  "active": "ed951e6b3490df3e",
   "lastOpenFiles": [
-    "Semester 5/Data Vis/Zusammenfassung.md",
+    "Semester 5/HCI/The Computer.md",
     "Semester 5/HCI/HCI.md",
+    "Semester 5/Data Vis/Zusammenfassung.md",
+    "Semester 5/HCI/The Human.md",
     "Semester 5/HCI/attachments/Pasted image 20250320203624.png",
     "Semester 5/HCI/attachments/Pasted image 20250320203537.png",
     "Semester 5/HCI/attachments/Pasted image 20250320203452.png",
@@ -245,8 +247,6 @@
     "Semester 5/HCI/attachments/Pasted image 20250320202830.png",
     "Semester 5/HCI/attachments/Pasted image 20250320202724.png",
     "Semester 5/HCI/attachments",
-    "Semester 5/HCI/The Human.md",
-    "Semester 5/HCI/The Computer.md",
     "Semester 5/HCI",
     "Semester 5/Data Vis/Klausur Themen.md",
     "Semester 5/KI/Prüfung.md",
