@@ -4,67 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ee293628161310fe",
+        "id": "624db0816bf48d22",
         "type": "tabs",
         "children": [
           {
-            "id": "68362822cd9fccbf",
+            "id": "496fa79b4a08eb1c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 5/HCI/The Computer.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "The Computer"
-            }
-          },
-          {
-            "id": "ed951e6b3490df3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 5/HCI/The Human.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Human"
-            }
-          },
-          {
-            "id": "0d8ff077cd24f255",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 5/Data Vis/Zusammenfassung.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Zusammenfassung"
-            }
-          },
-          {
-            "id": "4c074b4b6dda7626",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 5/HCI/HCI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HCI"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,15 +180,16 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ed951e6b3490df3e",
+  "active": "496fa79b4a08eb1c",
   "lastOpenFiles": [
-    "Semester 5/HCI/The Computer.md",
-    "Semester 5/HCI/HCI.md",
+    "Semester 5/Data Vis/Klausur Themen.md",
     "Semester 5/Data Vis/Zusammenfassung.md",
+    "Semester 5/HCI/The Computer.md",
     "Semester 5/HCI/The Human.md",
+    "Semester 5/HCI/HCI.md",
     "Semester 5/HCI/attachments/Pasted image 20250320203624.png",
     "Semester 5/HCI/attachments/Pasted image 20250320203537.png",
     "Semester 5/HCI/attachments/Pasted image 20250320203452.png",
@@ -248,7 +202,6 @@
     "Semester 5/HCI/attachments/Pasted image 20250320202724.png",
     "Semester 5/HCI/attachments",
     "Semester 5/HCI",
-    "Semester 5/Data Vis/Klausur Themen.md",
     "Semester 5/KI/Prüfung.md",
     "Semester 4/Modellierung von Softwaresystemen/Cheat sheet.md",
     "Excalidraw/Drawing 2024-06-11 18.11.40.excalidraw.md",

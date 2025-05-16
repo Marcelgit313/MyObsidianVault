@@ -6,6 +6,7 @@
   ],
   "cssTheme": "Catppuccin",
   "translucency": false,
-  "interfaceFontFamily": "JetBrains Mono",
-  "textFontFamily": "JetBrains Mono"
+  "interfaceFontFamily": "FiraCode Nerd Font Mono",
+  "textFontFamily": "FiraCode Nerd Font Mono",
+  "monospaceFontFamily": "FiraCode Nerd Font Mono"
 }
