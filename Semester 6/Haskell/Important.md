@@ -14,3 +14,7 @@ ASCII \ is nearest way of writing square
 ++ append anfügen
 concat[x,y,z,[a,b,c]] listen zusammenfügen
 reverse
+
+iteration over a list and filter
+square x | x <- [0..9], odd x
+

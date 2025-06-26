@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 6/Haskell/Important.md",
+                "file": "Semester 6/Haskell/Ex01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Important"
+              "title": "Ex01"
             }
           }
         ]
@@ -189,8 +189,8 @@
   },
   "active": "496fa79b4a08eb1c",
   "lastOpenFiles": [
-    "Semester 6/Haskell/Ex01.md",
     "Semester 6/Haskell/Important.md",
+    "Semester 6/Haskell/Ex01.md",
     "Semester 5/Data Vis/Klausur Themen.md",
     "Semester 6/Haskell",
     "Semester 6",
