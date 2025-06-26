@@ -11,10 +11,14 @@
             "id": "496fa79b4a08eb1c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Semester 5/Data Vis/Klausur Themen.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Klausur Themen"
             }
           }
         ]
