@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 5/Data Vis/Klausur Themen.md",
+                "file": "Semester 6/Haskell/Important.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Klausur Themen"
+              "title": "Important"
             }
           }
         ]
@@ -189,7 +189,12 @@
   },
   "active": "496fa79b4a08eb1c",
   "lastOpenFiles": [
+    "Semester 6/Haskell/Ex01.md",
+    "Semester 6/Haskell/Important.md",
     "Semester 5/Data Vis/Klausur Themen.md",
+    "Semester 6/Haskell",
+    "Semester 6",
+    "Untitled.md",
     "Semester 5/Data Vis/Zusammenfassung.md",
     "Semester 5/HCI/The Computer.md",
     "Semester 5/HCI/The Human.md",
@@ -229,11 +234,7 @@
     "Semester 5/Chemie/attachments",
     "Semester 5/Chemie",
     "Semester 5/Untitled.md",
-    "Semester 5",
     "Semester 4/Mathe Stochastik, Kombinatorik/Klausur 2022.md",
-    "Semester 4/AlgoDat/Fragestunde 1.md",
-    "Semester 4/Mathe Stochastik, Kombinatorik/Übungen/Blatt 3.md",
-    "Semester 4/Algorithmen und Datenstrukturen/attachments",
     "Untitled.canvas"
   ]
 }
