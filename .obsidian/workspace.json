@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Web 1.0"
             }
+          },
+          {
+            "id": "78f583c3ffa22142",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,6 +192,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -187,7 +201,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "496fa79b4a08eb1c",
+  "active": "78f583c3ffa22142",
   "lastOpenFiles": [
     "Semester 5/KI/Prüfung.md",
     "Semester 6/Web/Web 1.0.md",
