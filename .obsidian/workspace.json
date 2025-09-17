@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 6/Web/Web 1.0.md",
+                "file": "Semester 4/Informationssysteme/Cheat sheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web 1.0"
-            }
-          },
-          {
-            "id": "78f583c3ffa22142",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "title": "Cheat sheet"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,10 +188,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "78f583c3ffa22142",
+  "active": "496fa79b4a08eb1c",
   "lastOpenFiles": [
-    "Semester 5/KI/Prüfung.md",
+    "Semester 4/Informationssysteme/Assoziationsregeln.md",
+    "Semester 4/Informationssysteme/Apriori Algorithmus.md",
     "Semester 6/Web/Web 1.0.md",
+    "Semester 5/KI/Prüfung.md",
     "Semester 6/Web/attachments/ChatGPT Image Aug 12, 2025, 08_35_49 AM.png",
     "Semester 6/Web/attachments",
     "Semester 6/Web",
@@ -242,8 +231,6 @@
     "Semester 4/Informationssysteme/Document Processing.md",
     "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
     "Semester 4/Informationssysteme/Cheat sheet.md",
-    "Semester 4/Informationssysteme/Assoziationsregeln.md",
-    "Semester 4/Informationssysteme/Apriori Algorithmus.md",
     "Semester 4/Informationssysteme/Precision, Recall und F1.md",
     "Semester 5/Data Vis/attachments",
     "Semester 5/Data Vis",
