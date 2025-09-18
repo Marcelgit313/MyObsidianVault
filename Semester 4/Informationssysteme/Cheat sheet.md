@@ -233,3 +233,7 @@ Ersetzt die Seite die am längsten im Puffer ist
 
 ---
 ![[Pasted image 20250918134436.png]]
+![[Pasted image 20250918140516.png]]
+![[Pasted image 20250918140530.png]]
+![[Pasted image 20250918141317.png]]
+
