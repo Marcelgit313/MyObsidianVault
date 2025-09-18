@@ -237,3 +237,197 @@ Ersetzt die Seite die am längsten im Puffer ist
 ![[Pasted image 20250918140530.png]]
 ![[Pasted image 20250918141317.png]]
 
+```java
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class PostgresTriggerExample {
+    public static void main(String[] args) {
+        String url = "jdbc:postgresql://localhost:5432/deinedatenbank";
+        String user = "postgres";
+        String password = "passwort";
+
+        // Funktion erstellen (Trigger-Handler)
+        String createFunctionSQL = """
+            CREATE OR REPLACE FUNCTION log_user_insert()
+            RETURNS TRIGGER AS $$
+            BEGIN
+                INSERT INTO user_audit(user_id, action, created_at)
+                VALUES (NEW.id, 'INSERT', NOW());
+                RETURN NEW;
+            END;
+            $$ LANGUAGE plpgsql;
+        """;
+
+        // Trigger erstellen, der die Funktion aufruft
+        String createTriggerSQL = """
+            DROP TRIGGER IF EXISTS after_user_insert ON users;
+            CREATE TRIGGER after_user_insert
+            AFTER INSERT ON users
+            FOR EACH ROW
+            EXECUTE FUNCTION log_user_insert();
+        """;
+
+        try (Connection conn = DriverManager.getConnection(url, user, password);
+             Statement stmt = conn.createStatement()) {
+
+            // Funktion anlegen
+            stmt.executeUpdate(createFunctionSQL);
+
+            // Trigger anlegen
+            stmt.executeUpdate(createTriggerSQL);
+
+            System.out.println("Trigger erfolgreich in PostgreSQL erstellt!");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+---
+
+### 1. ER-Modell & Relationenmodellierung
+
+- **Was:** Konzeptionelle Modellierung der Miniwelt und deren Abbildung auf das relationale Datenmodell.
+- **Wichtig:**
+    - **ER-Diagramme:** Entitätstypen, Beziehungstypen (binär, ternär), Attribute (Schlüsselattribute sind unterstrichen), Rollen.
+    - **Kardinalitäten:** Chen-Notation (z.B. N:M, 1:N), MinMax-Notation (z.B. (0,1), (1,*)), Existenzabhängigkeit (schwache Entitäten).
+    - **Generalisierung/Spezialisierung (is-a):** Disjunkt/überlappend, vollständig/partiell (Kardinalitäten für Subklassen: (1,1), (0,1), (1,_), (0,_)).
+    - **Abbildung auf Relationenmodell:** Regeln zur Übersetzung von Entitätstypen, Beziehungstypen (insbesondere 1:N, N:M, ternär, Generalisierung, schwache Entitäten) in Relationen und Fremdschlüssel.
+    - **Integritätsbedingungen:** Primärschlüssel, Fremdschlüssel (`ON UPDATE/DELETE CASCADE/SET NULL/RESTRICT`).
+- **Aufgaben:** ER-Diagramme erstellen, Kardinalitäten eintragen/begründen, Abbildung auf SQL-`CREATE TABLE` Statements inklusive aller Constraints.
+
+### 2. Entwurfstheorie (FDs & Normalformen)
+
+- **Was:** Analyse und Verbesserung von Relationenschemata zur Vermeidung von Redundanz und Änderungsanomalien.
+- **Wichtig:**
+    - **Funktionale Abhängigkeiten (FDs):** Definition (`α → β`), Einhaltung prüfen.
+    - **Schlüssel:** Superschlüssel (`α → R`), Kandidatenschlüssel (minimale Superschlüssel), Attributhülle (`AttrHülle(F, α)`) berechnen.
+    - **Armstrong-Axiome:** Reflexivität, Augmentierung, Transitivität (und erweiterte Regeln wie Dekomposition, Pseudotransitivität).
+    - **Kanonische Überdeckung (Fc):** Algorithmus zur Links- und Rechtsreduktion.
+    - **Zerlegung:** Verlustlosigkeit (`R = R1 ⋈ R2`) und Abhängigkeitserhaltung prüfen/begründen.
+    - **Normalformen:** 1NF, 2NF, 3NF, BCNF (Definitionen und Beispiele für Anomalien/Verletzungen). Algorithmen zur Überführung in 3NF (Synthese) oder BCNF (Dekomposition).
+    - **Mehrwertige Abhängigkeiten (MVDs):** Definition (`α ↠ β`), Verlustlose Zerlegung bei MVDs.
+- **Aufgaben:** FDs bestimmen, Attributhülle berechnen, Schlüsselkandidaten/Superschlüssel identifizieren, Armstrong-Axiome anwenden, Kanonische Überdeckung finden, Zerlegungen prüfen, Relationen normalisieren.
+
+### 3. Relationale Algebra (RA)
+
+- **Was:** Prozedurale Anfragesprache mit Operatoren zur Schritt-für-Schritt-Beschreibung von Datenmanipulationen.
+- **Wichtig:**
+    - **Grundoperatoren:** Selektion (`σ`), Projektion (`π`), Kartesisches Produkt (`×`), Vereinigung (`∪`), Differenz (`-`), Umbenennung (`ρ`).
+    - **Abgeleitete Operatoren:** Join (`⋈`, verschiedene Typen wie Equi-Join, Natural Join), Division (`÷`).
+    - **Erweiterungen:** Gruppierung und Aggregation (`γ`).
+    - **Mengensemantik vs. Multimengensemantik:** Auswirkungen auf Duplikate bei Projektion und Mengenoperationen.
+- **Aufgaben:** Textanfragen in RA formulieren, RA-Ausdrücke auf gegebenen Instanzen auswerten, Äquivalenz von RA-Ausdrücken prüfen, RA-Ausdrücke umgangssprachlich beschreiben.
+
+### 4. Relationenkalküle (Domänenkalkül, Tupelkalkül, Konjunktive Anfragen)
+
+- **Was:** Deklarative Anfragesprachen, die _was_ gesucht wird, statt _wie_ es zu berechnen ist.
+- **Wichtig:**
+    - **Konjunktive Anfragen:** Kopf und Rumpf, intensionale vs. extensionale Relationen, Anfrageprogramme, Monotonie.
+    - **Domänenkalkül (DK):** Formeln mit Domänenvariablen, Konstanten, relationalen Atomen, Vergleichsoperatoren (`=, ≠, ≥`), logischen Operatoren (`∧, ∨, ¬`) und Quantoren (`∃, ∀`).
+    - **Tupelkalkül (TK):** Formeln mit Tupelvariablen, Relation-Member (`t ∈ R`), Attributzugriff (`t.x`), Vergleichsoperatoren.
+    - **Sicherheit von Anfragen:** Bedingungen für endliche Ergebnisse, Domäne einer Formel.
+    - **Äquivalenz:** Kalküle und RA sind gleich mächtig (für sichere Ausdrücke).
+- **Aufgaben:** Textanfragen in DK/TK/konjunktiven Anfragen formulieren, Sicherheit von Anfragen begründen, Anfragen umschreiben, Auswertung auf Instanzen.
+
+### 5. SQL Anfragen (DML, DDL)
+
+- **Was:** Die primäre, standardisierte Datenbanksprache.
+- **Wichtig:**
+    - **`SELECT` Statement:** `FROM`, `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`, `LIMIT`.
+    - **Datentypen und Constraints:** `CREATE TABLE`, `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT`.
+    - **Aggregatfunktionen:** `COUNT`, `SUM`, `AVG`, `MAX`, `MIN` (Verwendung mit `GROUP BY`, `HAVING`).
+    - **Subqueries:** Unkorreliert (`IN`), Korreliert (`EXISTS`), All- und Any-Quantifizierung (`ALL`, `ANY`, `SOME`), Allquantifizierung mittels Negation formulieren.
+    - **`JOIN`s:** Kreuzprodukt (`CROSS JOIN`), natürlicher Join (`NATURAL JOIN`), innerer Join (`INNER JOIN`), Outer Joins.
+    - **`NULL`-Werte:** Dreiwertige Logik (`TRUE`, `FALSE`, `UNKNOWN`), Verhalten in arithmetischen Ausdrücken, Vergleichen und Aggregatfunktionen.
+    - **`INSERT`, `UPDATE`, `DELETE`:** mit `WHERE`-Klausel.
+    - **Fensteranfragen:** `OVER (PARTITION BY ... ORDER BY ...)` mit Ranking-Funktionen (`RANK`, `DENSE_RANK`, `SUM(...) OVER(...)`).
+    - **Rekursive SQL Anfragen:** `WITH RECURSIVE`.
+- **Aufgaben:** SQL-Anfragen formulieren (von einfach bis komplex, Uni-Schema und andere Schemata), `CREATE TABLE` Statements, SQL-Anfragen (insb. Fenster- und Rekursion) auswerten.
+
+### 6. Sichten (Views) & Trigger
+
+- **Was:** Abstraktionsmechanismen und proaktive Erweiterungen der Datenbank.
+- **Wichtig:**
+    - **Sichten (`VIEW`s):** Definition (`CREATE VIEW`), Eigenschaften (virtuell/materialisiert), änderbare Sichten, `WITH CHECK OPTION`, `WITH`-Klausel für temporäre Sichten/Unteranfragen.
+    - **Trigger:** Motivation, Grundprinzip (`AFTER/BEFORE/INSTEAD OF`, `INSERT/UPDATE/DELETE`, `ON <table>`, `FOR EACH ROW/STATEMENT`, `WHEN`-Bedingung), Trigger-Aktion als UDF.
+- **Aufgaben:** Views definieren und diskutieren, Trigger-Statements und UDFs zu Szenarien schreiben.
+
+### 7. Transaktionen (ACID, Serialisierbarkeit, Recovery)
+
+- **Was:** Gewährleistung der Korrektheit und Zuverlässigkeit bei parallelem Betrieb und Systemfehlern.
+- **Wichtig:**
+    - **ACID-Paradigma:** Atomarität, Konsistenz, Isolation, Dauerhaftigkeit (Definition, Beispiele für Verletzungen/Anomalien wie Lost Update, Dirty Read).
+    - **Historien:** Definition, serielle Historie, serialisierbare Historie, Konfliktoperationen, Konfliktgraph (Zeichnen, auf Zyklen prüfen).
+    - **Serialisierbarkeitsklassen:** Rücksetzbar (RC), Avoids Cascading Aborts (ACA), Strikt (ST) (Definitionen, Beziehungen untereinander).
+    - **Sperrverfahren:** Zwei-Phasen-Sperrprotokoll (2PL), Konservatives 2PL (C2PL), Striktes 2PL (S2PL), Starkes Striktes 2PL (SS2PL).
+    - **Verklemmungen (Deadlocks):** Entstehung, Erkennung (Wartegraph), Auflösung.
+    - **Recovery:** WAL-Prinzip, Force/Steal-Matrix (Redo/Undo-Bedarf), Wiederanlauf nach Crash.
+- **Aufgaben:** ACID-Eigenschaften erklären, Historien auf Anomalien/Eigenschaften prüfen (Konfliktgraph zeichnen), Force/Steal-Matrix ausfüllen, Sperrprotokolle anwenden/analysieren.
+
+### 8. DB-Puffer und E/A-Architektur
+
+- **Was:** Effiziente Verwaltung der Datenübertragung zwischen Haupt- und Sekundärspeicher.
+- **Wichtig:**
+    - **Speicherhierarchie:** Kosten für verschiedene Speichertypen, Zugriffslücke zwischen Hauptspeicher und Festplatte.
+    - **E/A-Kostenmodell:** Positionierungszeit (`a`), Leserate (`s`), Seitengröße (`p`), Dateigröße (`d`). Unterschied sequentieller vs. wahlfreier Zugriff.
+    - **Break-Even-Point:** Berechnung (`n = (as+d)/(as+p)`).
+    - **Datenbankpuffer:** Motivation, `5-Minuten-Regel`.
+    - **Ersetzungsstrategien:** FIFO, LFU, LRU, RANDOM, Optimal (Algorithmen, Funktionsweise, Vor-/Nachteile). Berechnung der Cache Misses bei gegebener Zugriffsfolge und Puffergröße.
+- **Aufgaben:** Break-Even-Point berechnen, Pufferzustand und Cache Misses für eine Zugriffsfolge und Strategie bestimmen.
+
+### 9. Indexstrukturen (B+ Bäume)
+
+- **Was:** Datenstrukturen zur Beschleunigung von Suchoperationen.
+- **Wichtig:**
+    - **Motivation:** Nachteile der linearen/binären Suche auf Festplatten, hohe E/A-Kosten.
+    - **B-Bäume:** Definition, Eigenschaften (balanciert, Füllgrad), Knotenformat, Einfügen/Löschen (Splits, Mischen).
+    - **B+-Bäume:** Wichtigste Variante, Vorteile gegenüber B-Bäumen (Daten nur in Blättern, sequentiell verknüpfte Blätter, höherer Fan-Out, flacherer Baum), (k,k*)-Definition, Knotenformate, Grundoperationen (Suchen, Einfügen, Löschen), Fan-Out Berechnung.
+    - **Bulkloading:** Effizienter Aufbau eines B+ Baums aus vorsortierten Daten.
+    - **Präfix-B-Bäume:** Schlüsselkomprimierung in inneren Knoten.
+    - **Hashverfahren:** Punktanfragen, Kollisionen, Hashfunktionen.
+    - **Nachteile von Indexen:** Platzverbrauch, Pflegeaufwand bei Änderungen.
+- **Aufgaben:** Gegebenen B+ Baum zeichnen/korrigieren, Operationen (Insert/Delete) schrittweise durchführen, Fanout berechnen, Vor-/Nachteile/Unterschiede von Indexstrukturen erklären.
+
+### 10. Anfrageoptimierung (Kostenschätzung, Heuristiken)
+
+- **Was:** Prozess zur Auswahl des effizientesten Ausführungsplans für eine Anfrage.
+- **Wichtig:**
+    - **Anfrageplan:** Übersetzung von SQL in Operatoren der relationalen Algebra, Operatorbäume.
+    - **Regelbasierte Optimierung:** Heuristiken (Selektionen früh schieben, Projektionen früh schieben, Join-Reihenfolge optimieren).
+    - **Kostenbasierte Optimierung:** Kostenmodelle (Anzahl Zwischenergebnisse), Statistiken, Histogramme.
+    - **Selektivitätsschätzung:** `T(R)` (Anzahl Tupel), `V(R,A)` (Anzahl verschiedener Werte), Formeln für Selektionen (`σA=c(R)`, `σA≠c(R)`, `σC1∨C2(R)`) und Joins (`R ⋈ S`), Projektion (`πA(R)` unter Mengensemantik).
+    - **Histogramme:** Erstellung (Equi-Height), Punktanfragen, Bereichsanfragen, Fehlermaße (absoluter/relativer Fehler).
+- **Aufgaben:** RA-Anfragen optimieren (Operatorbäume umformen), Selektivitäten/Ergebnismengen abschätzen, Histogramme erstellen/auswerten, Fehler berechnen.
+
+### 11. Informationssuche (IR-Modelle, Metriken, Distanzmaße)
+
+- **Was:** Methoden zur effizienten Suche, Bewertung und Rangfolge von Informationen.
+- **Wichtig:**
+    - **Dokumentverarbeitung:** Tokenisierung, Stopwörter, Stemming.
+    - **Distanzmaße auf Zeichenketten:** Hamming-Distanz, Levenshtein-Distanz (DP-Tabelle ausfüllen), Längste gemeinsame Teilsequenz.
+    - **Retrieval-Modelle:** Boolesches Modell, Vektorraummodell (Kosinus-Ähnlichkeit).
+    - **TF*IDF:** Termfrequenz (`tf`), Dokumentfrequenz (`df`), Inverse Dokumentfrequenz (`idf`), Gewichtung (`tf.idf = tf × idf`), Skalarprodukt-Ähnlichkeit.
+    - **Bewertung der Resultatgüte:** Klassifizierung von Ergebnissen (True/False Positives/Negatives), **Precision** (`P = tp / (tp + fp)`), **Recall** (`R = tp / (tp + fn)`), **F-Measure** (`Fβ`), **Average Precision (AP)**, **Mean Average Precision (MAP)**, **Precision@k (P@k)** (Berechnung auf Beispiel-Ranglisten).
+    - **Vielfalt & Neuheit:** Maximale Marginale Relevanz (MMR) (Vorgehensweise).
+    - **Latent-Semantic-Indexing (LSI):** SVD, Rang-k Approximation, Operationen im Topic-Raum.
+    - **PageRank:** Random-Surfer-Modell, Power Iteration.
+- **Aufgaben:** Distanzmaße berechnen, TF*IDF Scores ermitteln, Precision/Recall/F-Measure/P@k berechnen/diskutieren, MMR/LSI Vorgehen beschreiben.
+
+### 12. Data Mining (Frequent Itemsets, Clustering)
+
+- **Was:** Entdeckung von Mustern und Strukturen in großen Datenmengen.
+- **Wichtig:**
+    - **Warenkorbanalyse:** Itemsets, Support, Konfidenz, Assoziationsregeln.
+    - **Apriori-Prinzip:** Anti-Monotonie des Supports (häufige Teilmengen sind auch häufig), Kandidatengenerierung und Eliminierung.
+    - **Clustering:** Definition, Gütebestimmung von Clusterings.
+- **Aufgaben:** Häufige Itemsets zu gegebenen Transaktionen und `minsupp` finden, Assoziationsregeln herleiten, Anti-Monotonie des Supports begründen.
+
+---
+
+**Zusätzlicher Hinweis:** Die "Warm-Up"-Aufgaben in den Klausurprotokollen zeigen, dass auch grundlegende Konzepte und deren Begründungen abgefragt werden können, die sich über verschiedene Themen erstrecken. Daher ist es wichtig, nicht nur zu wissen _wie_ etwas funktioniert, sondern auch _warum_.
+
+Konzentrieren Sie sich auf das Verständnis der Kernkonzepte, üben Sie das Lösen von Beispielaufgaben und können Sie die wichtigsten Definitionen und Schritte prägnant wiedergeben. Viel Erfolg bei der Prüfung!
