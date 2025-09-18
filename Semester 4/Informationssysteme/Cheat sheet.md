@@ -232,3 +232,4 @@ Ersetzt die Seite die am längsten im Puffer ist
 	- Seite auf der untersten Position des Stacks wird bei Bedarf ersetzt
 
 ---
+![[Pasted image 20250918134436.png]]
