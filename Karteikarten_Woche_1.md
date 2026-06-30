@@ -2,7 +2,7 @@
 
 Format: Frage vorne, Antwort hinten. Ziel fuer Woche 1: Begriffe sicher erklaeren und einfache Aufgaben starten koennen.
 
-## Warm-up und Datenarten
+## Warm-up und Datenarten !
 
 | Vorderseite                                      | Rueckseite                                                                                                                                                                  |
 | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -10,7 +10,7 @@ Format: Frage vorne, Antwort hinten. Ziel fuer Woche 1: Begriffe sicher erklaere
 | Was ist ein Schema?                              | Die Strukturdefinition von Daten, z.B. Relationennamen, Attribute, Datentypen, Schluessel und Constraints.                                                                  |
 | Was ist eine Auspraegung/Instanz einer Relation? | Die konkrete Menge von Tupeln, die zu einem Zeitpunkt in der Relation gespeichert ist.                                                                                      |
 
-## Informationssuche
+## Informationssuche !
 
 | Vorderseite                                            | Rueckseite                                                                                                                                     |
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -22,7 +22,7 @@ Format: Frage vorne, Antwort hinten. Ziel fuer Woche 1: Begriffe sicher erklaere
 | Was ist Tokenisierung?                                 | Zerlegung eines Textes in Tokens, meist Woerter oder Terme.                                                                                    |
 | Was ist Normalisierung bei Text?                       | Vereinheitlichung von Tokens, z.B. Kleinschreibung, Entfernen von Satzzeichen, Stemming.                                                       |
 
-## ER-Modellierung
+## ER-Modellierung !
 
 | Vorderseite                                 | Rueckseite                                                                                                                             |
 | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -43,67 +43,67 @@ Format: Frage vorne, Antwort hinten. Ziel fuer Woche 1: Begriffe sicher erklaere
 | Was bedeutet totale Generalisierung?        | Jede Entitaet des Obertyps muss mindestens einem Untertyp angehoeren.                                                                  |
 | Was bedeutet partielle Generalisierung?     | Eine Entitaet des Obertyps muss keinem Untertyp angehoeren.                                                                            |
 
-## ER zu Relationenmodell
+## ER zu Relationenmodell !
 
-| Vorderseite | Rueckseite |
-|---|---|
-| Wie wird ein Entitaetstyp ins Relationenmodell ueberfuehrt? | Als Tabelle mit Attributen; der ER-Schluessel wird Primaerschluessel. |
-| Wie wird eine 1:n-Beziehung meist umgesetzt? | Fremdschluessel der 1-Seite wird in die Tabelle der n-Seite aufgenommen; Beziehungsattribute ebenfalls auf n-Seite. |
-| Wie wird eine n:m-Beziehung umgesetzt? | Durch eigene Beziehungstabelle mit Fremdschluesseln auf beide Entitaetstabellen; Kombination meist Primaerschluessel. |
-| Wie wird eine 1:1-Beziehung umgesetzt? | Fremdschluessel auf einer Seite, bevorzugt auf der Seite mit totaler Teilnahme; ggf. `UNIQUE` setzen. |
-| Wie wird eine schwache Entitaet umgesetzt? | Eigene Tabelle mit Fremdschluessel auf Besitzer; Primaerschluessel meist Besitzer-Schluessel plus partieller Schluessel. |
-| Wie kann Generalisierung vertikal umgesetzt werden? | Obertyp-Tabelle fuer gemeinsame Attribute, Untertyp-Tabellen mit gleichem Primaerschluessel als Fremdschluessel. |
-| Was ist ein Fremdschluessel? | Attribut oder Attributmenge, die auf den Primaer-/Kandidatenschluessel einer anderen Relation verweist. |
-| Was bedeutet referentielle Integritaet? | Jeder Fremdschluesselwert muss auf einen existierenden Zielwert verweisen oder, falls erlaubt, `NULL` sein. |
+| Vorderseite                                                 | Rueckseite                                                                                                               |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Wie wird ein Entitaetstyp ins Relationenmodell ueberfuehrt? | Als Tabelle mit Attributen; der ER-Schluessel wird Primaerschluessel.                                                    |
+| Wie wird eine 1:n-Beziehung meist umgesetzt?                | Fremdschluessel der 1-Seite wird in die Tabelle der n-Seite aufgenommen; Beziehungsattribute ebenfalls auf n-Seite.      |
+| Wie wird eine n:m-Beziehung umgesetzt?                      | Durch eigene Beziehungstabelle mit Fremdschluesseln auf beide Entitaetstabellen; Kombination meist Primaerschluessel.    |
+| Wie wird eine 1:1-Beziehung umgesetzt?                      | Fremdschluessel auf einer Seite, bevorzugt auf der Seite mit totaler Teilnahme; ggf. `UNIQUE` setzen.                    |
+| Wie wird eine schwache Entitaet umgesetzt?                  | Eigene Tabelle mit Fremdschluessel auf Besitzer; Primaerschluessel meist Besitzer-Schluessel plus partieller Schluessel. |
+| Wie kann Generalisierung vertikal umgesetzt werden?         | Obertyp-Tabelle fuer gemeinsame Attribute, Untertyp-Tabellen mit gleichem Primaerschluessel als Fremdschluessel.         |
+| Was ist ein Fremdschluessel?                                | Attribut oder Attributmenge, die auf den Primaer-/Kandidatenschluessel einer anderen Relation verweist.                  |
+| Was bedeutet referentielle Integritaet?                     | Jeder Fremdschluesselwert muss auf einen existierenden Zielwert verweisen oder, falls erlaubt, `NULL` sein.              |
 
-## Relationenmodell
+## Relationenmodell !
 
-| Vorderseite | Rueckseite |
-|---|---|
-| Was ist eine Relation? | Mathematisch eine Menge von Tupeln ueber Attributen; praktisch eine Tabelle. |
-| Was ist ein Tupel? | Eine Zeile einer Relation, also eine konkrete Kombination von Attributwerten. |
-| Was ist ein Attribut im Relationenmodell? | Eine benannte Spalte einer Relation. |
-| Was ist eine Domaene? | Wertebereich eines Attributs, z.B. Integer, Datum, String oder definierte Menge. |
-| Was ist ein Primaerschluessel? | Ausgewaehlter Kandidatenschluessel, der Tupel eindeutig identifiziert und nicht `NULL` sein darf. |
-| Was ist ein Kandidatenschluessel? | Minimaler Superschluessel. Entfernt man ein Attribut, ist er kein Superschluessel mehr. |
-| Was ist ein Superschluessel? | Attributmenge, die jedes Tupel eindeutig identifiziert; muss nicht minimal sein. |
-| Was ist ein zusammengesetzter Schluessel? | Ein Schluessel aus mehreren Attributen. |
-| Was ist ein Constraint? | Eine Integritaetsbedingung, z.B. `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`, `CHECK`. |
+| Vorderseite                               | Rueckseite                                                                                        |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Was ist eine Relation?                    | Mathematisch eine Menge von Tupeln ueber Attributen; praktisch eine Tabelle.                      |
+| Was ist ein Tupel?                        | Eine Zeile einer Relation, also eine konkrete Kombination von Attributwerten.                     |
+| Was ist ein Attribut im Relationenmodell? | Eine benannte Spalte einer Relation.                                                              |
+| Was ist eine Domaene?                     | Wertebereich eines Attributs, z.B. Integer, Datum, String oder definierte Menge.                  |
+| Was ist ein Primaerschluessel?            | Ausgewaehlter Kandidatenschluessel, der Tupel eindeutig identifiziert und nicht `NULL` sein darf. |
+| Was ist ein Kandidatenschluessel?         | Minimaler Superschluessel. Entfernt man ein Attribut, ist er kein Superschluessel mehr.           |
+| Was ist ein Superschluessel?              | Attributmenge, die jedes Tupel eindeutig identifiziert; muss nicht minimal sein.                  |
+| Was ist ein zusammengesetzter Schluessel? | Ein Schluessel aus mehreren Attributen.                                                           |
+| Was ist ein Constraint?                   | Eine Integritaetsbedingung, z.B. `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`, `CHECK`.     |
 
-## Relationale Algebra
+## Relationale Algebra !
 
-| Vorderseite | Rueckseite |
-|---|---|
-| Was ist relationale Algebra? | Formale Anfragesprache mit Operatoren auf Relationen; Ergebnis ist wieder eine Relation. |
-| Was macht Selektion `sigma`? | Filtert Tupel nach einer Bedingung, also Zeilen. |
-| Was macht Projektion `pi`? | Waehlt Attribute aus, also Spalten; unter Mengensemantik werden Duplikate entfernt. |
-| Was macht Umbenennung `rho`? | Benennt Relationen oder Attribute um, wichtig bei Self-Joins. |
-| Was ist das kartesische Produkt? | Kombiniert jedes Tupel der ersten Relation mit jedem Tupel der zweiten Relation. |
-| Was ist ein Join? | Kombination von Relationen mit Join-Bedingung; entspricht oft Selektion ueber kartesischem Produkt. |
-| Was ist ein natuerlicher Join? | Join ueber gleichnamige Attribute mit Gleichheitsbedingung; gemeinsame Attribute erscheinen nur einmal. |
-| Was macht Vereinigung `union`? | Liefert alle Tupel, die in mindestens einer der beiden kompatiblen Relationen vorkommen. |
-| Was macht Differenz `-`? | Liefert Tupel, die in der ersten, aber nicht in der zweiten Relation vorkommen. |
-| Was bedeutet Vereinigungskompatibilitaet? | Beide Relationen haben gleiche Stelligkeit und kompatible Attributdomaenen. |
-| Wofuer nutzt man Division? | Fuer "fuer alle"-Anfragen, z.B. Kunden, die alle Produkte gekauft haben. |
+| Vorderseite                               | Rueckseite                                                                                              |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Was ist relationale Algebra?              | Formale Anfragesprache mit Operatoren auf Relationen; Ergebnis ist wieder eine Relation.                |
+| Was macht Selektion `sigma`?              | Filtert Tupel nach einer Bedingung, also Zeilen.                                                        |
+| Was macht Projektion `pi`?                | Waehlt Attribute aus, also Spalten; unter Mengensemantik werden Duplikate entfernt.                     |
+| Was macht Umbenennung `rho`?              | Benennt Relationen oder Attribute um, wichtig bei Self-Joins.                                           |
+| Was ist das kartesische Produkt?          | Kombiniert jedes Tupel der ersten Relation mit jedem Tupel der zweiten Relation.                        |
+| Was ist ein Join?                         | Kombination von Relationen mit Join-Bedingung; entspricht oft Selektion ueber kartesischem Produkt.     |
+| Was ist ein natuerlicher Join?            | Join ueber gleichnamige Attribute mit Gleichheitsbedingung; gemeinsame Attribute erscheinen nur einmal. |
+| Was macht Vereinigung `union`?            | Liefert alle Tupel, die in mindestens einer der beiden kompatiblen Relationen vorkommen.                |
+| Was macht Differenz `-`?                  | Liefert Tupel, die in der ersten, aber nicht in der zweiten Relation vorkommen.                         |
+| Was bedeutet Vereinigungskompatibilitaet? | Beide Relationen haben gleiche Stelligkeit und kompatible Attributdomaenen.                             |
+| Wofuer nutzt man Division?                | Fuer "fuer alle"-Anfragen, z.B. Kunden, die alle Produkte gekauft haben.                                |
 
 ## SQL Basis
 
-| Vorderseite | Rueckseite |
-|---|---|
-| Grundstruktur einer SQL-Anfrage? | `SELECT ... FROM ... WHERE ... GROUP BY ... HAVING ... ORDER BY ...`. |
-| Unterschied `WHERE` und `HAVING`? | `WHERE` filtert Tupel vor Gruppierung; `HAVING` filtert Gruppen nach Aggregation. |
-| Was macht `GROUP BY`? | Fasst Tupel mit gleichen Gruppierungsattributen zusammen, damit Aggregatfunktionen berechnet werden koennen. |
-| Wichtige Aggregatfunktionen? | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`. |
-| Was zaehlt `COUNT(*)`? | Alle Tupel einer Gruppe, unabhaengig von `NULL`-Werten. |
-| Was zaehlt `COUNT(attribut)`? | Nur Tupel, bei denen das Attribut nicht `NULL` ist. |
-| Was macht `DISTINCT`? | Entfernt Duplikate aus dem Ergebnis. |
-| Was ist ein Inner Join? | Liefert nur Kombinationen, fuer die die Join-Bedingung erfuellt ist. |
-| Was ist ein Self-Join? | Eine Relation wird mit sich selbst verknuepft, meist mit Aliasnamen. |
-| Wofuer nutzt man `EXISTS`? | Testet, ob eine Unteranfrage mindestens ein Tupel liefert. |
-| Wofuer nutzt man `NOT EXISTS`? | Typisch fuer "keine", "nie" und "alle"-Aufgaben. |
-| Warum ist `NOT IN` mit `NULL` gefaehrlich? | `NULL` kann zu unbekannten Wahrheitswerten fuehren; `NOT EXISTS` ist oft robuster. |
-| Was macht `LIKE`? | Mustervergleich in Strings, z.B. `%systeme%`. |
-| Was ist ein Alias? | Kurzname fuer Tabelle oder Attribut, z.B. `Studenten s`. |
+| Vorderseite                                | Rueckseite                                                                                                   |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| Grundstruktur einer SQL-Anfrage?           | `SELECT ... FROM ... WHERE ... GROUP BY ... HAVING ... ORDER BY ...`.                                        |
+| Unterschied `WHERE` und `HAVING`?          | `WHERE` filtert Tupel vor Gruppierung; `HAVING` filtert Gruppen nach Aggregation.                            |
+| Was macht `GROUP BY`?                      | Fasst Tupel mit gleichen Gruppierungsattributen zusammen, damit Aggregatfunktionen berechnet werden koennen. |
+| Wichtige Aggregatfunktionen?               | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.                                                                         |
+| Was zaehlt `COUNT(*)`?                     | Alle Tupel einer Gruppe, unabhaengig von `NULL`-Werten.                                                      |
+| Was zaehlt `COUNT(attribut)`?              | Nur Tupel, bei denen das Attribut nicht `NULL` ist.                                                          |
+| Was macht `DISTINCT`?                      | Entfernt Duplikate aus dem Ergebnis.                                                                         |
+| Was ist ein Inner Join?                    | Liefert nur Kombinationen, fuer die die Join-Bedingung erfuellt ist.                                         |
+| Was ist ein Self-Join?                     | Eine Relation wird mit sich selbst verknuepft, meist mit Aliasnamen.                                         |
+| Wofuer nutzt man `EXISTS`?                 | Testet, ob eine Unteranfrage mindestens ein Tupel liefert.                                                   |
+| Wofuer nutzt man `NOT EXISTS`?             | Typisch fuer "keine", "nie" und "alle"-Aufgaben.                                                             |
+| Warum ist `NOT IN` mit `NULL` gefaehrlich? | `NULL` kann zu unbekannten Wahrheitswerten fuehren; `NOT EXISTS` ist oft robuster.                           |
+| Was macht `LIKE`?                          | Mustervergleich in Strings, z.B. `%systeme%`.                                                                |
+| Was ist ein Alias?                         | Kurzname fuer Tabelle oder Attribut, z.B. `Studenten s`.                                                     |
 
 ## SQL DDL und Constraints
 
