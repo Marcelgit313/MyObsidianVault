@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lernplan_Informationssysteme.md",
+                "file": "Karteikarten_Woche_1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lernplan_Informationssysteme"
+              "title": "Karteikarten_Woche_1"
             }
           }
         ]
@@ -190,9 +190,10 @@
   },
   "active": "136b6d4e063756f8",
   "lastOpenFiles": [
-    "skript-insy-2026.pdf",
-    "Lernplan_Informationssysteme.md",
     "Karteikarten_Punkt_6_Definitionen.md",
+    "Semester 4/Informationssysteme/Levenshtein.md",
+    "Lernplan_Informationssysteme.md",
+    "skript-insy-2026.pdf",
     "Karteikarten_Woche_1.md",
     "Kognition/beispielklausur_kognition_mc.md",
     "Kognition/Kognition_Klausur_Lernzusammenfassung.md",
