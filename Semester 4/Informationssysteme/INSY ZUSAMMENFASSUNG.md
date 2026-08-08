@@ -191,6 +191,9 @@ $$AP(q)= \frac{1}{m}\sum\limits_{d_{k}\in {d_{1},....,d_{m}}}Precision(R_{k})$$
 ## Mean-Average-Precision
 Für die Menge $Q$ von Anfragen kann die __Mean-Average-Precision(MAP)__ berechnet werden durch
 $$MAP(Q)=\frac{1}{|Q|}\sum\limits_{q\in Q}AP(q)$$
+# Precision@k
+Precision@k ist die Precision, die in der ersten $k$ Ergebnisse erreicht wird, also wenn 5 relevante Dokumente in den ersten 10 Dokumenten ist dann
+$$Precision@10=\frac{5}{10}=\frac{1}{2}=0.5$$
 
 ---
 # Maximale Marginale Relevanz(MMR)
@@ -232,3 +235,233 @@ Man möchte $A$ gar nicht korrekt wiederherstellen sondern approximieren durch d
 Wir wählen die k größten Singulärwerte aus $\Sigma$  aus, d.h. wir setzten die übrigen Singulärwerte auf $0$ und entsprechend die dazugehörigen Einträge in $U$ und $V^T$ 
 
 ![[Pasted image 20240428131212.png]]**Faustregel**: Es sollten etwa 90% der Summe der Quadrate der Singulärwerte erhalten bleiben
+
+## Operationen im Topic-Raum
+Wir können eine Anfrage aus dem $m$-dimensionalen Term-Raum in den k-dimensionalen Topic-Raum abbilden durch
+$$q\rightarrow U_{k}^{T}q=q'$$
+Die Eignung(Score) der Dokumente wird dann im Topic-Raum berechnet durch die Cosinus-Ähnlichkeit oder das Skalarprodukt von $q'$ und den Spalten der Matrix $V_{k}^{T}$ 
+
+---
+# PageRank
+PageRank sagt, dass eine Webseite $v$ wichtig ist, wenn viele wichtige Seiten auf $v$ verweisen
+
+![[Pasted image 20240429190356.png]]
+
+---
+# Random-Surfer-Modell(User)
+- folgt zufällig den Links, die von einer Seite ausgehen, mit Wahrscheinlichkeit $(1-\varepsilon)$ 
+- springt zu einer zufällig ausgewählten Seite, mit Wahrscheinlichkeit $\varepsilon$ 
+
+__Intuition__: Wichtige Webseiten werden häufiger besucht, da sie öfter verlinkt sind
+
+$$PR(p)=(1-\varepsilon)\times \sum\limits_{q\rightarrow p}\frac{PR(q)}{out(q)}+\varepsilon \times \frac{1}{N}$$
+- Die Komponente $\sum\limits_{q\rightarrow p}\frac{PR(q)}{out(q)}$ entspricht dem zufälligen Folgen von Links
+- Die Komponente $\frac{1}{N}$ entspricht dem zufälligen Einfügen von Links in die Browser Suchzeile
+- $out(q)$ ist die Anzahl der von $q$ ausgehenden Links("outdegree")
+
+---
+# Markov-Ketten
+Markov-Ketten sind __gedächtnislos__ und __zeithomogen__
+
+>[!Important]
+>Man sagt eine Markov-Kette ist **ergodisch** falls sie irreduzibel, positiv rekurrent und aperiodisch ist.
+>__Theorem__: Falls eine Markov-Kette endlich und ergodisch ist, dann existiert eine stationäre Zustandsverteilung $\pi$ 
+
+zum Beispiel besitzt die Markov-Kette für den PageRank diese Eigenschaften
+
+### Beispiel:
+Wie wird das Wetter morgen sein, wenn es heute regnet?
+
+![[Pasted image 20240429192344.png]]
+
+$P_{ij}$ ist die Wahrscheinlichkeit, dass der folgende Tag vom Typ $j$ ist, wenn der heutige Tag vom Typ $i$ ist.
+
+Wenn man zum Beispiel den heutigen Tag als Vektor darstellt in dem Fall ein Sonniger Tag $x_{0}=(1, 0)$ 
+Dann ist das Wetter am nächsten Tag :
+$$x_{1}=x_{0}\cdot P=(1,0)\cdot \begin{pmatrix}0.9&0.1\\0.5&0.5\end{pmatrix}=(0.9,0.1)$$
+
+# Markov-Ketten beim PageRank
+
+![[Pasted image 20240429194708.png]]
+
+Um jetzt $\pi$ auszurechnen multipliziert man $\pi^{(0)}$ mit $P$ also:
+$$\pi = (0.25,0.125,0.25,0.1875,0.1875)$$
+### Berechnung von $\pi$ mit "Power Iteration"-Methode
+Idee: Berechne schrittweise Zustandsverteilungen $\pi$ bis diese konvergiert
+
+__Algorithmus__:
+- wähle initiale Zustandsverteilung $\pi^{(0)}$ 
+- berechne $\pi^{(k)}=\pi^{(k-1)}\cdot P$ bis zur Konvergenz
+- gebe $\pi$ aus
+
+Wir berechnen hier also einen Linkseigenvektor
+
+### Matrix Normalisieren
+
+![[Pasted image 20240429195930.png]]
+
+Nun bezieht man noch die ausgehenden Links von jedem Konten mit ein und erhält
+
+![[Pasted image 20240429200055.png]]
+
+Für den letzten Teil für die P-Matrix also $\frac{1}{N}$ bauen wir uns selbst eine Matrix mit den Einträgen $\frac{1}{\text{Anzahl der Knoten}}$ also:
+
+![[Pasted image 20240429200427.png]]
+
+## Startvektor
+Als Startvektor nimmt man die gleiche Verteilung auf den ganzen Vektor also in dem oberen Beispiel wäre der Startvektor für 5 Knoten:
+$$q^{(0)}=(0.2,0.2,0.2,0.2,0.2)$$
+
+## PageRank und Anfragen
+PageRank berechnet ein statisches Ranking von Webseiten und ist unabhängig von Anfragen
+
+Eine Möglichkeit PageRank und "TF$*$IDF " Scores zu kombinieren ist die einfache Linearkombination:
+$$a\times sim(q,d)+(1-\alpha)\times PR(d)$$
+
+---
+# Itemset Mining
+### Warenkorbanalyse
+Welche Objekte werden häufig zusammen gekauft?
+Können wir Regeln angeben der Form: Kunden die Windeln kaufen, kaufen auch oft Bier
+
+![[Pasted image 20240502102931.png]]
+- Ein Itemset ist eine Menge von Objekten
+	- Eine Transaktion $t$ ist ein Itemset mit dazu gehöriger Transaktions ID $t=(tid,I)$, wobei $I$ das Itemset der Transaktion ist
+
+- Der Support von Itemset $X$ in einer Datenbank $D$ ist die Anzahl der Transaktionen in $D$, die $X$ enthalten
+	$$Supp(X,D)=\lbrace t\in D:t\ enthält\ X\rbrace$$
+- Die __relative Häufigkeit__ von Itemset $X$ in Datenbank $D$ ist:
+$$supp(X,D)/|D|$$
+--- 
+## Assoziationsregeln
+Support einer Regel
+$$supp(X \rightarrow Y,D)=supp(X\cup Y,D)$$
+Konfidenz der Regel
+$$conf(X\rightarrow Y,D)=supp(X\cup Y,D)/supp(X,D)$$
+Die Konfidenz ist die bedingte Wahrscheinlichkeit, dass eine Transaktion $Y$ enthält, wenn sie $X$ enthält
+
+---
+## Ein naiver Algorithmus
+Betrachte jedes mögliche Itemset und teste ob es häufig ist.
+
+Berechnen des Support dauert $O(|I|\times |D|)$ und es gibt $2^{|I|}$ mögliche Itemsets, also im Worstcase: $O(|I|\times|D|\times 2^{|I|})$ 
+
+---
+# Apriori Algorithmus
+### Prinzip
+![[Pasted image 20240505115546.png]]
+
+![[Pasted image 20240505115618.png]]
+
+## Anti-Monotonie
+Sei $I$ eine Menge von Items und sei $J=2^{I}$ die Potenzmenge von $I$. Ein Maß $f$ ist __monoton__
+$$\forall X.Y \in J:(X\subseteq Y)\implies f(X)\leq f(Y)$$
+Im Gegensatz, $f$ ist __anti-monoton__ falls
+$$\forall X.Y \in J:(X\subseteq Y)\implies f(Y)\leq f(X)$$
+Der Support ist __anti-monoton__ 
+
+---
+# Clustering und K-Means Algorithmus
+
+Gegeben eine Menge von Objekten. Ziel: Finden eines guten Clusterings der Objekten anhand ihrer Eigenschaften
+
+![[Pasted image 20240505121045.png]]
+
+# Clustering-Problem
+- Gegeben eine Menge $U$ von Objekten und eine Distanzfunktion $d:U\times U\rightarrow \mathbb{R}^{+}$  
+- gleiche Objekte müssen eine möglichst kleine Distanz zueinander haben
+- unterschiedliche Objekte müssen eine große Distanz zwischen anderen haben
+
+# Partitionen und Prototypen
+Es wird nur __exklusives Clustering__ betrachtet, d.h. ein Objekt ist genau einem Cluster zugeordnet
+
+- Jedes Cluster $C_i$ wird von einem sogenannten Prototypen $\mu$ repräsentiert
+
+# Naiver (Brute-Force) Ansatz
+1. Generiere alle möglichen Clusterings, eins nach dem anderen
+2. Berechne den quadratischen Fehler
+3. Wähle das Cluster mit dem kleinsten Fehler aus
+
+Dieser Ansatz ist leider unbrauchbar: Es gibt viel zu viele mögliche Clusterings, die ausprobiert werden müssen
+
+- Es gibt $k^n$ Möglichkeiten diese $k$ Cluster zu erzeugen bei $n$ Objekten. Davon können einige Cluster leer sein. Also für 50 Objekte und 3 Cluster gibt es $3^{50}$ Möglichkeiten
+
+## K-Means Clustering
+- Jedes Cluster wird durch einen Mittelpunkt (Centroid) repräsentiert
+- Ein Objekt wird dem Centroid mit der geringsten Distanz zugewiesen
+- Es gibt $k$ Cluster. $k$ ist ein Parameter
+
+![[Pasted image 20240505122636.png]]
+
+- Die initialen Centroids werden normalerweise zufällig ausgewählt. Dadurch können verschiedene Durchläufe auf den gleichen Daten unterschiedliche Cluster erzeugen
+- Als Distanzmaß wir z.B. die Euklidische Distanz benutzt
+- Der K-Menas-Algorithmus konvergiert
+- Komplexität ist $O(n\times k\times I \times d)$ $n$ = Anzahl der Objekte, $k$ = Anzahl Cluster, $I$ = Anzahl Iterationen, $d$ = Dimensionalität der Daten
+
+---
+# Datenbanksysteme
+## Entity/Relationship Modellierung (ER-Modell)
+- Entität -> Entitätstyp
+- Beziehung -> Beziehungstyp
+- Attribut
+- Schlüssel
+- Rolle
+
+![[Pasted image 20240509141456.png]]
+
+Abbilden des ER-Modells in Relationen:
+
+Zum Beispiel:
+- Kunden(ID, Telefon, Adresse, Name)
+- Kaufen(Wert, Datum, Preis, Verkäufer, Auto, Kunde)
+- Verkaufen(Datum, Wert, Kommission, Kunde, Auto, Verkäufer)
+
+oder...
+- Studenten(Name, Matrikel-Nummer, Semester)
+- Hören(MatrNR, VorlNr)
+
+---
+## Relationale Algebra
+- Selektion $\sigma$
+- Projektion $\pi$ 
+- Kreuzprodukt $\times$
+- Join (Verbund) $\bowtie$
+- Umbenennung $p$
+- Differenz -
+- ...
+
+---
+# SQL
+_Deklarative Anfragen_
+- Benutzer beschreiben WAS sie haben möchten
+- .. und nicht WIE es berechnet werden soll
+- Kein Wissen über die Implementierung erforderlich, d.h. wie und wo die Daten gespeichert sind
+$\rightarrow$ weniger anfällig für Fehler
+
+## Integritätsbedingungen
+- ... sind ein zusätzliches Sicherheitssystem
+- Ziel: Dateninkonsistenzen vermeiden
+- Strategie: versuche zu verhindern, dass inkonsistente Daten in die DB eingefügt werden
+- Bedingungen an die mögliche Ausprägungen der Datenbank
+---
+## Normalformen
+Vermeiden von Redundanzen
+- Regeln für eine guten relationalen Entwurf
+- z.B. Este Normalform: keine Mengenwertige Attribute
+	- keine Mengen in Attributs Feldern ${1,2,3,4}$ ist nicht erlaubt für jede zahl muss ein eigenes Attribute Feld entstehen
+
+---
+## B+ Baum
+Lesen geschieht nicht bitweise sondern in ganzen Blöcken
+Also, viel besser als binär Bäume
+
+??????
+
+---
+
+## Anfragenoptimierung
+
+- "nach unten schieben" von Selektion
+- Reihenfolge von Verbundoperatoren
+
+??????
