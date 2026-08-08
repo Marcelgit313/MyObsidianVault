@@ -31,3 +31,5 @@ Beispiel:
 kaufen -> kauf , käufer -> kauf , knives -> knife
 
 Idealerweise werden Varianten eines Wortes auf die gleiche Grundform reduziert
+
+---
