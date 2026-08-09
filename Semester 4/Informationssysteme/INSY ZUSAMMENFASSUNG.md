@@ -465,3 +465,6 @@ Also, viel besser als binär Bäume
 - Reihenfolge von Verbundoperatoren
 
 ??????
+
+---
+# Das Relationale Modell
