@@ -34,8 +34,23 @@
               "icon": "lucide-file",
               "title": "Cheat sheet"
             }
+          },
+          {
+            "id": "a6cf39d4857ae19d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Klausurvorbereitung.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Klausurvorbereitung"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,10 +219,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "136b6d4e063756f8",
+  "active": "a6cf39d4857ae19d",
   "lastOpenFiles": [
-    "Semester 4/Informationssysteme/Cheat sheet.md",
     "Semester 4/Informationssysteme/INSY ZUSAMMENFASSUNG.md",
+    "Klausurvorbereitung.md",
+    "Semester 4/Informationssysteme/Cheat sheet.md",
     "Semester 4/Informationssysteme/MAP_Precision@k.md",
     "Semester 4/Informationssysteme/Datenbanksysteme.md",
     "Semester 4/Informationssysteme/Clustering und K-Means Algorithmus.md",
@@ -237,7 +253,6 @@
     "Semester 4/Informationssysteme/attachments/Pasted image 20250918140516.png",
     "Semester 4/Informationssysteme/attachments/Pasted image 20250918134436.png",
     "Semester 6/Web/Web 1.0.md",
-    "Semester 5/KI/Prüfung.md",
     "Semester 6/Web/attachments/ChatGPT Image Aug 12, 2025, 08_35_49 AM.png",
     "Semester 6/Web/attachments",
     "Semester 6/Web",
