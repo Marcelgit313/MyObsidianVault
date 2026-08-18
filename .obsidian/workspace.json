@@ -49,7 +49,8 @@
               "title": "Klausurvorbereitung"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,10 +219,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "136b6d4e063756f8",
+  "active": "a6cf39d4857ae19d",
   "lastOpenFiles": [
-    "Klausurvorbereitung.md",
     "Semester 4/Informationssysteme/INSY ZUSAMMENFASSUNG.md",
+    "Klausurvorbereitung.md",
     "Semester 4/Informationssysteme/Cheat sheet.md",
     "Semester 4/Informationssysteme/MAP_Precision@k.md",
     "Semester 4/Informationssysteme/Datenbanksysteme.md",
