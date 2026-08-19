@@ -39,3 +39,42 @@ f:BRDF, bidirectional reflectance distribution function; it describes how incomi
 
   $$p_L = M_L^{-1} M_A p_A$$
 ---
+![[Pasted image 20260819124556.png]]
+
+You need two different ways to map the black shape to the red shape.
+
+From the grid:
+
+- black bottom-left point is at ((0,0))
+- black bottom-right point is at ((4,0))
+- red bottom-left point is at ((5,0))
+- red bottom-right point is at ((7,0))
+
+So the red shape is half as wide and half as tall:
+$$S\left(\frac12\right)$$
+and shifted right by (5):
+
+$T(5)$
+
+
+One valid transform is:
+
+$$\boxed{M_1 = T(5)S\left(\frac12\right)}$$
+
+Applied right to left: first scale the black shape by ($\frac12$), then translate it right by (5).
+
+The matrix is:
+
+$$M_1 =
+\begin{pmatrix}
+  \frac12 & 0 & 5\\
+   0 & \frac12 & 0\\
+   0 & 0 & 1
+\end{pmatrix}$$
+
+
+A second valid transform can scale around the red left point instead of the origin. For example:
+
+$$\boxed{M_2 = T(10)S\left(\frac12\right)}$$
+
+---
