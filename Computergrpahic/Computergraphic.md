@@ -1,6 +1,7 @@
 
 ---
 ## Pathtracing
+![[Pasted image 20260819144118.png]]
 
 **Path Types**
 L = light source
@@ -8,6 +9,8 @@ D = difussion
 S = specular reflection/refraction
 E = eye/camera
 $*$ = caustic
+
+![[Pasted image 20260819144210.png]]
 
 ---
 **Classical Ray Tracing**
