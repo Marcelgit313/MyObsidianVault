@@ -22,3 +22,20 @@ L:Radiance, the amount of light traveling from point $(x)$ in direction $(\omega
 f:BRDF, bidirectional reflectance distribution function; it describes how incoming light from $(\omega_i)$ is reflected toward outgoing$/view$direction $(\omega_r)$.
 
 ---
+![[Pasted image 20260819123358.png]]
+
+ Using column vectors and right-to-left composition, with T(x) translating along the local x-axis:
+  $$M_L = R(\alpha),T(d_L)$$
+  
+  $$M_A = R(\alpha+\beta),T(d_A)$$
+
+  Here, $M_L$ maps coordinates from the local coordinate system of Luminance into Radiance coordinates, and $M_A$ maps coordinates from the local coordinate system of Atlantis into Radiance coordinates.
+
+  To express Atlantis in the coordinate system of Luminance, the captain inverts the Luminance transform:
+  $$\boxed{M_L^{-1}} ; *$$
+  
+
+  and applies it after mapping Atlantis into Radiance coordinates:
+
+  $$p_L = M_L^{-1} M_A p_A$$
+---
