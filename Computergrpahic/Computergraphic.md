@@ -78,3 +78,56 @@ A second valid transform can scale around the red left point instead of the orig
 $$\boxed{M_2 = T(10)S\left(\frac12\right)}$$
 
 ---
+![[Pasted image 20260819132605.png]]
+
+The three terms of the Blinn-Phong local lighting model are:
+
+$\text{ambient}:\quad I_a = k_a L_a$
+
+$\text{diffuse}:\quad I_d = k_d L_d \max(0, n \cdot l)$
+  
+$\text{specular}:\quad I_s = k_s L_s \max(0, n \cdot h)^s$
+
+where$$h = \frac{l+v}{|l+v|}$$
+Vectors to annotate in the sketch:
+
+- (n): surface normal, perpendicular to the surface
+- (l): direction from the surface point to the light source
+- (v): direction from the surface point to the viewer/camera
+- (h): half-vector between (l) and (v)
+
+---
+![[Pasted image 20260819134131.png]]
+
+For c, diffuse reflection is maximal where
+$$n \cdot l$$
+
+is maximal.
+
+The cube has center ((0,0,0)) and side length (2), so in the sketch it spans
+
+$$x \in [-1,1], \qquad y \in [-1,1].$$
+
+The light is at ((-4,2,0)), so it shines most directly onto the upper-left corner of the cube.
+$$\boxed{(x_D,y_D)=(-1,1)}$$
+
+because there the surface normal points most toward the light direction, so $(n \cdot l)$ is largest.
+
+For d, specular reflection is maximal where the light direction reflects toward the camera.
+
+Light:
+$$L=(-4,2)$$
+
+Camera:
+$$C=(-4,-2)$$
+
+The symmetric point between them on the left face of the cube is halfway in (y):
+$$y_S = 0$$
+
+and the left face has
+$$x_S=-1$$
+
+So:
+$$\boxed{(x_S,y_S)=(-1,0)}$$
+
+because at the middle of the left face, the incoming light ray from above reflects downward toward the camera.
