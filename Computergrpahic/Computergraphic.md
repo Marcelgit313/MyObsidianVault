@@ -10,8 +10,6 @@ S = specular reflection/refraction
 E = eye/camera
 $*$ = caustic
 
-![[Pasted image 20260819144210.png]]
-
 ---
 **Classical Ray Tracing**
 - Sharp mirror like reflections
@@ -28,9 +26,13 @@ $*$ = caustic
 
 Answer: No.
 
-  Rationale: The image shows soft global-illumination effects such as color bleeding, diffuse interreflection, and very soft shadows. Classical ray
-  tracing mainly handles direct visibility, mirror reflection, and refraction, and typically produces sharper shadows unless extended with
-  distributed/path-tracing techniques.
+Rationale: The image shows soft global-illumination effects such as color bleeding, diffuse interreflection, and very soft shadows. Classical ray tracing mainly handles direct visibility, mirror reflection, and refraction, and typically produces sharper shadows unless extended with distributed/path-tracing techniques.
+
+![[Pasted image 20260820151810.png]]
+
+i. Color bleeding: the red cube reflects indirect red light onto the nearby floor, wall, and sphere. Classical ray tracing only follows direct illumination and ideal reflection/refraction, so diffuse interreflection between surfaces is missing.
+
+ii. Soft shadows / penumbra: the shadows become gradually lighter at the edges because the light source has an area. Classical ray tracing usually uses point lights with single shadow rays, producing hard shadow boundaries instead of soft penumbrae.
 
 ---
 # Rendering Equation
@@ -104,17 +106,15 @@ A second valid transform can scale around the red left point instead of the orig
 $$\boxed{M_2 = T(10)S\left(\frac12\right)}$$
 
 ---
-
+## Blinn-Phong Model
 
 ![[Pasted image 20260819132605.png]]
 
-## Blinn-Phong Model
+$$\text{ambient}:\quad k_a$$
 
-$$\text{ambient}:\quad $$
-
-$$\text{diffuse}:\quad I_d = k_d L_d \max(0, n \cdot l)$$
+$$\text{diffuse}:\quad k_d<N,L>$$
   
-$$\text{specular}:\quad I_s = k_s L_s \max(0, n \cdot h)^s$$
+$$\text{specular}:\quad k_s<N,H>^n$$
 
 Vectors to annotate in the sketch:
 
@@ -123,19 +123,20 @@ Vectors to annotate in the sketch:
 - (v): direction from the surface point to the viewer/camera
 - (h): half-vector between (l) and (v)
 
+## Phong Model
+
 ![[Pasted image 20260819143222.png]]
 
-The three terms of the Phong local lighting model are:
-  $$\text{ambient}:\quad I_a = k_a I_L$$
-  $$\text{diffus}:\quad I_d = k_d I_L \max(0, N \cdot L)$$
-  $$\text{spekular}:\quad I_s = k_s I_L \max(0, R \cdot V)^n$$
+$$\text{ambient}:\quad const$$
+$$\text{diffuse}:\quad k_d<N,L>$$
+$$\text{specular}:\quad k_s<R,V>^n$$
 
-Die Vektoren in der Skizze:
+  Vectors to annotate in the sketch:
 
-  - (N): Normale, bereits eingezeichnet nach oben
-  - (L): Richtung vom Oberflächenpunkt zur Lichtquelle (linker Pfeil)
-  - (V): Richtung vom Oberflächenpunkt zur Kamera / zum Betrachter (rechter Pfeil)
-  - (R): perfekt reflektierte Lichtrichtung (neben N rechts)
+  - (n): surface normal, perpendicular to the surface
+  - (l): direction from the surface point to the light source
+  - (v): direction from the surface point to the viewer/camera
+  - (r): reflection direction of the light vector around the normal vector
 
 ---
 ![[Pasted image 20260819134131.png]]
@@ -216,9 +217,34 @@ RGB $\to$ HSV: H = Das zwischendrin (kuerzester Weg); S = $\max - \min / \max$; 
 - attribute transformation
 - model views
 
+![[Pasted image 20260820152258.png]]
+
+perspective projection: V*
+primitive assembly: R
+front-face culling: R
+scan conversion: R
+attribute interpolation: R
+
+perspective division: R
+alpha blending: F
+stencil test: F
+bump mapping: F*
+variance reduction: X
+
+![[Pasted image 20260820153523.png]]
+  
 ---
 ## Modeling
 
 - meshes
 - parametric surfaces
 - implicit surfaces
+
+- Meshes: best for objects with arbitrary detailed shapes, especially when created by artists or scanned from the real world.
+    Examples: characters, furniture, cars, buildings, game assets, terrain.
+
+- Parametric surfaces: best for smooth, mathematically controlled surfaces where you want exact curves and easy editing.
+	Examples: spheres, cylinders, tori, car bodies, airplane wings, product design surfaces.
+
+- Implicit surfaces: best for objects defined by an equation or field, especially smooth blending or organic shapes.
+	Examples: metaballs, liquids, clouds, soft organic forms, collision volumes, medical/isurface data.
