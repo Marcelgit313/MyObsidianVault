@@ -101,6 +101,8 @@ A second valid transform can scale around the red left point instead of the orig
 $$\boxed{M_2 = T(10)S\left(\frac12\right)}$$
 
 ---
+## Phong Reflection Model
+
 ![[Pasted image 20260819132605.png]]
 
 The three terms of the Blinn-Phong local lighting model are:
