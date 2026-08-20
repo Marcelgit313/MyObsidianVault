@@ -33,16 +33,19 @@ Answer: No.
   distributed/path-tracing techniques.
 
 ---
+# Rendering Equation
 ![[Pasted image 20260818161115.png]]
 
 Completed equation:
 
   $$
-  L(x,\omega_r)=L_e(x,\omega_r)+\int_{\Omega} f_r(x,\omega_i,\omega_r),L_i(x,\omega_i),(\omega_i\cdot n),d\omega_i
+  L(x,\omega_r)=L_e(x,\omega_r)+\int_{\Omega} f_r(x,\omega_i,\omega_r)\ L_i(x,\omega_i)\ \cos\theta_{i}\ d\omega_i
   $$
-L:Radiance, the amount of light traveling from point $(x)$ in direction $(\omega)$.
-  
-f:BRDF, bidirectional reflectance distribution function; it describes how incoming light from $(\omega_i)$ is reflected toward outgoing$/view$direction $(\omega_r)$.
+L:Radiance
+f:BRDF, bidirectional reflectance distribution function
+$L_e$:Emission
+$L_i$:Irradiance
+$\cos\theta_i$:orientation
 
 ---
 ![[Pasted image 20260819123358.png]]
@@ -101,19 +104,18 @@ A second valid transform can scale around the red left point instead of the orig
 $$\boxed{M_2 = T(10)S\left(\frac12\right)}$$
 
 ---
-## Phong Reflection Model
+
 
 ![[Pasted image 20260819132605.png]]
 
-The three terms of the Blinn-Phong local lighting model are:
+## Blinn-Phong Model
 
-$$\text{ambient}:\quad I_a = k_a L_a$$
+$$\text{ambient}:\quad $$
 
 $$\text{diffuse}:\quad I_d = k_d L_d \max(0, n \cdot l)$$
   
 $$\text{specular}:\quad I_s = k_s L_s \max(0, n \cdot h)^s$$
 
-where$$h = \frac{l+v}{|l+v|}$$
 Vectors to annotate in the sketch:
 
 - (n): surface normal, perpendicular to the surface
