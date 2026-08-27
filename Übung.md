@@ -49,7 +49,7 @@ CREATE RECURSIVE Nachfahren(professor, doktorand) AS {
 	UNION
 	
 	SELECT n.professor, b.doktorand
-	WHERE Nachfahren n JOIN betreuer b ON b.professor = n.doktorand
+	FROM Nachfahren n JOIN betreuer b ON b.professor = n.doktorand
 }
 SELECT professor, COUNT(*) AS ANZAHL
 FROM Nachfahren
@@ -115,5 +115,5 @@ WHERE
 ```
 
 ```sql
-
+ 
 ```
