@@ -66,3 +66,54 @@ $$
 \alpha\gamma\to\gamma\beta,\gamma\beta\to\theta\quad\text{3. Axiom}\quad \alpha\gamma\to\theta\\
 \end{align*}
 $$
+```sql
+SELECT matrnr, name
+FROM studenten
+WHERE semester >= 5
+```
+
+```sql
+SELECT semester, COUNT(*)
+FROM studenten
+GROUP BY semester
+```
+
+```sql
+SELECT v.vorlnr, v.titel
+FROM vorlesungen v JOIN professoren p ON v.gelesen_von = p.persnr
+WHERE p.rang = "C4"
+```
+
+```sql
+SELECT vorlnr, COUNT(*)
+FROM hoeren
+GROUP BY vorlnr
+```
+
+```sql
+SELECT vorlnr, COUNT(*)
+FROM hoeren
+GROUP BY vorlnr HAVING COUNT(*) > 5
+```
+
+```sql
+SELECT s.matrnr, s.name
+FROM studenten s JOIN hoeren h ON s.matrnr = h.matrnr JOIN vorlesungen v ON h.vorlnr = v.vorlnr JOIN professoren p ON v.gelesen_von = p.persnr
+WHERE p.name = 'Sokrates'
+```
+
+```sql
+SELECT matrnr, name, semester
+FROM studenten
+WHERE
+	(
+	SELECT AVG(semester)
+	FROM studenten
+	)
+	<
+	semester
+```
+
+```sql
+
+```
