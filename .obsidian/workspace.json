@@ -49,7 +49,8 @@
               "title": "Übung"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,12 +219,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "136b6d4e063756f8",
+  "active": "1805216ba33acb9e",
   "lastOpenFiles": [
-    "Übung.md",
     "Semester 4/Informationssysteme/INSY ZUSAMMENFASSUNG.md",
-    "Semester 4/Informationssysteme/Assoziationsregeln.md",
     "Semester 4/Informationssysteme/Cheat sheet.md",
+    "Übung.md",
+    "Semester 4/Informationssysteme/Assoziationsregeln.md",
     "Computergrpahic/Computergraphic.md",
     "Computergrpahic/Klausurvorbereitung.md",
     "Computergrpahic/attachments/Pasted image 20260820153523.png",
