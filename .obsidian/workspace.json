@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
+                "file": "Semester 4/Informationssysteme/INSY ZUSAMMENFASSUNG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Konjunktive Anfragen"
+              "title": "INSY ZUSAMMENFASSUNG"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Übung"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,11 +218,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "edd3bdfad0b92b21",
+  "active": "136b6d4e063756f8",
   "lastOpenFiles": [
     "Semester 4/Informationssysteme/Konjunktive Anfragen.md",
-    "Semester 4/Informationssysteme/INSY ZUSAMMENFASSUNG.md",
     "Übung.md",
+    "Semester 4/Informationssysteme/INSY ZUSAMMENFASSUNG.md",
     "Semester 4/Informationssysteme/Cheat sheet.md",
     "Semester 4/Informationssysteme/Assoziationsregeln.md",
     "Computergrpahic/Computergraphic.md",
