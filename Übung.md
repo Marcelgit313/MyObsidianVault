@@ -119,5 +119,10 @@ WHERE
 ```
 
 $$
-\pi_name\
+\pi_{name}(S) - \pi_{name}(\sigma_{name=Soong}(P)\bowtie_{persnr=gelesen_von}V\bowtie_{vorlnr = vorlnr} H)
+$$$$
+\pi_{S.matrnr, S.name, P.persnr}P\bowtie V\bowtie H\bowtie S 
+$$
+$$
+\pi_{P.name}(P\bowtie_{gelesenvon=persnr}V\bowtie_{vorlnr = vorlnr}\sigma_{1<=anzahl<=5}(\gamma_{vorlnr};COUNT(matrnr)=>anzahl(H)))
 $$
