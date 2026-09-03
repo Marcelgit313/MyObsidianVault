@@ -126,3 +126,19 @@ $$
 $$
 \pi_{P.name}(P\bowtie_{gelesenvon=persnr}V\bowtie_{vorlnr = vorlnr}\sigma_{1<=anzahl<=5}(\gamma_{vorlnr};COUNT(matrnr)=>anzahl(H)))
 $$
+
+Relationäre Algebra
+SQL
+Histogramm
+B+ Baum
+Transaktionen
+Monotonie/Anti-Monotonie
+Normalformen
+verlustlose Zerlegung
+Warenkorbanalyse
+tfidf
+percision/recall
+anfragenoptimierung
+ACID undo redo
+Serialisierbarkeit
+2PL
