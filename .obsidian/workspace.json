@@ -49,8 +49,7 @@
               "title": "Übung"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +218,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1805216ba33acb9e",
+  "active": "136b6d4e063756f8",
   "lastOpenFiles": [
     "Übung.md",
     "Semester 4/Informationssysteme/Cheat sheet.md",
